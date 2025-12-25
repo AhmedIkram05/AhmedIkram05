@@ -1,4 +1,4 @@
-#Ahmed Ikram
+# Ahmed Ikram
 
 ## Professional Summary
 Computer Science student specialising in Data Science and AI, with hands-on experience building full-stack applications, backend systems, and machine learning pipelines using Python, Java, C/C++, and SQL. Experienced working in large codebases, applying algorithms and data engineering techniques to deliver reliable, production-ready systems.
