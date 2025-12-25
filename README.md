@@ -1,34 +1,129 @@
-<h1 align="center">Hi 👋, I'm Ahmed Ikram | Computing Science Student & Developer</h1>
-<h3 align="center">Focused on AI, Machine Learning, and Cloud Engineering | Python • Java • C++</h3>
+#Ahmed Ikram
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ahmedikram05&label=Profile%20views&color=0e75b6&style=flat" alt="ahmedikram05" /> </p>
+## Professional Summary
+Computer Science student specialising in Data Science and AI, with hands-on experience building full-stack applications, backend systems, and machine learning pipelines using Python, Java, C/C++, and SQL. Experienced working in large codebases, applying algorithms and data engineering techniques to deliver reliable, production-ready systems.
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ahmedikram05" alt="ahmedikram05" /></a> </p>
+- 📫 To reach me: **ahmedikram30@gmail.com**
 
-- 🔭 I’m currently working on [StockLens (My first mobile app)](https://github.com/AhmedIkram05/StockLens)
+- 👨‍💻 My online portfolio is available at: **[https://ahmedikram05.github.io/Online-Portfolio/index.html](https://ahmedikram05.github.io/Online-Portfolio/index.html)**
 
-- 🌱 I’m currently learning **Using Data Science tools in Python and Excel**
-
-- 📝 My online portfolio is located at [https://ahmedikram05.github.io/Online-Portfolio/index.html](https://ahmedikram05.github.io/Online-Portfolio/index.html)
-
-- 📫 How to reach me **ahmedikram30@gmail.com**
-
-- 📄 Know about my experiences [https://ahmedikram05.github.io/Online-Portfolio/CV.html](https://ahmedikram05.github.io/Online-Portfolio/CV.html)
-
-- ⚡ Fun fact **I love investing 💵**
+- 📄 My CV is linked here: **[https://drive.google.com/file/d/13qPoF8k3kq7URzJ2EOaAalE1oM4t8haJ/view?usp=sharing](https://drive.google.com/file/d/13qPoF8k3kq7URzJ2EOaAalE1oM4t8haJ/view?usp=sharing)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/www.linkedin.com/in/ahmed-ikram-student" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/ahmed-ikram-student" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/@h2571642" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@h2571642" height="30" width="40" /></a>
+  <a href="https://linkedin.com/in/ahmed-ikram-student" target="blank">
+    <img align="center"
+         src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+         alt="ahmed-ikram-student"
+         height="30"
+         width="40" />
+  </a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+<p align="left">
+  <!-- Core Language -->
+  <a href="https://www.python.org/doc/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/>
+  </a>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ahmedikram05&show_icons=true&locale=en&layout=compact" alt="ahmedikram05" /></p>
+  <!-- SQL -->
+  <a href="https://dev.mysql.com/doc/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=mysql" alt="mysql" width="40" height="40"/>
+  </a>
+  <a href="https://www.postgresql.org/docs/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=postgres" alt="sql" width="40" height="40"/>
+  </a>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ahmedikram05&show_icons=true&locale=en" alt="ahmedikram05" /></p>
+  <!-- Data & ML -->
+  <a href="https://pandas.pydata.org/docs/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
+  </a>
+  <a href="https://numpy.org/doc/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/>
+  </a>
+  <a href="https://scikit-learn.org/stable/documentation.html" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=scikitlearn" alt="scikit_learn" width="40" height="40"/>
+  </a>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ahmedikram05&" alt="ahmedikram05" /></p>
+  <!-- Backend / Web -->
+  <a href="https://flask.palletsprojects.com/en/latest/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=flask" alt="flask" width="40" height="40"/>
+  </a>
+  <a href="https://www.java.com/en/download/help/java_documentation.html" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=java" alt="java" width="40" height="40"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=js" alt="javascript" width="40" height="40"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=html" alt="html" width="40" height="40"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=css" alt="css" width="40" height="40"/>
+  </a>
 
+  <!-- Infrastructure / Tooling -->
+  <a href="https://git-scm.com/doc" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=git" alt="git" width="40" height="40"/>
+  </a>
+  <a href="https://www.docker.com/resources/what-container" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=docker" alt="docker" width="40" height="40"/>
+  </a>
+  <a href="https://docs.aws.amazon.com/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=aws" alt="aws" width="40" height="40"/>
+  </a>
+  <a href="https://www.linux.org/pages/download/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/>
+  </a>
+
+  <!-- Systems / Coursework -->
+  <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=c" alt="c" width="40" height="40"/>
+  </a>
+  <a href="https://en.cppreference.com/w/" target="_blank" rel="noreferrer">
+    <img src="https://skillicons.dev/icons?i=cpp" alt="cplusplus" width="40" height="40"/>
+  </a>
+</p>
+
+## 🚀 Featured Projects
+### 📈 [StockLens](https://github.com/AhmedIkram05/StockLens)
+**Mobile app for stock analysis using real-world market data**  
+**Tech:** Python, APIs, Data Analysis  
+- Built an end-to-end mobile application from data ingestion to user interface  
+- Implemented data pipelines for real-time and historical market data  
+- Deployed a usable, production-ready application
+- Engineered an OCR-based data ingestion pipeline to convert unstructured receipt data into structured records
+- - Added unit tests and validation checks to ensure reliability
+
+---
+
+### 🎬 [AI Movie Recommendation System](https://github.com/AhmedIkram05/AI-movie-recommendation)
+**Machine learning–based movie recommendation engine**  
+**Tech:** Python, Pandas, Scikit-Learn  
+- Implemented collaborative filtering algorithms  
+- Evaluated model performance and recommendation accuracy  
+- Worked with real datasets and feature preprocessing
+- Implemented hybrid recommendation system (collaborative + content-based) achieving ~0.75 Hit Rate and ~0.22 Precision@10
+
+---
+
+### 📊 [Scottish Haggis Dataset - Data Mining](https://github.com/AhmedIkram05/Haggis-Dataset-Data-Mining-Jupyter-Notebook)
+**Exploratory data analysis and visualization project**  
+**Tech:** Python, Excel, Data Visualization  
+- Cleaned and processed real-world datasets  
+- Produced actionable insights through visual analysis  
+- Created dashboards to communicate findings clearly
+- Implemented XGBoost, Random Forest, and PCA models achieving ~90% classification accuracy through hyperparameter tuning
+
+## 🎓 Core Coursework & Foundations
+- Data Structures & Algorithms (Java)
+- Multi-Paradigm Programming (C/C++)
+- Data Engineering
+- Artificial Intelligence & Machine Learning (Python)
+- Data Visualisation & Analytics (Excel, Power BI)
+
+## 🎯 Current Focus
+- Strengthening backend and data engineering skills in Python and SQL  
+- Building production-quality projects with testing, documentation, and clean architecture  
+- Preparing for software engineering and data-focused placement interviews
