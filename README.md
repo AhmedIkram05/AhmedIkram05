@@ -7,7 +7,7 @@ Computer Science student specialising in Data Science and AI, with hands-on expe
 
 - 👨‍💻 My online portfolio is available at: **[https://ahmedikram05.github.io/Online-Portfolio/index.html](https://ahmedikram05.github.io/Online-Portfolio/index.html)**
 
-- 📄 My CV is linked here: **[https://drive.google.com/file/d/13qPoF8k3kq7URzJ2EOaAalE1oM4t8haJ/view?usp=sharing](https://drive.google.com/file/d/13qPoF8k3kq7URzJ2EOaAalE1oM4t8haJ/view?usp=sharing)**
+- 📄 My CV is linked here: **[https://drive.google.com/file/d/1DlBTlAHwWE87z1M66n5j9qDJITPGLX-j/view?usp=sharing](https://drive.google.com/file/d/1DlBTlAHwWE87z1M66n5j9qDJITPGLX-j/view?usp=sharing)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
