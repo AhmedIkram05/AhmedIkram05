@@ -94,7 +94,7 @@ Computer Science student specialising in Data Science and AI, with hands-on expe
 - Implemented data pipelines for real-time and historical market data  
 - Deployed a usable, production-ready application
 - Engineered an OCR-based data ingestion pipeline to convert unstructured receipt data into structured records
-- - Added unit tests and validation checks to ensure reliability
+- Added unit tests and validation checks to ensure reliability
 
 ---
 
