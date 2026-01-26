@@ -7,7 +7,7 @@ Computer Science student specialising in Data Science and AI, with hands-on expe
 
 - 👨‍💻 My online portfolio is available at: **[https://ahmedikram05.github.io/Online-Portfolio/index.html](https://ahmedikram05.github.io/Online-Portfolio/index.html)**
 
-- 📄 My CV is linked here: **[https://drive.google.com/file/d/1DlBTlAHwWE87z1M66n5j9qDJITPGLX-j/view?usp=sharing](https://drive.google.com/file/d/1DlBTlAHwWE87z1M66n5j9qDJITPGLX-j/view?usp=sharing)**
+- 📄 My CV is linked here: **[https://drive.google.com/file/d/1IYXCUhb2Yzcyn_Ayc6uotsoxBPWXgDUx/view?usp=share_link](https://drive.google.com/file/d/1IYXCUhb2Yzcyn_Ayc6uotsoxBPWXgDUx/view?usp=share_link)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -89,7 +89,7 @@ Computer Science student specialising in Data Science and AI, with hands-on expe
 ## 🚀 Featured Projects
 ### 📈 [StockLens](https://github.com/AhmedIkram05/StockLens)
 **Mobile app for stock analysis using real-world market data**  
-**Tech:** Python, APIs, Data Analysis  
+**Tech:** React Native Expo  
 - Built an end-to-end mobile application from data ingestion to user interface  
 - Implemented data pipelines for real-time and historical market data  
 - Deployed a usable, production-ready application
@@ -100,7 +100,7 @@ Computer Science student specialising in Data Science and AI, with hands-on expe
 
 ### 🎬 [AI Movie Recommendation System](https://github.com/AhmedIkram05/AI-movie-recommendation)
 **Machine learning–based movie recommendation engine**  
-**Tech:** Python, Pandas, Scikit-Learn  
+**Tech:** Python, Pandas, Scikit-Learn, HTML, CSS, Flask  
 - Implemented collaborative filtering algorithms  
 - Evaluated model performance and recommendation accuracy  
 - Worked with real datasets and feature preprocessing
@@ -110,7 +110,7 @@ Computer Science student specialising in Data Science and AI, with hands-on expe
 
 ### 📊 [Scottish Haggis Dataset - Data Mining](https://github.com/AhmedIkram05/Haggis-Dataset-Data-Mining-Jupyter-Notebook)
 **Exploratory data analysis and visualization project**  
-**Tech:** Python, Excel, Data Visualization  
+**Tech:** Python, Jupyter Notebook, Pandas, Scikit-learn, seaborn
 - Cleaned and processed real-world datasets  
 - Produced actionable insights through visual analysis  
 - Created dashboards to communicate findings clearly
