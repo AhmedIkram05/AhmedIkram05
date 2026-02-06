@@ -118,10 +118,11 @@ Computer Science student specialising in Data Science and AI, with hands-on expe
 
 ## 🎓 Core Coursework & Foundations
 - Data Structures & Algorithms (Java)
-- Multi-Paradigm Programming (C/C++)
-- Data Engineering
+- Multi-Paradigm Programming (C, C++)
+- Data Engineering (Python, Power BI)
 - Artificial Intelligence & Machine Learning (Python)
-- Data Visualisation & Analytics (Excel, Power BI)
+- Data Visualisation & Analytics (Python, Excel)
+- Industrial Team Project
 
 ## 🎯 Current Focus
 - Strengthening backend and data engineering skills in Python and SQL  
