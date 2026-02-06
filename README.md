@@ -125,6 +125,5 @@ Computer Science student specialising in Data Science and AI, with hands-on expe
 - Industrial Team Project
 
 ## 🎯 Current Focus
-- Strengthening backend and data engineering skills in Python and SQL  
-- Building production-quality projects with testing, documentation, and clean architecture  
+- Strengthening backend and data engineering skills in Python, SQL and C++ via projects
 - Preparing for software engineering and data-focused placement interviews
