@@ -3,11 +3,11 @@
 ## Professional Summary
 Computer Science student specialising in Data Science and AI, with hands-on experience building full-stack applications, backend systems, and machine learning pipelines using Python, Java, C/C++, and SQL. Experienced working in large codebases, applying algorithms and data engineering techniques to deliver reliable, production-ready systems.
 
-- 📫 To reach me: **ahmedikram30@gmail.com**
+- 📫 To reach me via email use: **ahmedikram30@gmail.com**
 
-- 👨‍💻 My online portfolio is available at: **[https://ahmedikram05.github.io/Online-Portfolio/index.html](https://ahmedikram05.github.io/Online-Portfolio/index.html)**
+- 👨‍💻 My online portfolio is available **[here](https://ahmedikram05.github.io/Online-Portfolio/index.html)**
 
-- 📄 My CV is linked here: **[https://drive.google.com/file/d/1IYXCUhb2Yzcyn_Ayc6uotsoxBPWXgDUx/view?usp=share_link](https://drive.google.com/file/d/1IYXCUhb2Yzcyn_Ayc6uotsoxBPWXgDUx/view?usp=share_link)**
+- 📄 My CV is linked **[here](https://drive.google.com/file/d/1IYXCUhb2Yzcyn_Ayc6uotsoxBPWXgDUx/view?usp=share_link)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
