@@ -43,16 +43,16 @@ Data Structures & Algorithms (Java) • Multi-Paradigm Programming (C++) • AI 
   <img src="https://img.shields.io/badge/Python-Advanced-3776AB?style=flat&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/SQL-Intermediate-4479A1?style=flat&logo=postgresql&logoColor=white">
   <img src="https://img.shields.io/badge/Java-Intermediate-ED8B00?style=flat&logo=openjdk&logoColor=white">
-  <img src="https://img.shields.io/badge/C++-Academic-00599C?style=flat&logo=c%2B%2B&logoColor=white">
-  <img src="https://img.shields.io/badge/TypeScript-Academic-3178C6?style=flat&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/C++-Intermediate-00599C?style=flat&logo=c%2B%2B&logoColor=white">
+  <img src="https://img.shields.io/badge/TypeScript-Intermediate-3178C6?style=flat&logo=typescript&logoColor=white">
 </p>
 
 #### Data Science & AI
 <p>
   <img src="https://img.shields.io/badge/Pandas%20%26%20NumPy-Advanced-150458?style=flat&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/Scikit_Learn-Experienced-F7931E?style=flat&logo=scikit-learn&logoColor=white">
+  <img src="https://img.shields.io/badge/Scikit_Learn-Intermediate-F7931E?style=flat&logo=scikit-learn&logoColor=white">
   <img src="https://img.shields.io/badge/PyTorch-Fundamental-EE4C2C?style=flat&logo=pytorch&logoColor=white">
-  <img src="https://img.shields.io/badge/Power%20BI-Proficient-F2C811?style=flat&logo=powerbi&logoColor=black">
+  <img src="https://img.shields.io/badge/Power%20BI-Intermediate-F2C811?style=flat&logo=powerbi&logoColor=black">
 </p>
 
 #### Cloud & DevOps
@@ -64,8 +64,8 @@ Data Structures & Algorithms (Java) • Multi-Paradigm Programming (C++) • AI 
 
 #### Web & Mobile Frameworks
 <p>
-  <img src="https://img.shields.io/badge/React_Native-Academic-61DAFB?style=flat&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/Flask-Intermediate-000000?style=flat&logo=flask&logoColor=white">
+  <img src="https://img.shields.io/badge/React_Native-Advanced-61DAFB?style=flat&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/Flask-Advanced-000000?style=flat&logo=flask&logoColor=white">
 </p>
 
 ## 📊 GitHub Stats
