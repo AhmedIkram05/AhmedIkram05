@@ -64,7 +64,7 @@ Data Structures & Algorithms (Java) • Multi-Paradigm Programming (C++) • AI 
 
 #### Web & Mobile Frameworks
 <p>
-  <img src="https://img.shields.io/badge/React_Native-Advanced-61DAFB?style=flat&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/React_Native_Expo-Advanced-61DAFB?style=flat&logo=react&logoColor=black">
   <img src="https://img.shields.io/badge/Flask-Advanced-000000?style=flat&logo=flask&logoColor=white">
 </p>
 
