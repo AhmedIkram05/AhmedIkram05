@@ -53,13 +53,12 @@ Data Structures & Algorithms (Java) • Multi-Paradigm Programming (C++) • AI 
   <img src="https://img.shields.io/badge/Scikit_Learn-Intermediate-F7931E?style=flat&logo=scikit-learn&logoColor=white">
   <img src="https://img.shields.io/badge/PyTorch-Fundamental-EE4C2C?style=flat&logo=pytorch&logoColor=white">
   <img src="https://img.shields.io/badge/Power%20BI-Intermediate-F2C811?style=flat&logo=powerbi&logoColor=black">
-</p>
 
 #### Cloud & DevOps
 <p>
   <img src="https://img.shields.io/badge/AWS-Certified-FF9900?style=flat&logo=amazon-aws&logoColor=white">
   <img src="https://img.shields.io/badge/Docker-Intermediate-2496ED?style=flat&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-Intermediate-FCC624?style=flat&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/Linux-Advanced-FCC624?style=flat&logo=linux&logoColor=black">
 </p>
 
 #### Web & Mobile Frameworks
