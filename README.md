@@ -29,9 +29,10 @@ My current focus is on strengthening backend engineering skills and preparing fo
 
 ## 🎓 Education & Certifications
 
-- **BSc (Hons) Computer Science** (Data Science and AI) @ University of Dundee
-- **AWS Academy Graduate:** Cloud Foundations (March 2024)
-- **AWS Academy Graduate:** Machine Learning (Feb 2025)
+- **The High School of Dundee** *(2018-2023)*
+- **BSc (Hons) Computer Science** *(Data Science and AI)* @ University of Dundee *(2023-2027)*
+- **AWS Academy Graduate** - Cloud Foundations *(March 2024)*
+- **AWS Academy Graduate** - Machine Learning *(Feb 2025)*
 
 **Relevant Coursework:**  
 Data Structures & Algorithms (Java) • Multi-Paradigm Programming (C++) • AI & Machine Learning (Python) • Data Engineering
