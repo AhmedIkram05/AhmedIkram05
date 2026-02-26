@@ -34,8 +34,12 @@ My current focus is on strengthening backend engineering skills and preparing fo
 - **AWS Academy Graduate** - Cloud Foundations *(March 2024)*
 - **AWS Academy Graduate** - Machine Learning *(Feb 2025)*
 
-**Relevant Coursework:**  
-Data Structures & Algorithms (Java) • Multi-Paradigm Programming (C++) • AI & Machine Learning (Python) • Data Engineering
+**Most Relevant University Modules:**  
+- **Data Structures & Algorithms** *(Java)*
+- **Multi-Paradigm Programming** *(C & C++)*
+- **AI & Machine Learning** *(Python)*
+- **Data Visualisation and Analytics** *(Python & Excel)*
+- **Data Engineering** *(Python & Power BI)*
 
 ## 🛠️ Technical Skillset
 
