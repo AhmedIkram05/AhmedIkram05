@@ -24,7 +24,7 @@ I have experience working in large codebases, applying algorithms and data engin
 
 My current focus is on strengthening backend engineering skills and preparing for software engineering placements.
 
-<a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/🏆_Check_Out_My_Full_Portfolio_Website-B48EAD?style=for-the-badge&logoColor=white&labelColor=2E3440"></a>
+<a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/🏆_Check_Out_My_Full_Portfolio_Website-Visit_Site-B48EAD?style=for-the-badge&logoColor=white&labelColor=2E3440"></a>
 
 ## 🔭 Featured Projects
 
