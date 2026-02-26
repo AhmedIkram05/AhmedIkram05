@@ -49,31 +49,39 @@ My current focus is on strengthening backend engineering skills and preparing fo
 
 ## 🛠️ Technical Skillset
 
-#### Core Languages & Databases
+#### 💻 Core Languages & Databases
 <p>
   <img src="https://img.shields.io/badge/Python-Advanced-3776AB?style=flat&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/SQL-Intermediate-4479A1?style=flat&logo=postgresql&logoColor=white">
   <img src="https://img.shields.io/badge/Java-Intermediate-ED8B00?style=flat&logo=openjdk&logoColor=white">
-  <img src="https://img.shields.io/badge/C++-Intermediate-00599C?style=flat&logo=c%2B%2B&logoColor=white">
+  <img src="https://img.shields.io/badge/C%2B%2B-Intermediate-00599C?style=flat&logo=c%2B%2B&logoColor=white">
+  <img src="https://img.shields.io/badge/SQL-Advanced-4479A1?style=flat&logo=postgresql&logoColor=white">
   <img src="https://img.shields.io/badge/TypeScript-Intermediate-3178C6?style=flat&logo=typescript&logoColor=white">
 </p>
 
-#### Data Science & AI
+#### 🧠 Data Science, AI & Analytics
 <p>
   <img src="https://img.shields.io/badge/Pandas%20%26%20NumPy-Advanced-150458?style=flat&logo=pandas&logoColor=white">
   <img src="https://img.shields.io/badge/Scikit_Learn-Intermediate-F7931E?style=flat&logo=scikit-learn&logoColor=white">
   <img src="https://img.shields.io/badge/PyTorch-Fundamental-EE4C2C?style=flat&logo=pytorch&logoColor=white">
-  <img src="https://img.shields.io/badge/Power%20BI-Intermediate-F2C811?style=flat&logo=powerbi&logoColor=black">
-
-#### Cloud & DevOps
-<p>
-  <img src="https://img.shields.io/badge/AWS-Certified-FF9900?style=flat&logo=amazon-aws&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-Intermediate-2496ED?style=flat&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-Advanced-FCC624?style=flat&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/Power%20BI-Advanced-F2C811?style=flat&logo=powerbi&logoColor=black">
+  <img src="https://img.shields.io/badge/Microsoft%20Excel-Advanced-217346?style=flat&logo=microsoftexcel&logoColor=white">
+  <img src="https://img.shields.io/badge/Tableau-Fundamental-E97627?style=flat&logo=tableau&logoColor=white">
 </p>
 
-#### Web & Mobile Frameworks
+#### ☁️ Cloud, Tools & DevOps
 <p>
-  <img src="https://img.shields.io/badge/React_Native_Expo-Advanced-61DAFB?style=flat&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/AWS-Fundamental-FF9900?style=flat&logo=amazon-aws&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-Intermediate-2496ED?style=flat&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux-Advanced-FCC624?style=flat&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/Git%20%26%20GitHub-Advanced-F05032?style=flat&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/VS%20Code-Advanced-007ACC?style=flat&logo=visualstudiocode&logoColor=white">
+</p>
+
+#### 🌐 Web, Backend & APIs
+<p>
   <img src="https://img.shields.io/badge/Flask-Advanced-000000?style=flat&logo=flask&logoColor=white">
+  <img src="https://img.shields.io/badge/React_Native_Expo-Intermediate-61DAFB?style=flat&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/HTML5-Advanced-E34F26?style=flat&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-Intermediate-1572B6?style=flat&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/RESTful%20APIs-Advanced-009688?style=flat&logo=postman&logoColor=white">
 </p>
