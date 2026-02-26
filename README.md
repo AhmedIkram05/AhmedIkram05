@@ -1,21 +1,20 @@
 ## Hi there, I'm Ahmed Ikram 👋
 
 <div align="center">
-  <!-- Fixed typo: "Development" and expanded "UoD" to "Univ. of Dundee" for clarity -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=CS+Student+@+Univ.+of+Dundee;Data+Science+%7C+AI+Specialist;Full-Stack+%26+Backend+Development;Python+%7C+Java+%7C+C%2B%2B+%7C+SQL" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=88C0D0&center=true&vCenter=true&width=435&lines=CS+Student+@+Univ.+of+Dundee;Data+Science+%7C+AI+Specialist;Full-Stack+%26+Backend+Development;Python+%7C+Java+%7C+C%2B%2B+%7C+SQL" alt="Typing SVG" />
 </div>
 
 <p align="center">
-  <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"></a>
-  <a href="mailto:ahmedikram30@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-green?style=for-the-badge&logo=gmail"></a>
-  <a href="https://drive.google.com/file/d/1WnGAbRITpu2018KBi_teewknRwrAUdQ0/view?usp=sharing"><img src="https://img.shields.io/badge/CV-Resume-red?style=for-the-badge&logo=google-drive&logoColor=white"></a>
-  <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/Portfolio-Visit_Site-purple?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
+  <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-Connect-88C0D0?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=2E3440"></a>
+  <a href="mailto:ahmedikram30@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-A3BE8C?style=for-the-badge&logo=gmail&logoColor=white&labelColor=2E3440"></a>
+  <a href="https://drive.google.com/file/d/1WnGAbRITpu2018KBi_teewknRwrAUdQ0/view?usp=sharing"><img src="https://img.shields.io/badge/CV-Resume-BF616A?style=for-the-badge&logo=google-drive&logoColor=white&labelColor=2E3440"></a>
+  <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/Portfolio-Visit_Site-B48EAD?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=2E3440"></a>
 </p>
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AhmedIkram05&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AhmedIkram05&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="languages graph"  />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhmedIkram05&theme=tokyonight&hide_border=true" height="150" alt="streak graph" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AhmedIkram05&show_icons=true&theme=nord&hide_border=true" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AhmedIkram05&layout=compact&theme=nord&hide_border=true" height="150" alt="languages graph"  />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhmedIkram05&theme=nord&hide_border=true" height="150" alt="streak graph" />
 </div>
 
 ## 🚀 About Me 
@@ -25,13 +24,18 @@ I have experience working in large codebases, applying algorithms and data engin
 
 My current focus is on strengthening backend engineering skills and preparing for software engineering placements.
 
-### [🏆 Check Out My Full Portfolio Website](https://ahmedikram05.github.io/Online-Portfolio/index.html)
+<a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/🏆_Check_Out_My_Full_Portfolio_Website-B48EAD?style=for-the-badge&logoColor=white&labelColor=2E3440"></a>
 
 ## 🔭 Featured Projects
 
-- **[StockLens](https://github.com/AhmedIkram05/StockLens):** Mobile app for stock analysis using real-world market data (React Native Expo). Built end-to-end data pipelines and OCR-based receipt ingestion.
-- **[AI Movie Recommendation System](https://github.com/AhmedIkram05/AI-movie-recommendation):** Hybrid recommendation engine (Collaborative + Content-based) achieving ~0.75 Hit Rate. Built with Python, Scikit-Learn, and Flask.
-- **[Scottish Haggis Data Mining](https://github.com/AhmedIkram05/Haggis-Dataset-Data-Mining-Jupyter-Notebook):** Exploratory data analysis project using XGBoost and Random Forest models to achieve ~90% classification accuracy.
+<a href="https://github.com/AhmedIkram05/StockLens"><img src="https://img.shields.io/badge/StockLens-View_Project-88C0D0?style=flat-square&logo=github&logoColor=white&labelColor=2E3440"></a>  
+Mobile app for stock analysis using real-world market data (React Native Expo). Built end-to-end data pipelines and OCR-based receipt ingestion.
+
+<a href="https://github.com/AhmedIkram05/AI-movie-recommendation"><img src="https://img.shields.io/badge/AI_Movie_Recommendation_System-View_Project-A3BE8C?style=flat-square&logo=github&logoColor=white&labelColor=2E3440"></a>  
+Hybrid recommendation engine (Collaborative + Content-based) achieving ~0.75 Hit Rate. Built with Python, Scikit-Learn, and Flask.
+
+<a href="https://github.com/AhmedIkram05/Haggis-Dataset-Data-Mining-Jupyter-Notebook"><img src="https://img.shields.io/badge/Scottish_Haggis_Data_Mining-View_Project-EBCB8B?style=flat-square&logo=github&logoColor=white&labelColor=2E3440"></a>  
+Exploratory data analysis project using XGBoost and Random Forest models to achieve ~90% classification accuracy.
 
 ## 🎓 Education & Certifications
 
@@ -51,37 +55,34 @@ My current focus is on strengthening backend engineering skills and preparing fo
 
 #### 💻 Core Languages & Databases
 <p>
-  <img src="https://img.shields.io/badge/Python-Advanced-3776AB?style=flat&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Java-Intermediate-ED8B00?style=flat&logo=openjdk&logoColor=white">
-  <img src="https://img.shields.io/badge/C%2B%2B-Intermediate-00599C?style=flat&logo=c%2B%2B&logoColor=white">
-  <img src="https://img.shields.io/badge/SQL-Advanced-4479A1?style=flat&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/TypeScript-Intermediate-3178C6?style=flat&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-Advanced-88C0D0?style=flat&logo=python&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/Java-Intermediate-EBCB8B?style=flat&logo=openjdk&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/C%2B%2B-Intermediate-B48EAD?style=flat&logo=c%2B%2B&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/SQL-Advanced-A3BE8C?style=flat&logo=postgresql&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/TypeScript-Intermediate-81A1C1?style=flat&logo=typescript&logoColor=white&labelColor=2E3440">
 </p>
 
 #### 🧠 Data Science, AI & Analytics
 <p>
-  <img src="https://img.shields.io/badge/Pandas%20%26%20NumPy-Advanced-150458?style=flat&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/Scikit_Learn-Intermediate-F7931E?style=flat&logo=scikit-learn&logoColor=white">
-  <img src="https://img.shields.io/badge/PyTorch-Fundamental-EE4C2C?style=flat&logo=pytorch&logoColor=white">
-  <img src="https://img.shields.io/badge/Power%20BI-Advanced-F2C811?style=flat&logo=powerbi&logoColor=black">
-  <img src="https://img.shields.io/badge/Microsoft%20Excel-Advanced-217346?style=flat&logo=microsoftexcel&logoColor=white">
-  <img src="https://img.shields.io/badge/Tableau-Fundamental-E97627?style=flat&logo=tableau&logoColor=white">
+  <img src="https://img.shields.io/badge/Scikit--Learn-Proficient-BF616A?style=flat&logo=scikit-learn&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/Pandas-Proficient-88C0D0?style=flat&logo=pandas&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/NumPy-Proficient-B48EAD?style=flat&logo=numpy&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/TensorFlow-Learning-EBCB8B?style=flat&logo=tensorflow&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/Power_BI-Intermediate-A3BE8C?style=flat&logo=powerbi&logoColor=white&labelColor=2E3440">
 </p>
 
-#### ☁️ Cloud, Tools & DevOps
+#### 🌐 Web & Backend
 <p>
-  <img src="https://img.shields.io/badge/AWS-Fundamental-FF9900?style=flat&logo=amazon-aws&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-Intermediate-2496ED?style=flat&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-Advanced-FCC624?style=flat&logo=linux&logoColor=black">
-  <img src="https://img.shields.io/badge/Git%20%26%20GitHub-Advanced-F05032?style=flat&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/VS%20Code-Advanced-007ACC?style=flat&logo=visualstudiocode&logoColor=white">
+  <img src="https://img.shields.io/badge/Flask-Intermediate-88C0D0?style=flat&logo=flask&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/React_Native-Intermediate-81A1C1?style=flat&logo=react&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/Node.js-Learning-A3BE8C?style=flat&logo=node.js&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/PostgreSQL-Intermediate-B48EAD?style=flat&logo=postgresql&logoColor=white&labelColor=2E3440">
 </p>
 
-#### 🌐 Web, Backend & APIs
+#### ☁️ Cloud & Tools
 <p>
-  <img src="https://img.shields.io/badge/Flask-Advanced-000000?style=flat&logo=flask&logoColor=white">
-  <img src="https://img.shields.io/badge/React_Native_Expo-Intermediate-61DAFB?style=flat&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/HTML5-Advanced-E34F26?style=flat&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-Intermediate-1572B6?style=flat&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/RESTful%20APIs-Advanced-009688?style=flat&logo=postman&logoColor=white">
+  <img src="https://img.shields.io/badge/AWS-Certified-EBCB8B?style=flat&logo=amazon-aws&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/Git-Proficient-BF616A?style=flat&logo=git&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/Docker-Learning-88C0D0?style=flat&logo=docker&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/Linux-Intermediate-A3BE8C?style=flat&logo=linux&logoColor=white&labelColor=2E3440">
 </p>
