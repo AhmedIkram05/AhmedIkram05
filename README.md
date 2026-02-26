@@ -55,34 +55,38 @@ Exploratory data analysis project using XGBoost and Random Forest models to achi
 
 #### 💻 Core Languages & Databases
 <p>
-  <img src="https://img.shields.io/badge/Python-Advanced-88C0D0?style=flat&logo=python&logoColor=white&labelColor=2E3440">
-  <img src="https://img.shields.io/badge/Java-Intermediate-EBCB8B?style=flat&logo=openjdk&logoColor=white&labelColor=2E3440">
-  <img src="https://img.shields.io/badge/C%2B%2B-Intermediate-B48EAD?style=flat&logo=c%2B%2B&logoColor=white&labelColor=2E3440">
-  <img src="https://img.shields.io/badge/SQL-Advanced-A3BE8C?style=flat&logo=postgresql&logoColor=white&labelColor=2E3440">
-  <img src="https://img.shields.io/badge/TypeScript-Intermediate-81A1C1?style=flat&logo=typescript&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/Python-Advanced-8FBCBB?style=flat-square&logo=python&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/SQL-Advanced-A3BE8C?style=flat-square&logo=postgresql&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/Java-Intermediate-EBCB8B?style=flat-square&logo=openjdk&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/C%2B%2B-Intermediate-B48EAD?style=flat-square&logo=c%2B%2B&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/TypeScript-Intermediate-5E81AC?style=flat-square&logo=typescript&logoColor=white&labelColor=3B4252">
 </p>
 
 #### 🧠 Data Science, AI & Analytics
 <p>
-  <img src="https://img.shields.io/badge/Scikit--Learn-Proficient-BF616A?style=flat&logo=scikit-learn&logoColor=white&labelColor=2E3440">
-  <img src="https://img.shields.io/badge/Pandas-Proficient-88C0D0?style=flat&logo=pandas&logoColor=white&labelColor=2E3440">
-  <img src="https://img.shields.io/badge/NumPy-Proficient-B48EAD?style=flat&logo=numpy&logoColor=white&labelColor=2E3440">
-  <img src="https://img.shields.io/badge/TensorFlow-Learning-EBCB8B?style=flat&logo=tensorflow&logoColor=white&labelColor=2E3440">
-  <img src="https://img.shields.io/badge/Power_BI-Intermediate-A3BE8C?style=flat&logo=powerbi&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/Pandas_%26_NumPy-Advanced-8FBCBB?style=flat-square&logo=pandas&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/Scikit--Learn-Intermediate-BF616A?style=flat-square&logo=scikit-learn&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/PyTorch-Fundamental-EBCB8B?style=flat-square&logo=pytorch&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/Power_BI-Advanced-A3BE8C?style=flat-square&logo=powerbi&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/Microsoft_Excel-Advanced-A3BE8C?style=flat-square&logo=microsoftexcel&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/Tableau-Fundamental-B48EAD?style=flat-square&logo=tableau&logoColor=white&labelColor=3B4252">
 </p>
 
-#### 🌐 Web & Backend
+#### 🌐 Web, Backend & APIs
 <p>
-  <img src="https://img.shields.io/badge/Flask-Intermediate-88C0D0?style=flat&logo=flask&logoColor=white&labelColor=2E3440">
-  <img src="https://img.shields.io/badge/React_Native-Intermediate-81A1C1?style=flat&logo=react&logoColor=white&labelColor=2E3440">
-  <img src="https://img.shields.io/badge/Node.js-Learning-A3BE8C?style=flat&logo=node.js&logoColor=white&labelColor=2E3440">
-  <img src="https://img.shields.io/badge/PostgreSQL-Intermediate-B48EAD?style=flat&logo=postgresql&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/Flask-Advanced-8FBCBB?style=flat-square&logo=flask&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/React_Native_Expo-Intermediate-5E81AC?style=flat-square&logo=react&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/HTML5-Advanced-BF616A?style=flat-square&logo=html5&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/CSS3-Intermediate-B48EAD?style=flat-square&logo=css3&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/RESTful_APIs-Advanced-A3BE8C?style=flat-square&logo=postman&logoColor=white&labelColor=3B4252">
+  
 </p>
 
-#### ☁️ Cloud & Tools
+#### ☁️ Cloud, Tools & DevOps
 <p>
-  <img src="https://img.shields.io/badge/AWS-Certified-EBCB8B?style=flat&logo=amazon-aws&logoColor=white&labelColor=2E3440">
-  <img src="https://img.shields.io/badge/Git-Proficient-BF616A?style=flat&logo=git&logoColor=white&labelColor=2E3440">
-  <img src="https://img.shields.io/badge/Docker-Learning-88C0D0?style=flat&logo=docker&logoColor=white&labelColor=2E3440">
-  <img src="https://img.shields.io/badge/Linux-Intermediate-A3BE8C?style=flat&logo=linux&logoColor=white&labelColor=2E3440">
+  <img src="https://img.shields.io/badge/AWS-Certified-EBCB8B?style=flat-square&logo=amazon-aws&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/Docker-Intermediate-8FBCBB?style=flat-square&logo=docker&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/Linux-Advanced-A3BE8C?style=flat-square&logo=linux&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/Git_%26_GitHub-Advanced-BF616A?style=flat-square&logo=git&logoColor=white&labelColor=3B4252">
+  <img src="https://img.shields.io/badge/VS_Code-Advanced-5E81AC?style=flat-square&logo=visualstudiocode&logoColor=white&labelColor=3B4252">
 </p>
