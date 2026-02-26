@@ -12,6 +12,12 @@
   <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/Portfolio-Visit_Site-purple?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
 </p>
 
+<div align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AhmedIkram05&show_icons=true&theme=tokyonight&hide_border=true" height="140" alt="stats graph"  />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AhmedIkram05&layout=compact&theme=tokyonight&hide_border=true" height="140" alt="languages graph"  />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhmedIkram05&theme=tokyonight&hide_border=true" height="140" alt="streak graph" />
+</div>
+
 ## 🚀 About Me 
 I'm a Computer Science student specialising in **Data Science and AI**, with hands-on experience building full-stack applications, backend systems, and machine learning pipelines. 
 
@@ -71,11 +77,3 @@ My current focus is on strengthening backend engineering skills and preparing fo
   <img src="https://img.shields.io/badge/React_Native_Expo-Advanced-61DAFB?style=flat&logo=react&logoColor=black">
   <img src="https://img.shields.io/badge/Flask-Advanced-000000?style=flat&logo=flask&logoColor=white">
 </p>
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AhmedIkram05&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AhmedIkram05&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="languages graph"  />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhmedIkram05&theme=tokyonight&hide_border=true" height="150" alt="streak graph" />
-</div>
