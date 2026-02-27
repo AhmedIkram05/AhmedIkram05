@@ -101,7 +101,7 @@ Offline-first personal finance PWA with client-side ML inference via TensorFlow.
 | | |
 |---|---|
 | 🏛️ **University of Dundee** | BSc (Hons) Computer Science (Data Science & AI) — 2023–2028 |
-| 🏫 **The High School of Dundee** | Higher (Equivalent to A-Level): CS, Maths, English (All A) — 2018–2023 |
+| 🏫 **The High School of Dundee** | Higher (Equivalent to A-Level): CS, Maths, English (All A) — 2017–2023 |
 | [☁️ **AWS Academy — Machine Learning**](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7) | Feb 2025 |
 | [☁️ **AWS Academy — Cloud Foundations**](https://www.credly.com/badges/c4f6bb59-3638-48fe-8c0b-af5c3976731d) | Mar 2024 |
 | [🤖 **Foundations of Azure AI**](https://www.linkedin.com/learning/certificates/e3dc3610a320ee93d032317f3906e12d09f41da322c5fc1c94d272cef7f224c9) | Oct 2024 |
