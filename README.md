@@ -19,7 +19,7 @@
 
 ## 👋 About Me
 
-I'm a 3rd-year Computer Science student at the University of Dundee, specialising in **Data Science and AI**. I work across the stack; backend APIs in Python and C++, mobile apps in React Native, and ML pipelines from raw data through to deployment. You can see more on my [portfolio website](https://ahmedikram05.github.io/Online-Portfolio/index.html).
+I'm a 3rd-year Computer Science student at the University of Dundee, specialising in **Data Science and AI**. I work across the stack; backend APIs in Python and C++, mobile apps in React Native, and ML pipelines from raw data through to deployment. You can see more on my [online portfolio](https://ahmedikram05.github.io/Online-Portfolio/index.html).
 
 I'm currently looking for a **12-month industrial placement** starting in 2026, in software engineering, data science, or a related technical role.
 
