@@ -8,7 +8,7 @@
   <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:ahmedikram30@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="./Ahmed-Ikram-CV-2026.pdf"><img src="https://img.shields.io/badge/CV-View-blue?style=for-the-badge&logo=google-drive&logoColor=white&labelColor=2E3440"></a>
-  <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139"></a>
+  <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=%23FF7139"></a>
 </p>
 
 <p align="center">
