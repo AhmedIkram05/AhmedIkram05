@@ -8,6 +8,7 @@
       <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=600&lines=3rd+Year+CS+Student+%40+University+of+Dundee;Full+Stack+%26+Data+Science;Python+%7C+SQL+%7C+C%2B%2B+%7C+React;Open+to+Opportunities+Worldwide;Passionate+About+Learning+and+Growth" alt="Typing SVG" />
     </picture>
   </a>
+<p>
 
 <p align="center">
   <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&labelColor=000000&logo=LinkedIn&logoColor=white"></a>
@@ -84,9 +85,9 @@ Offline-first personal finance PWA with client-side ML inference via TensorFlow.
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&labelColor=000000&logo=flask)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&labelColor=000000&logo=node.js)
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&labelColor=000000&logo=react)
-![React Native](https://img.shields.io/badge/Expo-000000?style=for-the-badge&labelColor=000000&logo=expo)
+![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&labelColor=000000&logo=expo)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&labelColor=000000&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&labelColor=000000&logo=css)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&labelColor=000000&logo=css3)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&labelColor=000000&logo=postgresql)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&labelColor=000000&logo=mongodb)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&labelColor=000000&logo=firebase)
