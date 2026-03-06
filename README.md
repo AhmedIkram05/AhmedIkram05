@@ -1,18 +1,18 @@
 ## Ahmed Ikram
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=500&color=FF4D6D&center=true&vCenter=true&width=600&lines=CS+Student+%40+University+of+Dundee;Full-Stack+%26+Backend+Development;Data+Science+%26+AI+Focus;Python+%7C+C%2B%2B+%7C+React+Native+%7C+SQL;Open+to+Opportunities+Worldwide;Passionate+About+Learning+%26+Growth" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=500&center=true&vCenter=true&width=600&lines=CS+Student+%40+University+of+Dundee;Full-Stack+%26+Backend+Development;Data+Science+%26+AI+Focus;Python+%7C+C%2B%2B+%7C+React+Native+%7C+SQL;Open+to+Opportunities+Worldwide;Passionate+About+Learning+%26+Growth" alt="Typing SVG" />
 </div>
 
 <p align="center">
   <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:ahmedikram30@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="./Ahmed-Ikram-CV-2026.pdf"><img src="https://img.shields.io/badge/CV-1A1A1C?style=for-the-badge&logo=book&logoColor=white"></a>
+  <a href="./Ahmed-Ikram-CV-2026.pdf"><img src="https://img.shields.io/badge/CV-000000?style=for-the-badge&logo=book&logoColor=white"></a>
   <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/Online Portfolio-0C0C69?style=for-the-badge&logo=globe&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Open_to_Opportunities-0?style=for-the-badge&labelColor=000000">
+  <img src="https://img.shields.io/badge/Status-Open_to_Opportunities-forestgreen?style=for-the-badge&labelColor=000000">
 </p>
 
 ---
@@ -23,7 +23,7 @@ I'm a 3rd-year Computer Science student at the University of Dundee, specialisin
 
 I'm currently looking for a **12-month industrial placement** starting in 2026, in software engineering, data science, or a related technical role.
 
-- 🎓 BSc (Hons) Computer Science (Data Science & AI) — expected June 2028
+- 🎓 BSc (Hons) Computer Science (Data Science & AI) — expected graduation *June 2028*
 - 🏆 AWS Academy Graduate — Cloud Foundations & Machine Learning
 - 📍 Based in Dundee, Scotland — open to relocation
 
@@ -34,7 +34,7 @@ I'm currently looking for a **12-month industrial placement** starting in 2026, 
 <a href="https://github.com/AhmedIkram05/StockLens"><img src="https://img.shields.io/badge/StockLens_Mobile_App-View_Project-3776AB?style=flat-square&logo=github&logoColor=white&labelColor=00599C"></a>  
 Full-stack React Native app with Firebase auth, real-time data sync, and an OCR pipeline that converts physical receipts into structured financial records. Built in TypeScript across a clean data/logic/UI architecture.
 
-<a href="https://github.com/AhmedIkram05/movie-recommendation-system"><img src="https://img.shields.io/badge/CineMatch_Recommendation_System-View_Project-47A248?style=flat-square&logo=github&logoColor=white&labelColor=4EAA25"></a>  
+<a href="https://github.com/AhmedIkram05/movie-recommendation-system"><img src="https://img.shields.io/badge/CineMatch_Recommendation_System-View_Project-47A248?style=flat-square&logo=github&logoColor=white&labelColor=darkgreen"></a>  
 Hybrid recommendation engine (collaborative filtering + content-based) built with Python, Scikit-learn, and Flask. Achieves ~0.75 Hit Rate and ~0.22 Precision@10 on the MovieLens dataset. Deployed as an interactive web app.
 
 <a href="https://github.com/AhmedIkram05/haggis-predictive-modeling"><img src="https://img.shields.io/badge/Haggis_Data_Mining-View_Project-F7931E?style=flat-square&logo=github&logoColor=white&labelColor=AA0000"></a>  
@@ -88,40 +88,20 @@ Offline-first personal finance PWA with client-side ML inference via TensorFlow.
 ## 📊 GitHub Stats & Contributions
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AhmedIkram05&show_icons=true&theme=gruvbox&hide_border=true" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AhmedIkram05&layout=compact&theme=gruvbox&hide_border=true" height="150" alt="languages graph" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AhmedIkram05&show_icons=true&theme=react&hide_border=true" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AhmedIkram05&layout=compact&theme=react&hide_border=true" height="150" alt="languages graph" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhmedIkram05&theme=gruvbox&hide_border=true" height="150" alt="streak graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhmedIkram05&theme=react&hide_border=true" height="150" alt="streak graph" />
 </div>
 
 <br>
 
 <div align="center">
-  <!-- GitHub Contribution Snake 
-       Note: To automate this, you must run Platane/snk via a GitHub Action in this repository.
-       Tutorial: https://github.com/Platane/snk -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AhmedIkram05/AhmedIkram05/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AhmedIkram05/AhmedIkram05/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AhmedIkram05/AhmedIkram05/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
-
----
-
-
-## 🎓 Education & Certifications
-
-- 🏛️ **University of Dundee**  
-  BSc (Hons) Computer Science (Data Science & AI)  
-  *2023–2028*
-
-  📍 **Feb 2025**: [☁️ AWS Academy — Machine Learning](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7)  
-  📍 **Mar 2024**: [☁️ AWS Academy — Cloud Foundations](https://www.credly.com/badges/c4f6bb59-3638-48fe-8c0b-af5c3976731d)  
-  📍 **Oct 2024**: [🤖 Foundations of Azure AI](https://www.linkedin.com/learning/certificates/e3dc3610a320ee93d032317f3906e12d09f41da322c5fc1c94d272cef7f224c9)
-
-- 🏫 **The High School of Dundee**  
-  Higher (Equivalent to A-Level): CS, Maths, English (All A)  
-  *2017–2023*
