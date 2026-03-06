@@ -1,8 +1,13 @@
 ## Ahmed Ikram
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=500&center=true&vCenter=true&width=600&lines=CS+Student+%40+University+of+Dundee;Full-Stack+%26+Backend+Development;Data+Science+%26+AI+Focus;Python+%7C+C%2B%2B+%7C+React+Native+%7C+SQL;Open+to+Opportunities+Worldwide;Passionate+About+Learning+%26+Growth" alt="Typing SVG" />
-</div>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=FFFFFF&center=true&vCenter=true&width=600&lines=3rd+Year+CS+Student+%40+University+of+Dundee;Full+Stack+%26+Data+Science;Python+%7C+SQL+%7C+C%2B%2B+%7C+React;Open+to+Opportunities+Worldwide;Passionate+About+Learning+and+Growth">
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=600&lines=3rd+Year+CS+Student+%40+University+of+Dundee;Full+Stack+%26+Data+Science;Python+%7C+SQL+%7C+C%2B%2B+%7C+React;Open+to+Opportunities+Worldwide;Passionate+About+Learning+and+Growth">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=600&lines=3rd+Year+CS+Student+%40+University+of+Dundee;Full+Stack+%26+Data+Science;Python+%7C+SQL+%7C+C%2B%2B+%7C+React;Open+to+Opportunities+Worldwide;Passionate+About+Learning+and+Growth" alt="Typing SVG" />
+    </picture>
+  </a>
 
 <p align="center">
   <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&labelColor=000000&logo=LinkedIn&logoColor=white"></a>
