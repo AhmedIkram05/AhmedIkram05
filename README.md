@@ -8,7 +8,7 @@
   <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:ahmedikram30@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="./Ahmed-Ikram-CV-2026.pdf"><img src="https://img.shields.io/badge/CV-000000?style=for-the-badge&logo=book&logoColor=white"></a>
-  <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/Online Portfolio-0C0C69?style=for-the-badge&logo=globe&logoColor=white"></a>
+  <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/Online Portfolio-17A2B8?style=for-the-badge&logo=globe&logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -19,13 +19,15 @@
 
 ## 👋 About Me
 
-I'm a 3rd-year Computer Science student at the University of Dundee, specialising in **Data Science and AI**. I work across the stack; backend APIs in Python and C++, mobile apps in React Native, and ML pipelines from raw data through to deployment. You can see more on my [online portfolio](https://ahmedikram05.github.io/Online-Portfolio/index.html).
+I'm a 3rd-year Computer Science student at the University of Dundee, specialising in **Data Science and AI**. I work across the stack; backend APIs in Python and C++, mobile apps in React Native, and ML pipelines from raw data through to deployment. You can see more on my [online portfolio](https://ahmedikram05.github.io/Online-Portfolio/index.html). 
 
 I'm currently looking for a **12-month industrial placement** starting in 2026, in software engineering, data science, or a related technical role.
 
-- 🎓 BSc (Hons) Computer Science (Data Science & AI) — expected graduation *June 2028*
-- 🏆 AWS Academy Graduate — Cloud Foundations & Machine Learning
-- 📍 Based in Dundee, Scotland — open to relocation
+- 🎓 BSc (Hons) Computer Science *(Data Science & AI)*: expected graduation *June 2028*
+- 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
+- 🏆 AWS Academy - [Cloud Foundations](https://www.credly.com/badges/c4f6bb59-3638-48fe-8c0b-af5c3976731d/print)
+- 🏅 Microsoft Learn - [Foundations of Azure AI](https://www.linkedin.com/learning/certificates/e3dc3610a320ee93d032317f3906e12d09f41da322c5fc1c94d272cef7f224c9?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BT9fo%2BcR8Q0eO%2BgT7rijPLQ%3D%3D): Concepts, Capabilities, and Implementation
+- 📍 Based in Dundee, Scotland — *open to relocation*
 
 ---
 
