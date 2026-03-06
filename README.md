@@ -34,7 +34,7 @@ I'm currently looking for a **12-month industrial placement** starting in 2026, 
 <a href="https://github.com/AhmedIkram05/StockLens"><img src="https://img.shields.io/badge/StockLens_Mobile_App-View_Project-3776AB?style=flat-square&logo=github&logoColor=white&labelColor=00599C"></a>  
 Full-stack React Native app with Firebase auth, real-time data sync, and an OCR pipeline that converts physical receipts into structured financial records. Built in TypeScript across a clean data/logic/UI architecture.
 
-<a href="https://github.com/AhmedIkram05/movie-recommendation-system"><img src="https://img.shields.io/badge/CineMatch_Recommendation_System-View_Project-47A248?style=flat-square&logo=github&logoColor=white&labelColor=darkgreen"></a>  
+<a href="https://github.com/AhmedIkram05/movie-recommendation-system"><img src="https://img.shields.io/badge/CineMatch_Recommendation_System-View_Project-47A248?style=flat-square&logo=github&logoColor=white&labelColor=006400"></a>  
 Hybrid recommendation engine (collaborative filtering + content-based) built with Python, Scikit-learn, and Flask. Achieves ~0.75 Hit Rate and ~0.22 Precision@10 on the MovieLens dataset. Deployed as an interactive web app.
 
 <a href="https://github.com/AhmedIkram05/haggis-predictive-modeling"><img src="https://img.shields.io/badge/Haggis_Data_Mining-View_Project-F7931E?style=flat-square&logo=github&logoColor=white&labelColor=AA0000"></a>  
