@@ -5,10 +5,10 @@
 </div>
 
 <p align="center">
-  <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=LinkedIn"></a>
+  <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&labelColor=000000&logo=LinkedIn&logoColor=white"></a>
   <a href="mailto:ahmedikram30@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="./Ahmed-Ikram-CV-2026.pdf"><img src="https://img.shields.io/badge/CV-232F3E?style=for-the-badge&labelColor=000000"></a>
-  <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/Online Portfolio-17A2B8?style=for-the-badge&labelColor=000000"></a>
+  <a href="./Ahmed-Ikram-CV-2026.pdf"><img src="https://img.shields.io/badge/View CV-232F3E?style=for-the-badge&labelColor=000000"></a>
+  <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/Online Portfolio-0E8A90?style=for-the-badge&labelColor=000000"></a>
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 
 I'm a 3rd-year Computer Science student at the University of Dundee, specialising in **Data Science and AI**. I work across the stack; backend APIs in Python and C++, mobile apps in React Native, and ML pipelines from raw data through to deployment. You can see more on my [online portfolio](https://ahmedikram05.github.io/Online-Portfolio/index.html). 
 
-I'm currently looking for a **12-month industrial placement** starting in 2026, in software engineering, data science, or a related technical role.
+I'm currently looking for a **12-month industrial placement** or **Internship** starting in 2026, in software engineering, data science, or a related technical role.
 
 - 🎓 BSc (Hons) Computer Science *(Data Science & AI)*: expected graduation *June 2028*
 
