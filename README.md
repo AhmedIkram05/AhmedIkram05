@@ -33,7 +33,7 @@ I'm currently looking for a **12-month industrial placement** or **Internship** 
 
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
 
-- 🏅 Microsoft Learn - [Foundations of Azure AI: Concepts, Capabilities, and Implementation](https://www.linkedin.com/learning/certificates/e3dc3610a320ee93d032317f3906e12d09f41da322c5fc1c94d272cef7f224c9?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BT9fo%2BcR8Q0eO%2BgT7rijPLQ%3D%3D)
+- 🏅 Microsoft Learn - [Foundations of Azure AI: Concepts, Capabilities, and Implementation](https://www.linkedin.com/learning/certificates/e3dc3610a320ee93d032317f3906e12d09f41da322c5fc1c94d272cef7f224c9)
 
 - 🏆 AWS Academy - [Cloud Foundations](https://www.credly.com/badges/c4f6bb59-3638-48fe-8c0b-af5c3976731d/print)
 
