@@ -105,9 +105,9 @@ Offline-first personal finance PWA with client-side ML inference via TensorFlow.
 ## 📊 GitHub Stats & Contributions
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AhmedIkram05&show_icons=true&theme=react&hide_border=true" height="130" alt="stats graph" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AhmedIkram05&layout=compact&theme=react&hide_border=true" height="130" alt="languages graph" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhmedIkram05&theme=react&hide_border=true" height="130" alt="streak graph" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AhmedIkram05&show_icons=true&theme=react&hide_border=true" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AhmedIkram05&layout=compact&theme=react&hide_border=true" height="150" alt="languages graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhmedIkram05&theme=react&hide_border=true" height="150" alt="streak graph" />
 </div>
 
 <br>
