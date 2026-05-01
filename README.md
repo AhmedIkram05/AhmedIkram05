@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&labelColor=000000&logo=LinkedIn&logoColor=white"></a>
   <a href="mailto:ahmedikram30@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="./Ahmed-Ikram-CV-2026.pdf"><img src="https://img.shields.io/badge/View CV-8c1aff?style=for-the-badge&labelColor=000000"></a>
+  <a href="./Ahmed-Ikram-CV-2026-DE.pdf"><img src="https://img.shields.io/badge/View CV-8c1aff?style=for-the-badge&labelColor=000000"></a>
   <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/Online Portfolio-0E8A90?style=for-the-badge&labelColor=000000"></a>
 </p>
 
