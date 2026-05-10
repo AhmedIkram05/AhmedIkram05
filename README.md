@@ -42,18 +42,6 @@ I'm currently seeking a **12-month industrial placement** or **summer internship
 
 ---
 
-## 🔧 Currently Extending
-
-- **ATM Platform** - migrating ingestion to an event-driven architecture (Kafka/Redis Streams) with async worker horizontal scaling and Prometheus/Grafana real-time observability
-- **StockLens** - migrating from Firebase to a self-hosted FastAPI/PostgreSQL backend for production-grade data handling, adding ML-driven spending analytics and forward-looking portfolio projections
-- **Unix VCS** - implementing branching and three-way merge support, an improved diff algorithm, and benchmarking performance against Git on representative workloads
-
----
-
-## 🔭 Featured Projects
-
----
-
 ## 📐 How I Build
 
 I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact. That means dead-letter routing before data reaches a database, leakage prevention baked into sklearn Pipelines before any cross-validation fold runs, and CI/CD gates that abort deployment on any test failure rather than hoping nothing breaks in production. I'm drawn to problems where silent failures are the hardest kind to debug - concurrent write contention, foreign key mismatches, retrieval quality in RAG systems, and I build systems that make those failures impossible to miss. I work from requirements before writing code - functional, non-functional, and acceptance criteria first - and treat API documentation, schema contracts, and test plans as deliverables in their own right, not afterthoughts.
@@ -64,14 +52,12 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 | | |
 |---|---|
-| 🧪 Automated tests written | **667** (541 DevSync · 48 ATM · 78 StockLens) |
+| 🧪 Automated tests written | **1,572** (1,446 DevSync · 48 ATM · 78 StockLens) |
 | 📐 Star schema dimensions | **9** (W3C ETL Pipeline) |
 | 🌍 Countries of geodata enriched | **78** (W3C ETL Pipeline) |
 | ⚡ Parallel Airflow tasks | **9** fan-out, **8×** faster than sequential |
 | 🤖 ML classifiers benchmarked | **7** (Haggis - ~90% accuracy) |
-| 🧩 ATM anomaly types modelled | **7** (synthetic data generator) |
-| 🔒 Security vulnerabilities caught & patched | **5** (ATM platform - incl. JWT privilege escalation) |
-| 📋 Test tiers (ATM platform) | **5** (unit · integration · API · schema · concurrency) |
+| 🧩 ATM anomaly types modelled | **7** (LAAD) |
 
 ---
 
@@ -93,9 +79,9 @@ Industry project for NCR Atleos - production ATM log ingestion, anomaly diagnost
 
 <a href="https://github.com/AhmedIkram05/devsync"><img src="https://img.shields.io/badge/View Project-2496ED?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`React` `Flask` `Socket.io` `GitHub API` `PostgreSQL` `AWS` `Docker` `Pytest` `Jest` `Cypress`
+`React` `Flask` `Socket.io` `GitHub OAuth API` `PostgreSQL` `AWS` `Docker` `Pytest` `Jest` `Cypress`
 
-Full-stack project tracker with real-time WebSocket collaboration, GitHub OAuth 2.0, and bidirectional Issue/PR linking. ECS Fargate in a custom VPC, RDS in a private subnet, CloudFront frontend - 541 automated tests gate every PR via GitHub Actions with OIDC federation. Deployment aborts on any failure.
+Full-stack project tracker with real-time WebSocket collaboration, GitHub OAuth 2.0, and bidirectional Issue & PR linking. ECS Fargate in a custom VPC, RDS in a private subnet, CloudFront frontend - 1,446 automated tests gate every PR via GitHub Actions with OIDC federation. Deployment aborts on any failure.
 
 ---
 
