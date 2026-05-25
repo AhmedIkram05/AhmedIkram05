@@ -48,19 +48,6 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 ---
 
-## 📊 By the Numbers
-
-| | |
-|---|---|
-| 🧪 Automated tests written | **1,572** (1,446 DevSync · 48 ATM · 78 StockLens) |
-| 📐 Star schema dimensions | **9** (W3C ETL Pipeline) |
-| 🌍 Countries of geodata enriched | **78** (W3C ETL Pipeline) |
-| ⚡ Parallel Airflow tasks | **9** fan-out, **8×** faster than sequential |
-| 🤖 ML classifiers benchmarked | **7** (Haggis - ~90% accuracy) |
-| 🧩 ATM anomaly types modelled | **7** (LAAD) |
-
----
-
 ## 🔭 Featured Projects
 
 ---
@@ -69,9 +56,16 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 <a href="https://github.com/AhmedIkram05/laad"><img src="https://img.shields.io/badge/View Project-8c1aff?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`Python` `FastAPI` `SQLite` `APScheduler` `LangChain` `ChromaDB` `Ollama` `React` `Vite`
+`Python` `FastAPI` `PostgreSQL` `Apache Kafka` `Redis` `XGBoost` `Scikit-learn` `LangChain` `ChromaDB` `MLflow` `React` `Vite` `Docker` `AWS`
 
-Industry project for NCR Atleos - production ATM log ingestion, anomaly diagnostics, and a fully local air-gapped RAG diagnostic assistant. Led backend and data engineering end-to-end across a 7-person Agile team. 7 custom parsers, dead-letter routing, retry-with-backoff, LLM-as-judge evaluation, and 48 automated tests across 5 tiers, patching 5 critical pre-release defects including a JWT privilege escalation vulnerability.
+**Industry project for NCR Atleos** — production-grade log ingestion pipeline with 3-layer anomaly detection and Agentic RAG diagnostic assistant. Led backend, data engineering, and ML end-to-end across a 7-person Agile team.
+
+- **Kafka event streaming**: KRaft mode, 2 topics × 3 partitions, at-least-once delivery with manual offset commits. Hybrid deduplication: Redis SET with 1h TTL + 10K-entry in-memory LRU fallback.
+- **3-layer detection engine**: ML_ENSEMBLE (XGBoost + Isolation Forest, 99.8% CV accuracy) + ZSCORE (rolling 20-window sigma) + HEURISTIC (7 deterministic multi-source correlators). 600s configurable sliding window, 10-min cross-layer dedup.
+- **Agentic RAG**: Cross-encoder reranking (ms-marco-MiniLM), 3-sample self-consistency with 3-gram Jaccard similarity, Reflexion (self-critique → regenerate), citation grounding with regex entity verification. 4-signal confidence fusion: retrieval (30%) + consistency (25%) + verbalized (25%) + grounding (20%).
+- **Redis 8 patterns**: Rate limiting (sorted set), deduplication (set + TTL), JWT blacklist (string + TTL), distributed locks (SET NX EX), Pub/Sub streaming, response caching, dead-letter queue (streams with exponential backoff), analytics counters (INCR + HLL + ZINCRBY).
+- **MLOps via MLflow**: Experiment tracking, model registry with "champion" aliases. 7 artifacts per training run: xgb_classifier, isolation_forest, scaler, label_encoder, feature names, IF feature indices, calibrated UNKNOWN threshold.
+- **670 automated tests** (521 backend + 149 frontend) across 10 tiers: unit, integration, stress, security, ML, RAG, Redis, Kafka, generators, parsers. Caught and patched 5 critical pre-release defects including a JWT privilege escalation vulnerability.
 
 ---
 
