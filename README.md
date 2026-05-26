@@ -65,7 +65,7 @@ I treat reliability and observability as non-negotiable from the start, not retr
 - **Agentic RAG**: Cross-encoder reranking (ms-marco-MiniLM), 3-sample self-consistency with 3-gram Jaccard similarity, Reflexion (self-critique → regenerate), citation grounding with regex entity verification. 4-signal confidence fusion: retrieval (30%) + consistency (25%) + verbalized (25%) + grounding (20%).
 - **Redis 8 patterns**: Rate limiting (sorted set), deduplication (set + TTL), JWT blacklist (string + TTL), distributed locks (SET NX EX), Pub/Sub streaming, response caching, dead-letter queue (streams with exponential backoff), analytics counters (INCR + HLL + ZINCRBY).
 - **MLOps via MLflow**: Experiment tracking, model registry with "champion" aliases. 7 artifacts per training run: xgb_classifier, isolation_forest, scaler, label_encoder, feature names, IF feature indices, calibrated UNKNOWN threshold.
-- **670 automated tests** (521 backend + 149 frontend) across 10 tiers: unit, integration, stress, security, ML, RAG, Redis, Kafka, generators, parsers. Caught and patched 5 critical pre-release defects including a JWT privilege escalation vulnerability.
+- **670 automated tests** (521 backend + 149 frontend) across 10 tiers: unit, integration, stress, security, ML, RAG, Redis, Kafka, generators, parsers
 
 ---
 
