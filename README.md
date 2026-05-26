@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Seeking_Post_Graduate_Role_2027-forestgreen?style=for-the-badge&labelColor=000000&logo=briefcase&logoColor=white">
+  <img src="https://img.shields.io/badge/Status-Seeking--Post_Graduate_Role_2027-forestgreen?style=for-the-badge&labelColor=000000&logo=briefcase&logoColor=white">
 </p>
 
 ---
@@ -199,7 +199,7 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&labelColor=000000&logo=githubactions)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&labelColor=000000&logo=linux)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&labelColor=000000&logo=git)
-![MLflow](https://img.shields.io/badge/MLflow-FF6B35?style=for-the-badge&labelColor=000000&logo=mlflow)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&labelColor=000000&logo=mlflow)
 ![nginx](https://img.shields.io/badge/nginx-009639?style=for-the-badge&labelColor=000000&logo=nginx)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker)
 
