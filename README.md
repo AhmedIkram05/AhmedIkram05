@@ -93,7 +93,7 @@ Fully automated ETL pipeline transforming raw W3C IIS logs into a 9-dimension St
 
 `React Native` `TypeScript` `Firebase` `Node.js` `Jest` `Alpha Vantage API`
 
-Full-stack mobile app converting physical receipts via OCR into structured financial records, mapping spending to stock tickers via Alpha Vantage, and projecting portfolio performance using ARIMA forecasting and Linear Regression. AES encryption at rest, biometric auth, 78 Jest tests. Currently migrating to FastAPI/PostgreSQL backend.
+Full-stack mobile app converting physical receipts via OCR into structured financial records, mapping spending to stock tickers via Alpha Vantage, and projecting portfolio performance using ARIMA forecasting and Linear Regression. AES encryption at rest, biometric auth, 78 Jest tests.
 
 ---
 
