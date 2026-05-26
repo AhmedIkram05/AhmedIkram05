@@ -3,9 +3,9 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=FFFFFF&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+ML+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+12-month+Placement+or+Summer+Internship+2026">
-      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+ML+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+12-month+Placement+or+Summer+Internship+2026">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+ML+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+12-month+Placement+or+Summer+Internship+2026" alt="Typing SVG" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=FFFFFF&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+Post-Graduate+Role">
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+Post-Graduate+Role">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+Post-Graduate+Role" alt="Typing SVG" />
     </picture>
   </a>
 </p>
@@ -23,16 +23,16 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Seeking_Placement_or_Internship_2026-forestgreen?style=for-the-badge&labelColor=000000&logo=briefcase&logoColor=white">
+  <img src="https://img.shields.io/badge/Status-Seeking--Post_Graduate_Role_2027-forestgreen?style=for-the-badge&labelColor=000000&logo=briefcase&logoColor=white">
 </p>
 
 ---
 
 ## 👋 About Me
 
-I'm a 3rd-year Computer Science student at the University of Dundee (Data Science & AI), on track for a First Class degree. I build production-grade systems across three tracks: **resilient data pipelines and ETL architectures** (Airflow, AWS RDS, FastAPI, Star Schema), **end-to-end ML and LLM-powered systems** (Scikit-learn, PyTorch, RAG, LangChain, LLM-as-judge evaluation), and **full-stack cloud applications** (React, React Native, Flask, WebSockets, AWS, CI/CD). I care about engineering rigour - schema design, leakage prevention, test coverage, and operational observability are first-class concerns across everything I build.
+I'm a 3rd-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree. I build production-grade systems across three tracks: event-driven data pipelines (Kafka, Airflow, AWS, Star Schema), end-to-end ML and LLM systems (XGBoost, MLflow, RAG, LangChain, LLM-as-judge evaluation), and full-stack cloud applications (React, Flask/FastAPI, AWS, CI/CD) — backed by 1,446 automated tests across one project and 670 across another. I care about engineering rigour: dead-letter routing before data hits a database, leakage prevention before any CV fold runs, and deployment pipelines that abort on failure rather than hoping nothing breaks.
 
-I'm currently seeking a **12-month industrial placement** or **summer internship** starting in 2026, in Data Engineering, ML/AI Engineering, or Software Engineering.
+I'm currently seeking a **post-graduate role** starting in 2027, in Data Engineering, ML/AI Engineering, or Software Engineering.
 
 - 🎓 BSc (Hons) Computer Science *(Data Science & AI)* — expected graduation *June 2028*
 - 🏆 AWS Academy — [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
@@ -48,30 +48,22 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 ---
 
-## 📊 By the Numbers
-
-| | |
-|---|---|
-| 🧪 Automated tests written | **1,572** (1,446 DevSync · 48 ATM · 78 StockLens) |
-| 📐 Star schema dimensions | **9** (W3C ETL Pipeline) |
-| 🌍 Countries of geodata enriched | **78** (W3C ETL Pipeline) |
-| ⚡ Parallel Airflow tasks | **9** fan-out, **8×** faster than sequential |
-| 🤖 ML classifiers benchmarked | **7** (Haggis - ~90% accuracy) |
-| 🧩 ATM anomaly types modelled | **7** (LAAD) |
-
----
-
 ## 🔭 Featured Projects
-
----
 
 ### 🏧 ATM Log Aggregation, Analysis & Diagnostics Platform
 
 <a href="https://github.com/AhmedIkram05/laad"><img src="https://img.shields.io/badge/View Project-8c1aff?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`Python` `FastAPI` `SQLite` `APScheduler` `LangChain` `ChromaDB` `Ollama` `React` `Vite`
+`Python` `FastAPI` `PostgreSQL` `Apache Kafka` `Redis` `XGBoost` `Scikit-learn` `LangChain` `ChromaDB` `MLflow` `React` `Vite` `Docker` `AWS`
 
-Industry project for NCR Atleos - production ATM log ingestion, anomaly diagnostics, and a fully local air-gapped RAG diagnostic assistant. Led backend and data engineering end-to-end across a 7-person Agile team. 7 custom parsers, dead-letter routing, retry-with-backoff, LLM-as-judge evaluation, and 48 automated tests across 5 tiers, patching 5 critical pre-release defects including a JWT privilege escalation vulnerability.
+**Industry project for NCR Atleos** — production-grade log ingestion pipeline with 3-layer anomaly detection and Agentic RAG diagnostic assistant. Led backend, data engineering, and ML end-to-end across a 7-person Agile team.
+
+- **Kafka event streaming**: KRaft mode, 2 topics × 3 partitions, at-least-once delivery with manual offset commits. Hybrid deduplication: Redis SET with 1h TTL + 10K-entry in-memory LRU fallback.
+- **3-layer detection engine**: ML_ENSEMBLE (XGBoost + Isolation Forest, 99.8% CV accuracy) + ZSCORE (rolling 20-window sigma) + HEURISTIC (7 deterministic multi-source correlators). 600s configurable sliding window, 10-min cross-layer dedup.
+- **Agentic RAG**: Cross-encoder reranking (ms-marco-MiniLM), 3-sample self-consistency with 3-gram Jaccard similarity, Reflexion (self-critique → regenerate), citation grounding with regex entity verification. 4-signal confidence fusion: retrieval (30%) + consistency (25%) + verbalized (25%) + grounding (20%).
+- **Redis 8 patterns**: Rate limiting (sorted set), deduplication (set + TTL), JWT blacklist (string + TTL), distributed locks (SET NX EX), Pub/Sub streaming, response caching, dead-letter queue (streams with exponential backoff), analytics counters (INCR + HLL + ZINCRBY).
+- **MLOps via MLflow**: Experiment tracking, model registry with "champion" aliases. 7 artifacts per training run: xgb_classifier, isolation_forest, scaler, label_encoder, feature names, IF feature indices, calibrated UNKNOWN threshold.
+- **670 automated tests** (521 backend + 149 frontend) across 10 tiers: unit, integration, stress, security, ML, RAG, Redis, Kafka, generators, parsers
 
 ---
 
@@ -101,7 +93,17 @@ Fully automated ETL pipeline transforming raw W3C IIS logs into a 9-dimension St
 
 `React Native` `TypeScript` `Firebase` `Node.js` `Jest` `Alpha Vantage API`
 
-Full-stack mobile app converting physical receipts via OCR into structured financial records, mapping spending to stock tickers via Alpha Vantage, and projecting portfolio performance using ARIMA forecasting and Linear Regression. AES encryption at rest, biometric auth, 78 Jest tests. Currently migrating to FastAPI/PostgreSQL backend.
+Full-stack mobile app converting physical receipts via OCR into structured financial records, mapping spending to stock tickers via Alpha Vantage, and projecting portfolio performance using ARIMA forecasting and Linear Regression. AES encryption at rest, biometric auth, 78 Jest tests.
+
+---
+
+### 🦔 Haggis Species Classification & Predictive Modelling
+
+<a href="https://github.com/AhmedIkram05/haggis-predictive-modeling"><img src="https://img.shields.io/badge/View Project-F7931E?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
+
+`Python` `Scikit-learn` `XGBoost` `Pandas` `Matplotlib` `Jupyter Notebook`
+
+End-to-end ML pipeline: 7 classifiers benchmarked (~90% accuracy), 2 novel ratio-based features engineered that became top-3 predictors, GridSearchCV 5-fold CV, K-Means + DBSCAN clustering, and Linear Regression (R²=0.756). Strict leakage prevention via sklearn Pipelines with ColumnTransformer throughout.
 
 ---
 
@@ -109,19 +111,9 @@ Full-stack mobile app converting physical receipts via OCR into structured finan
 
 <a href="https://github.com/AhmedIkram05/movie-recommendation-system"><img src="https://img.shields.io/badge/View Project-47A248?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`Python` `Scikit-learn` `Flask` `MovieLens Dataset`
+`Python` `Scikit-learn` `Flask` `MovieLens Dataset` `NumPy` `Pandas`
 
 Hybrid recommendation engine (collaborative filtering + content-based) on MovieLens. ~78% hit rate, ~0.22 Precision@10. Dependency-injected strategy pattern means recommendation algorithms are fully swappable without touching the API layer. Cold-start problem addressed via hybrid signal combination.
-
----
-
-### 🦔 Haggis Data Mining & Predictive Modelling
-
-<a href="https://github.com/AhmedIkram05/haggis-predictive-modeling"><img src="https://img.shields.io/badge/View Project-F7931E?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
-
-`Python` `Scikit-learn` `XGBoost` `Pandas` `Matplotlib` `Jupyter Notebook`
-
-End-to-end ML pipeline: 7 classifiers benchmarked (~90% accuracy), 2 novel ratio-based features engineered that became top-3 predictors, GridSearchCV 5-fold CV, K-Means + DBSCAN clustering, and Linear Regression (R²=0.756). Strict leakage prevention via sklearn Pipelines with ColumnTransformer throughout.
 
 ---
 
@@ -166,6 +158,7 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&labelColor=000000&logo=css3)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&labelColor=000000&logo=tailwindcss)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&labelColor=000000&logo=bootstrap)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6B35?style=for-the-badge&labelColor=000000&logo=chart.js)
 
 **ML & AI**
 
@@ -186,14 +179,18 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&labelColor=000000&logo=sqlite)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&labelColor=000000&logo=mongodb)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&labelColor=000000&logo=mysql)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&labelColor=000000&logo=firebase)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&labelColor=000000&logo=apachekafka)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-FFFFFF?style=for-the-badge&labelColor=000000&logo=apachespark)
+![Power Automate](https://img.shields.io/badge/Power_Automate-0078D4?style=for-the-badge&labelColor=000000&logo=powerautomate)
 
 **Backend & APIs**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&labelColor=000000&logo=fastapi)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&labelColor=000000&logo=flask)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&labelColor=000000&logo=node.js)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&labelColor=000000&logo=socket.io)
+
 
 **Cloud & DevOps**
 
@@ -202,7 +199,9 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&labelColor=000000&logo=githubactions)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&labelColor=000000&logo=linux)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&labelColor=000000&logo=git)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&labelColor=000000&logo=kubernetes)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&labelColor=000000&logo=mlflow)
+![nginx](https://img.shields.io/badge/nginx-009639?style=for-the-badge&labelColor=000000&logo=nginx)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker)
 
 **Testing**
 
