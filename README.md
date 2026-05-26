@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=FFFFFF&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+Post-Graduate++or+Role">
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=FFFFFF&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+Post-Graduate+Role">
       <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+Post-Graduate++or+Role">
       <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking%2BPost-Graduate%2B%OrCreate%3A%3A" alt="Typing SVG" />
     </picture>
@@ -188,7 +188,6 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&labelColor=000000&logo=fastapi)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&labelColor=000000&logo=flask)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&labelColor=000000&logo=node.js)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&labelColor=000000&logo=socket.io)
 
@@ -202,6 +201,7 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&labelColor=000000&logo=git)
 ![MLflow](https://img.shields.io/badge/MLflow-FF6B35?style=for-the-badge&labelColor=000000&logo=mlflow)
 ![nginx](https://img.shields.io/badge/nginx-009639?style=for-the-badge&labelColor=000000&logo=nginx)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker)
 
 **Testing**
 
