@@ -97,23 +97,23 @@ Full-stack mobile app converting physical receipts via OCR into structured finan
 
 ---
 
-### 🎬 CineMatch — AI/ML Movie Recommendation System
-
-<a href="https://github.com/AhmedIkram05/movie-recommendation-system"><img src="https://img.shields.io/badge/View Project-47A248?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
-
-`Python` `Scikit-learn` `Flask` `MovieLens Dataset`
-
-Hybrid recommendation engine (collaborative filtering + content-based) on MovieLens. ~78% hit rate, ~0.22 Precision@10. Dependency-injected strategy pattern means recommendation algorithms are fully swappable without touching the API layer. Cold-start problem addressed via hybrid signal combination.
-
----
-
-### 🦔 Haggis Data Mining & Predictive Modelling
+### 🦔 Haggis Species Classification & Predictive Modelling
 
 <a href="https://github.com/AhmedIkram05/haggis-predictive-modeling"><img src="https://img.shields.io/badge/View Project-F7931E?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
 `Python` `Scikit-learn` `XGBoost` `Pandas` `Matplotlib` `Jupyter Notebook`
 
 End-to-end ML pipeline: 7 classifiers benchmarked (~90% accuracy), 2 novel ratio-based features engineered that became top-3 predictors, GridSearchCV 5-fold CV, K-Means + DBSCAN clustering, and Linear Regression (R²=0.756). Strict leakage prevention via sklearn Pipelines with ColumnTransformer throughout.
+
+---
+
+### 🎬 CineMatch — AI/ML Movie Recommendation System
+
+<a href="https://github.com/AhmedIkram05/movie-recommendation-system"><img src="https://img.shields.io/badge/View Project-47A248?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
+
+`Python` `Scikit-learn` `Flask` `MovieLens Dataset` `NumPy` `Pandas`
+
+Hybrid recommendation engine (collaborative filtering + content-based) on MovieLens. ~78% hit rate, ~0.22 Precision@10. Dependency-injected strategy pattern means recommendation algorithms are fully swappable without touching the API layer. Cold-start problem addressed via hybrid signal combination.
 
 ---
 
