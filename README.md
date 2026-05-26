@@ -158,6 +158,7 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&labelColor=000000&logo=css3)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&labelColor=000000&logo=tailwindcss)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&labelColor=000000&logo=bootstrap)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6B35?style=for-the-badge&labelColor=000000&logo=chart.js)
 
 **ML & AI**
 
@@ -180,6 +181,7 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&labelColor=000000&logo=mysql)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&labelColor=000000&logo=apachekafka)
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-FFFFFF?style=for-the-badge&labelColor=000000&logo=apachespark)
+![Power Automate](https://img.shields.io/badge/Power_Automate-0078D4?style=for-the-badge&labelColor=000000&logo=powerautomate)
 
 **Backend & APIs**
 
@@ -188,6 +190,7 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&labelColor=000000&logo=node.js)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&labelColor=000000&logo=socket.io)
 
 
 **Cloud & DevOps**
@@ -198,6 +201,7 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&labelColor=000000&logo=linux)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&labelColor=000000&logo=git)
 ![MLflow](https://img.shields.io/badge/MLflow-FF6B35?style=for-the-badge&labelColor=000000&logo=mlflow)
+![nginx](https://img.shields.io/badge/nginx-009639?style=for-the-badge&labelColor=000000&logo=nginx)
 
 **Testing**
 
