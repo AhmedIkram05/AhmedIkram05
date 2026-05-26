@@ -50,8 +50,6 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 ## 🔭 Featured Projects
 
----
-
 ### 🏧 ATM Log Aggregation, Analysis & Diagnostics Platform
 
 <a href="https://github.com/AhmedIkram05/laad"><img src="https://img.shields.io/badge/View Project-8c1aff?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
@@ -180,7 +178,8 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&labelColor=000000&logo=sqlite)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&labelColor=000000&logo=mongodb)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&labelColor=000000&logo=mysql)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&labelColor=000000&logo=firebase)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&labelColor=000000&logo=apachekafka)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-FFFFFF?style=for-the-badge&labelColor=000000&logo=apachespark)
 
 **Backend & APIs**
 
@@ -188,6 +187,8 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&labelColor=000000&logo=flask)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&labelColor=000000&logo=node.js)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
+
 
 **Cloud & DevOps**
 
@@ -196,7 +197,7 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&labelColor=000000&logo=githubactions)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&labelColor=000000&logo=linux)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&labelColor=000000&logo=git)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&labelColor=000000&logo=kubernetes)
+![MLflow](https://img.shields.io/badge/MLflow-FF6B35?style=for-the-badge&labelColor=000000&logo=mlflow)
 
 **Testing**
 
