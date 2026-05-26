@@ -3,9 +3,9 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=FFFFFF&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+12-month+Placement+or+Summer+Internship+2026">
-      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+12-month+Placement+or+Summer+Internship+2026">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+12-month+Placement+or+Summer+Internship+2026" alt="Typing SVG" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=FFFFFF&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+Post-Graduate++or+Role">
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+Post-Graduate++or+Role">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking%2BPost-Graduate%2B%OrCreate%3A%3A" alt="Typing SVG" />
     </picture>
   </a>
 </p>
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Seeking_Placement_or_Internship_2026-forestgreen?style=for-the-badge&labelColor=000000&logo=briefcase&logoColor=white">
+  <img src="https://img.shields.io/badge/Status-Seeking_Post_Graduate_Role_2027-forestgreen?style=for-the-badge&labelColor=000000&logo=briefcase&logoColor=white">
 </p>
 
 ---
@@ -32,7 +32,7 @@
 
 I'm a 3rd-year Computer Science student at the University of Dundee (Data Science & AI), on track for a First Class degree. I build production-grade systems across three tracks: **resilient data pipelines and ETL architectures** (Airflow, AWS RDS, FastAPI, Star Schema), **end-to-end ML and LLM-powered systems** (scikit-learn, PyTorch, RAG, LangChain, LLM-as-judge evaluation, MLflow), and **full-stack cloud applications** (React, React Native, Flask, WebSockets, AWS, CI/CD). I care about engineering rigour - schema design, leakage prevention, test coverage, and operational observability are first-class concerns across everything I build.
 
-I'm currently seeking a **12-month industrial placement** or **summer internship** starting in 2026, in Data Engineering, ML/AI Engineering, or Software Engineering.
+I'm currently seeking a **post-graduate role** starting in 2027, in Data Engineering, ML/AI Engineering, or Software Engineering.
 
 - 🎓 BSc (Hons) Computer Science *(Data Science & AI)* — expected graduation *June 2028*
 - 🏆 AWS Academy — [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
