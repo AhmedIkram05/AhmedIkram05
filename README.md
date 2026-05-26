@@ -30,7 +30,7 @@
 
 ## 👋 About Me
 
-I'm a 3rd-year Computer Science student at the University of Dundee (Data Science & AI), on track for a First Class degree. I build production-grade systems across three tracks: **resilient data pipelines and ETL architectures** (Airflow, AWS RDS, FastAPI, Star Schema), **end-to-end ML and LLM-powered systems** (scikit-learn, PyTorch, RAG, LangChain, LLM-as-judge evaluation, MLflow), and **full-stack cloud applications** (React, React Native, Flask, WebSockets, AWS, CI/CD). I care about engineering rigour - schema design, leakage prevention, test coverage, and operational observability are first-class concerns across everything I build.
+I'm a 3rd-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree. I build production-grade systems across three tracks: event-driven data pipelines (Kafka, Airflow, AWS, Star Schema), end-to-end ML and LLM systems (XGBoost, MLflow, RAG, LangChain, LLM-as-judge evaluation), and full-stack cloud applications (React, Flask/FastAPI, AWS, CI/CD) — backed by 1,446 automated tests across one project and 670 across another. I care about engineering rigour: dead-letter routing before data hits a database, leakage prevention before any CV fold runs, and deployment pipelines that abort on failure rather than hoping nothing breaks.
 
 I'm currently seeking a **post-graduate role** starting in 2027, in Data Engineering, ML/AI Engineering, or Software Engineering.
 
