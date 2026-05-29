@@ -28,35 +28,35 @@
 
 ---
 
-## 👋 About Me
+## About Me
 
-I'm a 3rd-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree. I build production-grade systems across three tracks: event-driven data pipelines (Kafka, Airflow, AWS, Star Schema), end-to-end ML and LLM systems (XGBoost, MLflow, RAG, LangChain, LLM-as-judge evaluation), and full-stack cloud applications (React, Flask/FastAPI, AWS, CI/CD) — backed by 1,446 automated tests across one project and 670 across another. I care about engineering rigour: dead-letter routing before data hits a database, leakage prevention before any CV fold runs, and deployment pipelines that abort on failure rather than hoping nothing breaks.
+I'm a 3rd-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree. I build production-grade systems across three tracks: event-driven data pipelines (Kafka, Airflow, AWS, Star Schema), end-to-end ML and LLM systems (XGBoost, MLflow, RAG, LangChain, LLM-as-judge evaluation), and full-stack cloud applications (React, Flask/FastAPI, AWS, CI/CD) - backed by 1,452 automated tests across one project and 670 across another. I care about engineering rigour: dead-letter routing before data hits a database, leakage prevention before any CV fold runs, and deployment pipelines that abort on failure rather than hoping nothing breaks.
 
 I'm currently seeking a **post-graduate role** starting in 2027, in Data Engineering, ML/AI Engineering, or Software Engineering.
 
-- 🎓 BSc (Hons) Computer Science *(Data Science & AI)* — expected graduation *June 2028*
-- 🏆 AWS Academy — [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
-- 🏅 Microsoft Learn — [Foundations of Azure AI: Concepts, Capabilities, and Implementation](https://www.linkedin.com/learning/certificates/e3dc3610a320ee93d032317f3906e12d09f41da322c5fc1c94d272cef7f224c9)
-- 🏆 AWS Academy — [Cloud Foundations](https://www.credly.com/badges/c4f6bb59-3638-48fe-8c0b-af5c3976731d/print)
-- 📍 Based in Dundee, Scotland — open to relocation
+- 🎓 BSc (Hons) Computer Science *(Data Science & AI)* - expected graduation *June 2028*
+- 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
+- 🏅 Microsoft Learn - [Foundations of Azure AI: Concepts, Capabilities, and Implementation](https://www.linkedin.com/learning/certificates/e3dc3610a320ee93d032317f3906e12d09f41da322c5fc1c94d272cef7f224c9)
+- 🏆 AWS Academy - [Cloud Foundations](https://www.credly.com/badges/c4f6bb59-3638-48fe-8c0b-af5c3976731d/print)
+- 📍 Based in Dundee, Scotland - open to relocation
 
 ---
 
-## 📐 How I Build
+## How I Build
 
 I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact. That means dead-letter routing before data reaches a database, leakage prevention baked into sklearn Pipelines before any cross-validation fold runs, and CI/CD gates that abort deployment on any test failure rather than hoping nothing breaks in production. I'm drawn to problems where silent failures are the hardest kind to debug - concurrent write contention, foreign key mismatches, retrieval quality in RAG systems, and I build systems that make those failures impossible to miss. I work from requirements before writing code - functional, non-functional, and acceptance criteria first - and treat API documentation, schema contracts, and test plans as deliverables in their own right, not afterthoughts.
 
 ---
 
-## 🔭 Featured Projects
+## Featured Projects
 
-### 🏧 ATM Log Aggregation, Analysis & Diagnostics Platform
+### ATM Log Aggregation, Analysis & Diagnostics Platform
 
 <a href="https://github.com/AhmedIkram05/laad"><img src="https://img.shields.io/badge/View Project-8c1aff?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
 `Python` `FastAPI` `PostgreSQL` `Apache Kafka` `Redis` `XGBoost` `Scikit-learn` `LangChain` `ChromaDB` `MLflow` `React` `Vite` `Docker` `AWS`
 
-**Industry project for NCR Atleos** — production-grade log ingestion pipeline with 3-layer anomaly detection and Agentic RAG diagnostic assistant. Led backend, data engineering, and ML end-to-end across a 7-person Agile team.
+**Industry project for NCR Atleos** - production-grade log ingestion pipeline with 3-layer anomaly detection and Agentic RAG diagnostic assistant. Led backend, data engineering, and ML end-to-end across a 7-person Agile team.
 
 - **Kafka event streaming**: KRaft mode, 2 topics × 3 partitions, at-least-once delivery with manual offset commits. Hybrid deduplication: Redis SET with 1h TTL + 10K-entry in-memory LRU fallback.
 - **3-layer detection engine**: ML_ENSEMBLE (XGBoost + Isolation Forest, 99.8% CV accuracy) + ZSCORE (rolling 20-window sigma) + HEURISTIC (7 deterministic multi-source correlators). 600s configurable sliding window, 10-min cross-layer dedup.
@@ -67,17 +67,24 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 ---
 
-### 🔗 DevSync — Project Tracker with GitHub Integration
+### DevSync - Real-Time Project Tracker with GitHub Integration
 
-<a href="https://github.com/AhmedIkram05/devsync"><img src="https://img.shields.io/badge/View Project-2496ED?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
+<a href="https://github.com/AhmedIkram05/DevSync"><img src="https://img.shields.io/badge/View Project-2496ED?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`React` `Flask` `Socket.io` `GitHub OAuth API` `PostgreSQL` `AWS` `Docker` `Pytest` `Jest` `Cypress`
+`React` `Tailwind CSS` `Flask` `Socket.IO` `PostgreSQL` `Docker` `AWS` `GitHub Actions` `Pytest` `Jest` `Cypress`
 
-Full-stack project tracker with real-time WebSocket collaboration, GitHub OAuth 2.0, and bidirectional Issue & PR linking. ECS Fargate in a custom VPC, RDS in a private subnet, CloudFront frontend - 1,446 automated tests gate every PR via GitHub Actions with OIDC federation. Deployment aborts on any failure.
+**Multi-service full-stack application** - Flask API with Socket.IO real-time sync, React SPA served through nginx, and PostgreSQL on AWS RDS. Designed for team collaboration: task management, GitHub issue/PR linking, and role-based access control with OIDC-authenticated CI/CD.
+
+- **Multi-stage Docker**: Backend compressed to 330MB (python:3.11-slim runtime, build deps stripped in stage 1). Frontend built on node:20-alpine, served by nginx:1.27-alpine with envsubst template for API_UPSTREAM. Docker resolver (127.0.0.11) for runtime DNS. Two-compose-file pattern cleanly separates PostgreSQL from the app stack.
+- **Real-time collaboration**: Flask-SocketIO with JWT-authenticated WebSocket handshake, project-scoped rooms preventing cross-project data leaks. Socket.IO-client on React side broadcasts task updates, comments, and notifications to all room members - zero polling.
+- **Full OIDC CI/CD pipeline**: GitHub Actions with OIDC federation (no static credentials). Path-filtered test gates run BE (pytest) and FE (Jest) independently. On merge: ECR push to ECS Fargate rolling update with 200-second health check deployment gate, then S3/CloudFront frontend distribution. Any test failure aborts the pipeline.
+- **JWT dual auth**: Access + refresh token flow with both cookie and Bearer header transport. 3-tier RBAC (Developer / Team Lead / Admin) enforced at endpoint level via decorators - middleware validates the numerical hierarchy so higher roles inherit all lower permissions.
+- **Database design**: 12 PostgreSQL tables with SQLAlchemy ORM, composite indexes on (project_id, status) and (user_id, notification_type) for common query patterns. Full-text search on task titles. Audit logging with automatic timestamping across all entity mutations.
+- **1,452 automated tests** (518 Pytest + 929 Jest + 5 Cypress) gate every PR. Backend tests run on SQLite in-memory - zero external database dependency required. Coverage thresholds at 85% for both backend and frontend.
 
 ---
 
-### 📊 W3C Web Logs ETL Pipeline
+### W3C Web Logs ETL Pipeline
 
 <a href="https://github.com/AhmedIkram05/w3c-etl-pipeline"><img src="https://img.shields.io/badge/View Project-017CEE?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
@@ -87,7 +94,7 @@ Fully automated ETL pipeline transforming raw W3C IIS logs into a 9-dimension St
 
 ---
 
-### 📱 StockLens — FinTech Spending & Investment App
+### StockLens - FinTech Spending & Investment App
 
 <a href="https://github.com/AhmedIkram05/stocklens"><img src="https://img.shields.io/badge/View Project-3776AB?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
@@ -97,7 +104,7 @@ Full-stack mobile app converting physical receipts via OCR into structured finan
 
 ---
 
-### 🦔 Haggis Species Classification & Predictive Modelling
+### Haggis Species Classification & Predictive Modelling
 
 <a href="https://github.com/AhmedIkram05/haggis-predictive-modeling"><img src="https://img.shields.io/badge/View Project-F7931E?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
@@ -107,7 +114,7 @@ End-to-end ML pipeline: 7 classifiers benchmarked (~90% accuracy), 2 novel ratio
 
 ---
 
-### 🎬 CineMatch — AI/ML Movie Recommendation System
+### CineMatch - AI/ML Movie Recommendation System
 
 <a href="https://github.com/AhmedIkram05/movie-recommendation-system"><img src="https://img.shields.io/badge/View Project-47A248?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
@@ -117,7 +124,7 @@ Hybrid recommendation engine (collaborative filtering + content-based) on MovieL
 
 ---
 
-### 🚗 Rental Car Management System
+### Rental Car Management System
 
 <a href="https://github.com/AhmedIkram05/rental-car-company"><img src="https://img.shields.io/badge/View Project-00599C?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
@@ -127,7 +134,7 @@ Modular C++ OOP system - polymorphic vehicle hierarchy, generic repository templ
 
 ---
 
-### 🖥️ Unix Version Control System
+### Unix Version Control System
 
 <a href="https://github.com/AhmedIkram05/unix-version-control-system"><img src="https://img.shields.io/badge/View Project-4EAA25?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
@@ -137,81 +144,84 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-**Languages**
+> Organized to mirror CV track structure - Software Engineering, ML & AI Engineering, and Data Engineering.
+
+**Software Engineering**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&labelColor=000000&logo=python)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&labelColor=000000&logo=typescript)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&labelColor=000000&logo=javascript)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&labelColor=000000&logo=postgresql)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&labelColor=000000&logo=gnu-bash)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&labelColor=000000&logo=java)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&labelColor=000000&logo=c%2B%2B)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&labelColor=000000&logo=openjdk)
-
-**Frontend & Mobile**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&labelColor=000000&logo=react)
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&labelColor=000000&logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&labelColor=000000&logo=tailwindcss)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&labelColor=000000&logo=vite)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&labelColor=000000&logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&labelColor=000000&logo=css3)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&labelColor=000000&logo=tailwindcss)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&labelColor=000000&logo=bootstrap)
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6B35?style=for-the-badge&labelColor=000000&logo=chart.js)
 
-**ML & AI**
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&labelColor=000000&logo=flask)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&labelColor=000000&logo=fastapi)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&labelColor=000000&logo=node.js)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&labelColor=000000&logo=graphql)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&labelColor=000000&logo=socket.io)
+![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&labelColor=000000)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
+
+**ML & AI Engineering**
 
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&labelColor=000000&logo=scikit-learn)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&labelColor=000000&logo=pytorch)
 ![XGBoost](https://img.shields.io/badge/XGBoost-AA0000?style=for-the-badge&labelColor=000000)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&labelColor=000000&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&labelColor=000000&logo=numpy)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&labelColor=000000)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&labelColor=000000)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&labelColor=000000)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&labelColor=000000&logo=mlflow)
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&labelColor=000000&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&labelColor=000000&logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&labelColor=000000&logo=matplotlib)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&labelColor=000000)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&labelColor=000000&logo=jupyter)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&labelColor=000000&logo=powerbi)
 
 **Data Engineering**
 
 ![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&labelColor=000000&logo=apache-airflow)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&labelColor=000000&logo=powerbi)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&labelColor=000000&logo=apachekafka)
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&labelColor=000000&logo=postgresql)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&labelColor=000000&logo=sqlite)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&labelColor=000000&logo=mongodb)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&labelColor=000000&logo=mysql)
-![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&labelColor=000000&logo=apachekafka)
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-FFFFFF?style=for-the-badge&labelColor=000000&logo=apachespark)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&labelColor=000000&logo=sqlite)
+
 ![Power Automate](https://img.shields.io/badge/Power_Automate-0078D4?style=for-the-badge&labelColor=000000&logo=powerautomate)
-
-**Backend & APIs**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&labelColor=000000&logo=fastapi)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&labelColor=000000&logo=flask)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&labelColor=000000&logo=node.js)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&labelColor=000000&logo=socket.io)
-
 
 **Cloud & DevOps**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&labelColor=000000&logo=amazonaws)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&labelColor=000000&logo=microsoftazure)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker)
+![nginx](https://img.shields.io/badge/nginx-009639?style=for-the-badge&labelColor=000000&logo=nginx)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&labelColor=000000&logo=githubactions)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&labelColor=000000&logo=linux)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&labelColor=000000&logo=git)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&labelColor=000000&logo=mlflow)
-![nginx](https://img.shields.io/badge/nginx-009639?style=for-the-badge&labelColor=000000&logo=nginx)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker)
 
 **Testing**
 
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&labelColor=000000&logo=pytest)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&labelColor=000000&logo=jest)
+![React_Testing_Library](https://img.shields.io/badge/React_Testing_Library-E33332?style=for-the-badge&labelColor=000000&logo=testing-library&logoColor=white)
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&labelColor=000000&logo=cypress)
 
 ---
 
-## 📊 GitHub Stats & Contributions
+## GitHub Stats & Contributions
 
 <div align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AhmedIkram05&show_icons=true&theme=react&hide_border=true" height="150" alt="stats graph" />
