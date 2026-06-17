@@ -30,7 +30,7 @@
 
 ## About Me
 
-I'm a 3rd-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree. I build production-grade systems across three tracks: event-driven data pipelines (Kafka, Airflow, AWS, Star Schema), end-to-end ML and LLM systems (XGBoost, MLflow, RAG, LangChain, LLM-as-judge evaluation), and full-stack cloud applications (React, Flask/FastAPI, AWS, CI/CD) - backed by 1,452 automated tests across one project and 670 across another. I care about engineering rigour: dead-letter routing before data hits a database, leakage prevention before any CV fold runs, and deployment pipelines that abort on failure rather than hoping nothing breaks.
+I'm a 3rd-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree. I build production-grade systems across three tracks: event-driven data pipelines (Kafka, Airflow, AWS, Star Schema), end-to-end ML and LLM systems (XGBoost, MLflow, RAG, LangChain, LLM-as-judge evaluation), and full-stack cloud applications (React, Flask/FastAPI, AWS, CI/CD) - backed by 2,856 automated tests across three featured projects (1,452 DevSync + 670 LAAD + 734 W3C ETL). I care about engineering rigour: dead-letter routing before data hits a database, leakage prevention before any CV fold runs, and deployment pipelines that abort on failure rather than hoping nothing breaks.
 
 I'm currently seeking a **post-graduate role** starting in 2027, in Data Engineering, ML/AI Engineering, or Software Engineering.
 
@@ -88,9 +88,16 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 <a href="https://github.com/AhmedIkram05/w3c-etl-pipeline"><img src="https://img.shields.io/badge/View Project-017CEE?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`Apache Airflow` `Python` `PostgreSQL` `AWS RDS` `Power BI` `Power Automate`
+`Databricks DLT` `dbt` `Apache Airflow` `Azure SQL` `Terraform` `Power BI` `Apache Spark` `PySpark` `Python` `Grafana` `Prometheus` `Delta Lake` `Docker` `GitHub Actions` `pytest`
 
-Fully automated ETL pipeline transforming raw W3C IIS logs into a 9-dimension Star Schema on AWS RDS. 9-way parallel Airflow fan-out makes phase three 8× faster than sequential. Geolocation enrichment across 78 countries, −1 surrogate key fallback ensuring zero dropped records, and Power Automate failure alerting. 7-page Power BI dashboard including P95 response time via DAX.
+**Serverless medallion architecture ETL** processing 93 real W3C IIS log files (2009–2011) through Bronze → Silver in Databricks DLT, with pymssql JDBC export to Azure SQL and dbt-driven transformation (dual-dialect T-SQL/PostgreSQL) into a 16-model star schema. Orchestrated by Apache Airflow with Terraform-managed infrastructure, OIDC-secured CI/CD, and 3 Grafana dashboards.
+
+- **Serverless Databricks DLT**: Bronze ingests 153,380 rows via Auto Loader with 7 `@dlt.expect_or_drop` quality checks (0 dropped). Silver enriches with 7 MaxMind GeoIP fields via consolidated struct UDF (3.5× faster than 7 separate UDFs), pairing City DB and ASN DB lookups from pure Python maxminddb — no compiled C extensions needed on serverless executors. 5 computed fields (page_category, traffic_type, is_crawler, size_band, referrer_domain) bring the total to 31 columns across 153,377 rows, spanning 30+ countries.
+- **45-second JDBC export**: pymssql batch executemany (BATCH_SIZE=5000) with 4-attempt exponential backoff — 8–9× faster than the initial 413s implementation. Key optimisations: `tuple(row)` over `row.asDict()` (eliminates 4.7M dict allocations), Spark-side pre-filter before `collect()`, and removed redundant `.count()` scan.
+- **Dual-dialect dbt (T-SQL/PostgreSQL)**: 16 models (10 staging + 6 marts) compile against both Azure SQL (production) and PostgreSQL (dev/CI) via inline `{% if target.type == 'sqlserver' %}` branches — no separate `_azure.sql` files. 18 T-SQL compatibility macros + 2 dispatch overrides. 121 data tests: 48 not_null · 18 unique · 21 accepted_values · 10 relationships · 24 expression_is_true.
+- **Airflow Dataset-driven orchestration**: 4 DAGs across 2 pipelines (Azure + Docker dev). Dataset outlet `mssql://...` decouples ingestion from transformation — no polling overhead, no hard-coded DAG IDs. 4 operator types: DatabricksRunNow, DatabricksSubmitRun, PythonOperator, SparkSubmitOperator.
+- **Full Terraform IaC + OIDC**: 4 modules (networking, datalake, databricks, warehouse) + 24 Databricks resources managed as code. OIDC Workload Identity Federation eliminates all static Azure credentials — the CI/CD runner assumes an Azure AD identity via token exchange at runtime.
+- **3 Grafana dashboards + 734 tests**: 23 panels across ETL, containers, and pipeline health with 8 Prometheus alert rules. Custom data freshness probe exposes 4 gauges (Bronze/Silver/SQL row counts + composite status). Python test suite (613 pytest: 468 unit + 92 Terraform + 23 DAG integrity + 18 integration + 12 dbt-compile) plus 121 dbt data tests (46 not_null + 24 expression + 21 accepted + 16 unique + 10 relationships + 4 singular).
 
 ---
 
@@ -195,10 +202,16 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 
 ![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&labelColor=000000&logo=apache-airflow)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&labelColor=000000&logo=apachekafka)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&labelColor=000000&logo=apachespark)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&labelColor=000000&logo=apachespark)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&labelColor=000000&logo=databricks)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&labelColor=000000&logo=dbt)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-4AB197?style=for-the-badge&labelColor=000000&logo=delta)
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&labelColor=000000&logo=postgresql)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&labelColor=000000&logo=mongodb)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&labelColor=000000&logo=mysql)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&labelColor=000000&logo=microsoftsqlserver)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&labelColor=000000&logo=sqlite)
 
 ![Power Automate](https://img.shields.io/badge/Power_Automate-0078D4?style=for-the-badge&labelColor=000000&logo=powerautomate)
@@ -207,10 +220,13 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&labelColor=000000&logo=amazonaws)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&labelColor=000000&logo=microsoftazure)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&labelColor=000000&logo=terraform)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker)
 ![nginx](https://img.shields.io/badge/nginx-009639?style=for-the-badge&labelColor=000000&logo=nginx)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&labelColor=000000&logo=githubactions)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&labelColor=000000&logo=linux)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&labelColor=000000&logo=prometheus)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&labelColor=000000&logo=grafana)
 
 **Testing**
 
