@@ -30,7 +30,7 @@
 
 ## About Me
 
-I'm a 3rd-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree. I build production-grade systems across three tracks: event-driven data pipelines (Kafka, Airflow, AWS, Star Schema), end-to-end ML and LLM systems (XGBoost, MLflow, RAG, LangChain, LLM-as-judge evaluation), and full-stack cloud applications (React, Flask/FastAPI, AWS, CI/CD) - backed by 2,856 automated tests across three featured projects (1,452 DevSync + 670 LAAD + 734 W3C ETL). I care about engineering rigour: dead-letter routing before data hits a database, leakage prevention before any CV fold runs, and deployment pipelines that abort on failure rather than hoping nothing breaks.
+I'm a 3rd-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree. I build production-grade systems across three tracks: event-driven data pipelines (Kafka, Airflow, AWS, Star Schema), end-to-end ML and LLM systems (XGBoost, MLflow, RAG, LangChain, LLM-as-judge evaluation), and full-stack cloud applications (React, Flask/FastAPI, AWS, CI/CD) - backed by 3,628 automated tests across three featured projects (1,452 DevSync + 1,402 LAAD + 734 W3C ETL). I care about engineering rigour: dead-letter routing before data hits a database, leakage prevention before any CV fold runs, and deployment pipelines that abort on failure rather than hoping nothing breaks.
 
 I'm currently seeking a **post-graduate role** starting in 2027, in Data Engineering, ML/AI Engineering, or Software Engineering.
 
@@ -54,16 +54,17 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 <a href="https://github.com/AhmedIkram05/laad"><img src="https://img.shields.io/badge/View Project-8c1aff?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`Python` `FastAPI` `PostgreSQL` `Apache Kafka` `Redis` `XGBoost` `Scikit-learn` `LangChain` `ChromaDB` `MLflow` `React` `Vite` `Docker` `AWS`
+`Python` `FastAPI` `PostgreSQL` `Apache Kafka` `Redis` `XGBoost` `Scikit-learn` `Pandas` `LangChain` `ChromaDB` `Ollama` `MLflow` `SageMaker` `React` `Vite` `Tailwind CSS` `Chart.js` `Nginx` `Docker` `Terraform` `GitHub Actions` `Playwright` `AWS`
 
-**Industry project for NCR Atleos** - production-grade log ingestion pipeline with 3-layer anomaly detection and Agentic RAG diagnostic assistant. Led backend, data engineering, and ML end-to-end across a 7-person Agile team.
+**Industry project for NCR Atleos** - ATM log ingestion pipeline with 3-layer anomaly detection (XGBoost + Isolation Forest at 99.8% CV accuracy, Z-score, heuristic rules across 49 features) and a fully air-gapped LangChain + ChromaDB RAG diagnostic assistant with cross-encoder reranking, self-consistency scoring, reflexion, and 4-signal confidence fusion — no external API calls. Ingests 930K+ events from 7 log sources through Kafka KRaft with hybrid Redis/in-memory dedup and dead-letter routing. Deployed via Terraform (10 modules, 118 resources) to ECS Fargate behind 3 OIDC-authenticated CI/CD pipelines. 1,402 tests (923 pytest + 394 vitest + 10 Playwright E2E + 75 Terraform IaC) gate every PR; patched 5 pre-release defects including a JWT privilege escalation vulnerability.
 
 - **Kafka event streaming**: KRaft mode, 2 topics × 3 partitions, at-least-once delivery with manual offset commits. Hybrid deduplication: Redis SET with 1h TTL + 10K-entry in-memory LRU fallback.
 - **3-layer detection engine**: ML_ENSEMBLE (XGBoost + Isolation Forest, 99.8% CV accuracy) + ZSCORE (rolling 20-window sigma) + HEURISTIC (7 deterministic multi-source correlators). 600s configurable sliding window, 10-min cross-layer dedup.
 - **Agentic RAG**: Cross-encoder reranking (ms-marco-MiniLM), 3-sample self-consistency with 3-gram Jaccard similarity, Reflexion (self-critique → regenerate), citation grounding with regex entity verification. 4-signal confidence fusion: retrieval (30%) + consistency (25%) + verbalized (25%) + grounding (20%).
 - **Redis 8 patterns**: Rate limiting (sorted set), deduplication (set + TTL), JWT blacklist (string + TTL), distributed locks (SET NX EX), Pub/Sub streaming, response caching, dead-letter queue (streams with exponential backoff), analytics counters (INCR + HLL + ZINCRBY).
-- **MLOps via MLflow**: Experiment tracking, model registry with "champion" aliases. 7 artifacts per training run: xgb_classifier, isolation_forest, scaler, label_encoder, feature names, IF feature indices, calibrated UNKNOWN threshold.
-- **670 automated tests** (521 backend + 149 frontend) across 10 tiers: unit, integration, stress, security, ML, RAG, Redis, Kafka, generators, parsers
+- **MLOps via MLflow**: Experiment tracking, model registry with "champion" aliases. 7 artifacts per training run: xgb_classifier, isolation_forest, scaler, label_encoder, feature names, IF feature indices, calibrated UNKNOWN threshold. XGBoost model deployed to SageMaker `laad-xgb-champion` endpoint on ml.t2.medium for inference.
+- **IaC & documentation**: 10-module Terraform (118 resources, 9 modules with 75 test assertions). checkov compliance baseline with inline skips. 1,386-line W3C-pattern documentation with 10 mermaid diagrams covering architecture, Kafka error flow, DB ERD, detection engine, ML training, RAG pipeline, Redis data flow, frontend hierarchy, AWS VPC topology, and CI/CD pipeline.
+- **1,402 automated tests** (923 pytest across 10 tiers + 394 vitest + 10 Playwright E2E + 75 Terraform IaC) with checkov compliance scanning. 10-tier backend pytest suites: unit, integration, stress, security, ML, RAG, Redis, Kafka, generators, parsers. Terraform test covers 75 assertions across 9 modules.
 
 ---
 
@@ -121,36 +122,6 @@ End-to-end ML pipeline: 7 classifiers benchmarked (~90% accuracy), 2 novel ratio
 
 ---
 
-### CineMatch - AI/ML Movie Recommendation System
-
-<a href="https://github.com/AhmedIkram05/movie-recommendation-system"><img src="https://img.shields.io/badge/View Project-47A248?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
-
-`Python` `Scikit-learn` `Flask` `MovieLens Dataset` `NumPy` `Pandas`
-
-Hybrid recommendation engine (collaborative filtering + content-based) on MovieLens. ~78% hit rate, ~0.22 Precision@10. Dependency-injected strategy pattern means recommendation algorithms are fully swappable without touching the API layer. Cold-start problem addressed via hybrid signal combination.
-
----
-
-### Rental Car Management System
-
-<a href="https://github.com/AhmedIkram05/rental-car-company"><img src="https://img.shields.io/badge/View Project-00599C?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
-
-`C++`
-
-Modular C++ OOP system - polymorphic vehicle hierarchy, generic repository template pattern, zero raw pointer usage (smart pointers throughout). Levenshtein distance fuzzy search, automated late fee and loyalty rewards logic, file-based persistence, and an 8-scenario E2E test suite.
-
----
-
-### Unix Version Control System
-
-<a href="https://github.com/AhmedIkram05/unix-version-control-system"><img src="https://img.shields.io/badge/View Project-4EAA25?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
-
-`Bash` `Unix`
-
-Git-like VCS built from scratch in pure Bash - zero external dependencies beyond native Unix utilities. File locking, timestamped versioning, automatic diff generation, filterable activity logs with user attribution, multi-repo support, and compressed archive export. Currently implementing branching, three-way merge, and benchmarking against Git.
-
----
-
 ## Tech Stack
 
 > Organized to mirror CV track structure - Software Engineering, ML & AI Engineering, and Data Engineering.
@@ -162,7 +133,6 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&labelColor=000000&logo=javascript)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&labelColor=000000&logo=postgresql)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&labelColor=000000&logo=gnu-bash)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&labelColor=000000&logo=java)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&labelColor=000000&logo=c%2B%2B)
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&labelColor=000000&logo=react)
@@ -188,7 +158,6 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![XGBoost](https://img.shields.io/badge/XGBoost-AA0000?style=for-the-badge&labelColor=000000)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&labelColor=000000)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&labelColor=000000)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&labelColor=000000)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&labelColor=000000&logo=mlflow)
 
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&labelColor=000000&logo=pandas)
@@ -234,6 +203,8 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&labelColor=000000&logo=jest)
 ![React_Testing_Library](https://img.shields.io/badge/React_Testing_Library-E33332?style=for-the-badge&labelColor=000000&logo=testing-library&logoColor=white)
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&labelColor=000000&logo=cypress)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&labelColor=000000&logo=playwright)
+![checkov](https://img.shields.io/badge/checkov-0A9EDC?style=for-the-badge&labelColor=000000)
 
 ---
 
