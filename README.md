@@ -122,36 +122,6 @@ End-to-end ML pipeline: 7 classifiers benchmarked (~90% accuracy), 2 novel ratio
 
 ---
 
-### CineMatch - AI/ML Movie Recommendation System
-
-<a href="https://github.com/AhmedIkram05/movie-recommendation-system"><img src="https://img.shields.io/badge/View Project-47A248?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
-
-`Python` `Scikit-learn` `Flask` `MovieLens Dataset` `NumPy` `Pandas`
-
-Hybrid recommendation engine (collaborative filtering + content-based) on MovieLens. ~78% hit rate, ~0.22 Precision@10. Dependency-injected strategy pattern means recommendation algorithms are fully swappable without touching the API layer. Cold-start problem addressed via hybrid signal combination.
-
----
-
-### Rental Car Management System
-
-<a href="https://github.com/AhmedIkram05/rental-car-company"><img src="https://img.shields.io/badge/View Project-00599C?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
-
-`C++`
-
-Modular C++ OOP system - polymorphic vehicle hierarchy, generic repository template pattern, zero raw pointer usage (smart pointers throughout). Levenshtein distance fuzzy search, automated late fee and loyalty rewards logic, file-based persistence, and an 8-scenario E2E test suite.
-
----
-
-### Unix Version Control System
-
-<a href="https://github.com/AhmedIkram05/unix-version-control-system"><img src="https://img.shields.io/badge/View Project-4EAA25?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
-
-`Bash` `Unix`
-
-Git-like VCS built from scratch in pure Bash - zero external dependencies beyond native Unix utilities. File locking, timestamped versioning, automatic diff generation, filterable activity logs with user attribution, multi-repo support, and compressed archive export. Currently implementing branching, three-way merge, and benchmarking against Git.
-
----
-
 ## Tech Stack
 
 > Organized to mirror CV track structure - Software Engineering, ML & AI Engineering, and Data Engineering.
@@ -163,7 +133,6 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&labelColor=000000&logo=javascript)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&labelColor=000000&logo=postgresql)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&labelColor=000000&logo=gnu-bash)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&labelColor=000000&logo=java)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&labelColor=000000&logo=c%2B%2B)
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&labelColor=000000&logo=react)
@@ -189,7 +158,6 @@ Git-like VCS built from scratch in pure Bash - zero external dependencies beyond
 ![XGBoost](https://img.shields.io/badge/XGBoost-AA0000?style=for-the-badge&labelColor=000000)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&labelColor=000000)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&labelColor=000000)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&labelColor=000000)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&labelColor=000000&logo=mlflow)
 
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&labelColor=000000&logo=pandas)
