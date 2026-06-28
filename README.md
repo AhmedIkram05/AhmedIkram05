@@ -169,7 +169,7 @@ End-to-end ML pipeline: 7 classifiers benchmarked (~90% accuracy), 2 novel ratio
 
 **Data Engineering**
 
-![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&labelColor=000000&logo=apache-airflow)
+![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&labelColor=000000&logo=apache-airflow)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&labelColor=000000&logo=apachekafka)
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&labelColor=000000&logo=apachespark)
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&labelColor=000000&logo=apachespark)
