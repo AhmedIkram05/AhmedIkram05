@@ -124,8 +124,6 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 ## Tech Stack
 
-> Organized to mirror CV track structure - Software Engineering, ML & AI Engineering, and Data Engineering.
-
 **Software Engineering**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&labelColor=000000&logo=python)
