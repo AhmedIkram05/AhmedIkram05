@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="./Ahmed-Ikram-CV-2026-DE.pdf"><img src="https://img.shields.io/badge/CV - Data Engineering-8c1aff?style=for-the-badge&labelColor=000000"></a>
-  <a href="./Ahmed-Ikram-CV-2026-AI:ML.pdf"><img src="https://img.shields.io/badge/CV - ML & AI Engineering-0E8A90?style=for-the-badge&labelColor=000000"></a>
+  <a href="./Ahmed-Ikram-CV-2026-AI:ML.pdf"><img src="https://img.shields.io/badge/CV - AI Engineering-0E8A90?style=for-the-badge&labelColor=000000"></a>
   <a href="./Ahmed-Ikram-CV-2026-SWE.pdf"><img src="https://img.shields.io/badge/CV - Software Engineering-D14836?style=for-the-badge&labelColor=000000"></a>
 </p>
 
