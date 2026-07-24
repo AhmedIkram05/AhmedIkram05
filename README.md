@@ -122,16 +122,6 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 ---
 
-### Haggis Species Classification & Predictive Modelling
-
-<a href="https://github.com/AhmedIkram05/haggis-predictive-modeling"><img src="https://img.shields.io/badge/View Project-F7931E?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
-
-`Python` `Scikit-learn` `XGBoost` `Pandas` `Matplotlib` `Jupyter Notebook`
-
-End-to-end ML pipeline: 7 classifiers benchmarked (~90% accuracy), 2 novel ratio-based features engineered that became top-3 predictors, GridSearchCV 5-fold CV, K-Means + DBSCAN clustering, and Linear Regression (R²=0.756). Strict leakage prevention via sklearn Pipelines with ColumnTransformer throughout.
-
----
-
 ## Tech Stack
 
 > Organized to mirror CV track structure - Software Engineering, ML & AI Engineering, and Data Engineering.
