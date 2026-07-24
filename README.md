@@ -3,9 +3,9 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=FFFFFF&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+Post-Graduate+Role">
-      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+Post-Graduate+Role">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=3rd+Year+CS+%40+University+of+Dundee+%7C+First+Class+Track;Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Software+Engineer;Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS+%C2%B7+Docker;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+%C2%B7+LLM+Evaluation;Seeking+Post-Graduate+Role" alt="Typing SVG" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=FFFFFF&center=true&vCenter=true&width=700&lines=Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Applied+ML+Engineer;Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+LLM+Evaluation;Open+to+Data+Engineering%2C+AI%2FML+Roles">
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Applied+ML+Engineer;Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+LLM+Evaluation;Open+to+Data+Engineering%2C+AI%2FML+Roles">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Applied+ML+Engineer;Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+LLM+Evaluation;Open+to+Data+Engineering%2C+AI%2FML+Roles" alt="Typing SVG" />
     </picture>
   </a>
 </p>
@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="./Ahmed-Ikram-CV-2026-DE.pdf"><img src="https://img.shields.io/badge/CV - Data Engineering-8c1aff?style=for-the-badge&labelColor=000000"></a>
-  <a href="./Ahmed-Ikram-CV-2026-AI:ML.pdf"><img src="https://img.shields.io/badge/CV - ML & AI Engineering-0E8A90?style=for-the-badge&labelColor=000000"></a>
+  <a href="./Ahmed-Ikram-CV-2026-AI:ML.pdf"><img src="https://img.shields.io/badge/CV - AI Engineering-0E8A90?style=for-the-badge&labelColor=000000"></a>
   <a href="./Ahmed-Ikram-CV-2026-SWE.pdf"><img src="https://img.shields.io/badge/CV - Software Engineering-D14836?style=for-the-badge&labelColor=000000"></a>
 </p>
 
@@ -106,25 +106,23 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 <a href="https://github.com/AhmedIkram05/stocklens"><img src="https://img.shields.io/badge/View Project-3776AB?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`React Native` `TypeScript` `Firebase` `Node.js` `Jest` `Alpha Vantage API`
+`Python` `FastAPI` `TypeScript` `React Native` `Expo` `Rust` `PyO3` `PyTorch` `LangGraph` `AWS Bedrock` `PostgreSQL` `Redis` `Apache Airflow` `MLflow` `Optuna` `Evidently AI` `Terraform` `Docker` `GitHub Actions` `AWS` `SageMaker` `Jest` `Pytest`
 
-Full-stack mobile app converting physical receipts via OCR into structured financial records, mapping spending to stock tickers via Alpha Vantage, and projecting portfolio performance using ARIMA forecasting and Linear Regression. AES encryption at rest, biometric auth, 78 Jest tests.
+**Production-grade FinTech platform** - Scan receipts via a confidence-gated OCR cascade (Tesseract → AWS Bedrock Vision LLM fallback), trade real stocks with the extracted amounts, track portfolios with cash-flow-aware time-weighted returns, get 5-day LSTM directional forecasts, benchmark against SPY (tracking error + information ratio), and query holdings via a 16-tool LangGraph ReAct agent streaming over SSE — all deployed on AWS ECS Fargate ARM64 via Terraform IaC with OIDC CI/CD.
 
----
-
-### Haggis Species Classification & Predictive Modelling
-
-<a href="https://github.com/AhmedIkram05/haggis-predictive-modeling"><img src="https://img.shields.io/badge/View Project-F7931E?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
-
-`Python` `Scikit-learn` `XGBoost` `Pandas` `Matplotlib` `Jupyter Notebook`
-
-End-to-end ML pipeline: 7 classifiers benchmarked (~90% accuracy), 2 novel ratio-based features engineered that became top-3 predictors, GridSearchCV 5-fold CV, K-Means + DBSCAN clustering, and Linear Regression (R²=0.756). Strict leakage prevention via sklearn Pipelines with ColumnTransformer throughout.
+- **Multi-service backend**: FastAPI (Python 3.13, asyncpg, SQLAlchemy 2.0, Pydantic v2, structlog) serving 59 REST endpoints across 14 routers. Separate LangGraph agent service (2-node `StateGraph`, 16 tools, 7 categories, `ChatBedrockConverse` via Nova Lite) with two-tier Redis (7-day TTL) + PostgreSQL conversation persistence. 1,415 pytest functions across 76 test files, 90% line coverage gate.
+- **Rust acceleration layer**: PyO3/Maturin native extension replacing pandas for 17 technical indicators (log returns, SMA, RSI, MACD, rolling vol, Bollinger %B, ATR, OBV, Williams %R, ROC, cross-sectional excess returns vs SPY). 13 source modules, 12 exported functions, O(n) zero-Python-overhead batch computation. Built for ARM64 in CI via `maturin build --release`.
+- **Global LSTM forecasting**: PyTorch model with 16-dim entity embeddings across 475+ S&P 500 tickers, 2-layer LSTM (hidden=80, dropout=0.535), Focal Loss (γ=1.49), Optuna 50-trial HPO. 51.63% directional accuracy (vs 33% random baseline), simulated Sharpe 0.97. Chronological 70/15/15 splits, 6-year OHLCV lookback.
+- **NLP cascade OCR pipeline**: 4-stage escalation — Tesseract regex (base) → Bedrock Vision LLM (Nova Lite) → Text-only LLM → Degraded fallback. Confidence gating (overall ≥0.7, OCR ≥0.6, merchant verified via rapidfuzz ≥80). Discrepancy detection with float tolerance + string normalization. Redis 24h cache avoids redundant Bedrock calls.
+- **Portfolio analytics engine**: Time-weighted return with explicit cash-flow handling (dedicated `cash_flows` table, not generic ledger). Hybrid cache: PostgreSQL for bulk OHLCV (indexed range queries), Redis for quotes (5-min TTL) and history (60-min TTL). Benchmark comparison yields Tracking Error and Information Ratio vs SPY. yfinance wrapped in `ThreadPoolExecutor` (8 workers) + `tenacity` retries.
+- **MLOps retraining pipeline**: Apache Airflow 2.11 on ECS Fargate ARM64, weekly cron (Mon 06:00 UTC). Feature computation via Rust engine → Optuna HPO → MLflow tracking → Champion/Challenger evaluation (DA improvement >2pp promotes). Evidently AI drift detection (PSI>0.25, KS>0.3, JSD>0.3) on features + predictions. Champion model served via EFS mount (zero-copy) + S3 + `model_registry` table. Optional SageMaker endpoint (`ml.m5.xlarge`).
+- **Frontend**: React Native + Expo 54 + TypeScript 5.9, file-based routing (Expo Router), Zustand state, biometric auth, dark mode, auto-lock on background. 85 test files, 822 Jest assertions (branches≥75%, functions≥80%, lines≥90%).
+- **Infrastructure**: Terraform ≥1.9 (14 modules, 193 resources). VPC (2 AZs, public/private), ALB + WAF (rate-based + OWASP), ECS Fargate ARM64/Graviton, Multi-AZ RDS PostgreSQL 18, ElastiCache Redis 8.8 (TLS + AUTH), EFS for champion model, CloudWatch alarms. 3-tier security groups (Internet→ALB→ECS→RDS/Redis).
+- **CI/CD**: GitHub Actions OIDC (no static AWS creds). 9 parallel CI jobs (Lint/TS/Tests/Security/Rust/Backend/Docker/IaC/Secrets) — path-aware, each runs only on relevant changes. 7-stage CD: Build (Rust wheel ARM64, 4 Docker images) → Trivy critical scan → Terraform plan → Manual approval → Apply → ECS rolling update with health-check gating. CodeQL weekly, Dependabot weekly.
 
 ---
 
 ## Tech Stack
-
-> Organized to mirror CV track structure - Software Engineering, ML & AI Engineering, and Data Engineering.
 
 **Software Engineering**
 
@@ -133,10 +131,11 @@ End-to-end ML pipeline: 7 classifiers benchmarked (~90% accuracy), 2 novel ratio
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&labelColor=000000&logo=javascript)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&labelColor=000000&logo=postgresql)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&labelColor=000000&logo=gnu-bash)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&labelColor=000000&logo=c%2B%2B)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&labelColor=000000&logo=rust)
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&labelColor=000000&logo=react)
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&labelColor=000000&logo=react)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&labelColor=000000&logo=expo)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&labelColor=000000&logo=tailwindcss)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&labelColor=000000&logo=vite)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&labelColor=000000&logo=html5)
@@ -146,19 +145,26 @@ End-to-end ML pipeline: 7 classifiers benchmarked (~90% accuracy), 2 novel ratio
 
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&labelColor=000000&logo=flask)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&labelColor=000000&logo=fastapi)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&labelColor=000000&logo=sqlalchemy)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&labelColor=000000&logo=pydantic)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&labelColor=000000&logo=node.js)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&labelColor=000000&logo=graphql)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&labelColor=000000&logo=socket.io)
 ![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&labelColor=000000)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
+![slowapi](https://img.shields.io/badge/slowapi-000000?style=for-the-badge&labelColor=000000)
 
 **ML & AI Engineering**
 
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&labelColor=000000&logo=scikit-learn)
 ![XGBoost](https://img.shields.io/badge/XGBoost-AA0000?style=for-the-badge&labelColor=000000)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&labelColor=000000)
+![LangGraph](https://img.shields.io/badge/LangGraph-7C3AED?style=for-the-badge&labelColor=000000)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&labelColor=000000)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&labelColor=000000&logo=mlflow)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&labelColor=000000&logo=pytorch)
+![Optuna](https://img.shields.io/badge/Optuna-F97316?style=for-the-badge&labelColor=000000)
+![Evidently AI](https://img.shields.io/badge/Evidently_AI-00A3E0?style=for-the-badge&labelColor=000000)
 
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&labelColor=000000&logo=pandas)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&labelColor=000000&logo=numpy)
@@ -176,12 +182,15 @@ End-to-end ML pipeline: 7 classifiers benchmarked (~90% accuracy), 2 novel ratio
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&labelColor=000000&logo=databricks)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&labelColor=000000&logo=dbt)
 ![Delta Lake](https://img.shields.io/badge/Delta_Lake-4AB197?style=for-the-badge&labelColor=000000&logo=delta)
+![PyO3](https://img.shields.io/badge/PyO3-DEA584?style=for-the-badge&labelColor=000000&logo=rust)
+![Maturin](https://img.shields.io/badge/Maturin-E5701F?style=for-the-badge&labelColor=000000)
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&labelColor=000000&logo=postgresql)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&labelColor=000000&logo=mongodb)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&labelColor=000000&logo=mysql)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&labelColor=000000&logo=microsoftsqlserver)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&labelColor=000000&logo=sqlite)
+![ElastiCache](https://img.shields.io/badge/ElastiCache-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
 
 ![Power Automate](https://img.shields.io/badge/Power_Automate-0078D4?style=for-the-badge&labelColor=000000&logo=powerautomate)
 
@@ -196,8 +205,11 @@ End-to-end ML pipeline: 7 classifiers benchmarked (~90% accuracy), 2 novel ratio
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&labelColor=000000&logo=linux)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&labelColor=000000&logo=prometheus)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&labelColor=000000&logo=grafana)
+![Trivy](https://img.shields.io/badge/Trivy-19A974?style=for-the-badge&labelColor=000000&logo=aqua)
+![CodeQL](https://img.shields.io/badge/CodeQL-6E5494?style=for-the-badge&labelColor=000000&logo=github)
+![Dependabot](https://img.shields.io/badge/Dependabot-000000?style=for-the-badge&labelColor=000000&logo=github)
 
-**Testing**
+**Testing & Quality**
 
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&labelColor=000000&logo=pytest)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&labelColor=000000&logo=jest)
@@ -205,6 +217,14 @@ End-to-end ML pipeline: 7 classifiers benchmarked (~90% accuracy), 2 novel ratio
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&labelColor=000000&logo=cypress)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&labelColor=000000&logo=playwright)
 ![checkov](https://img.shields.io/badge/checkov-0A9EDC?style=for-the-badge&labelColor=000000)
+![Ruff](https://img.shields.io/badge/Ruff-000000?style=for-the-badge&labelColor=000000&logo=ruff)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&labelColor=000000&logo=eslint)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&labelColor=000000&logo=prettier)
+![Checkov](https://img.shields.io/badge/Checkov-5C2D91?style=for-the-badge&labelColor=000000&logo=checkov)
+![tfsec](https://img.shields.io/badge/tfsec-000000?style=for-the-badge&labelColor=000000)
+![Gitleaks](https://img.shields.io/badge/Gitleaks-000000?style=for-the-badge&labelColor=000000)
+![Codecov](https://img.shields.io/badge/Codecov-F01F7E?style=for-the-badge&labelColor=000000&logo=codecov)
+![hadolint](https://img.shields.io/badge/hadolint-000000?style=for-the-badge&labelColor=000000)
 
 ---
 
