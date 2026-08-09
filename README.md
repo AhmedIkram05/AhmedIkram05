@@ -3,9 +3,9 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=FFFFFF&center=true&vCenter=true&width=700&lines=Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Applied+ML+Engineer;Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+PyTorch+%C2%B7+QLoRA+%C2%B7+vLLM;LLMOps+%C2%B7+SWE-bench+%C2%B7+Execution-Based+LLM+Eval+%C2%B7+CI%2FCD;Open+to+Data+Engineering%2C+AI%2FML+Roles">
-      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Applied+ML+Engineer;Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+PyTorch+%C2%B7+QLoRA+%C2%B7+vLLM;LLMOps+%C2%B7+SWE-bench+%C2%B7+Execution-Based+LLM+Eval+%C2%B7+CI%2FCD;Open+to+Data+Engineering%2C+AI%2FML+Roles">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Applied+ML+Engineer;Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+PyTorch+%C2%B7+QLoRA+%C2%B7+vLLM;LLMOps+%C2%B7+SWE-bench+%C2%B7+Execution-Based+LLM+Eval+%C2%B7+CI%2FCD;Open+to+Data+Engineering%2C+AI%2FML+Roles" alt="Typing SVG" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=FFFFFF&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering">
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering" alt="Typing SVG" />
     </picture>
   </a>
 </p>
@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="./Ahmed-Ikram-CV-2026-DE.pdf"><img src="https://img.shields.io/badge/CV - Data Engineering-8c1aff?style=for-the-badge&labelColor=000000"></a>
-  <a href="./Ahmed-Ikram-CV-2026-AI:ML.pdf"><img src="https://img.shields.io/badge/CV - AI Engineering-0E8A90?style=for-the-badge&labelColor=000000"></a>
+  <a href="./Ahmed-Ikram-CV-2026-AI.pdf"><img src="https://img.shields.io/badge/CV - AI Engineering-0E8A90?style=for-the-badge&labelColor=000000"></a>
   <a href="./Ahmed-Ikram-CV-2026-SWE.pdf"><img src="https://img.shields.io/badge/CV - Software Engineering-D14836?style=for-the-badge&labelColor=000000"></a>
 </p>
 
@@ -32,7 +32,7 @@
 
 I'm a 3rd-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree. I build production-grade systems across three tracks: event-driven data pipelines (Kafka, Airflow, AWS/GCP, Star Schema), end-to-end ML and LLM systems (XGBoost, MLflow, QLoRA fine-tuning, RAG, LangChain, execution-based LLM evaluation, statistical model promotion), and full-stack cloud applications (React, Flask/FastAPI, AWS/GCP, CI/CD) - backed by 7,281 automated tests across five featured projects (1,452 DevSync + 1,402 LAAD + 734 W3C ETL + 2,237 StockLens + 1,456 SWE-Qwen). I care about engineering rigour: dead-letter routing before data hits a database, leakage prevention before any CV fold runs, execution-based evaluation before a model earns champion status, and deployment pipelines that abort on failure rather than hoping nothing breaks.
 
-I'm currently seeking a **post-graduate role** starting in 2027, in Data Engineering, ML/AI Engineering, or Software Engineering.
+I'm currently seeking a **post-graduate role** starting in 2027, in Data, AI or Software Engineering.
 
 - 🎓 BSc (Hons) Computer Science *(Data Science & AI)* - expected graduation *June 2028*
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
