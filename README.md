@@ -3,9 +3,9 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=FFFFFF&center=true&vCenter=true&width=700&lines=Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Applied+ML+Engineer;Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+LLM+Evaluation;Open+to+Data+Engineering%2C+AI%2FML+Roles">
-      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Applied+ML+Engineer;Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+LLM+Evaluation;Open+to+Data+Engineering%2C+AI%2FML+Roles">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=Data+Engineer+%C2%B7+AI+Engineer+%C2%B7+Applied+ML+Engineer;Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+LangChain+%C2%B7+React+%C2%B7+AWS;RAG+Pipelines+%C2%B7+ETL+%C2%B7+CI%2FCD+%C2%B7+Full-Stack+LLM+Evaluation;Open+to+Data+Engineering%2C+AI%2FML+Roles" alt="Typing SVG" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=FFFFFF&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering">
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering" alt="Typing SVG" />
     </picture>
   </a>
 </p>
@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="./Ahmed-Ikram-CV-2026-DE.pdf"><img src="https://img.shields.io/badge/CV - Data Engineering-8c1aff?style=for-the-badge&labelColor=000000"></a>
-  <a href="./Ahmed-Ikram-CV-2026-AI:ML.pdf"><img src="https://img.shields.io/badge/CV - AI Engineering-0E8A90?style=for-the-badge&labelColor=000000"></a>
+  <a href="./Ahmed-Ikram-CV-2026-AI.pdf"><img src="https://img.shields.io/badge/CV - AI Engineering-0E8A90?style=for-the-badge&labelColor=000000"></a>
   <a href="./Ahmed-Ikram-CV-2026-SWE.pdf"><img src="https://img.shields.io/badge/CV - Software Engineering-D14836?style=for-the-badge&labelColor=000000"></a>
 </p>
 
@@ -30,9 +30,9 @@
 
 ## About Me
 
-I'm a 3rd-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree. I build production-grade systems across three tracks: event-driven data pipelines (Kafka, Airflow, AWS, Star Schema), end-to-end ML and LLM systems (XGBoost, MLflow, RAG, LangChain, LLM-as-judge evaluation), and full-stack cloud applications (React, Flask/FastAPI, AWS, CI/CD) - backed by 3,628 automated tests across three featured projects (1,452 DevSync + 1,402 LAAD + 734 W3C ETL). I care about engineering rigour: dead-letter routing before data hits a database, leakage prevention before any CV fold runs, and deployment pipelines that abort on failure rather than hoping nothing breaks.
+I'm a 4th-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree. I build production-grade systems across three tracks: event-driven data pipelines (Kafka, Airflow, AWS/GCP, Star Schema), end-to-end ML and LLM systems (XGBoost, MLflow, QLoRA fine-tuning, RAG, LangChain, execution-based LLM evaluation, statistical model promotion), and full-stack cloud applications (React, Flask/FastAPI, AWS/GCP, CI/CD) - backed by 7,281 automated tests across five featured projects (1,452 DevSync + 1,402 LAAD + 734 W3C ETL + 2,237 StockLens + 1,456 SWE-Qwen). I care about engineering rigour: dead-letter routing before data hits a database, leakage prevention before any CV fold runs, execution-based evaluation before a model earns champion status, and deployment pipelines that abort on failure rather than hoping nothing breaks.
 
-I'm currently seeking a **post-graduate role** starting in 2027, in Data Engineering, ML/AI Engineering, or Software Engineering.
+I'm currently seeking a **post-graduate role** starting in 2027, in Data, AI or Software Engineering.
 
 - 🎓 BSc (Hons) Computer Science *(Data Science & AI)* - expected graduation *June 2028*
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
@@ -44,11 +44,28 @@ I'm currently seeking a **post-graduate role** starting in 2027, in Data Enginee
 
 ## How I Build
 
-I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact. That means dead-letter routing before data reaches a database, leakage prevention baked into sklearn Pipelines before any cross-validation fold runs, and CI/CD gates that abort deployment on any test failure rather than hoping nothing breaks in production. I'm drawn to problems where silent failures are the hardest kind to debug - concurrent write contention, foreign key mismatches, retrieval quality in RAG systems, and I build systems that make those failures impossible to miss. I work from requirements before writing code - functional, non-functional, and acceptance criteria first - and treat API documentation, schema contracts, and test plans as deliverables in their own right, not afterthoughts.
+I love building robust, efficient code and optimising for speed wherever it counts - profiling before guessing, cutting hot-loop waste, choosing the right data structure over the clever one, and measuring every change so "fast" is a number, not a feeling. I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact. That means dead-letter routing before data reaches a database, leakage prevention baked into sklearn Pipelines before any cross-validation fold runs, and CI/CD gates that abort deployment on any test failure rather than hoping nothing breaks in production. I'm drawn to problems where silent failures are the hardest kind to debug - concurrent write contention, foreign key mismatches, retrieval quality in RAG systems, and I build systems that make those failures impossible to miss. I work from requirements before writing code - functional, non-functional, and acceptance criteria first - and treat API documentation, schema contracts, and test plans as deliverables in their own right, not afterthoughts. When it comes to LLMs, the only score I trust is execution: applying the model's patch to the real repository and running the real tests - and no champion is promoted unless the gain clears a paired-bootstrap confidence interval.
 
 ---
 
 ## Featured Projects
+
+### SWE-Qwen - LLMOps Platform: SWE-bench → QLoRA Fine-Tuning → Execution-Based Evaluation
+
+<a href="https://github.com/AhmedIkram05/SWE-Qwen"><img src="https://img.shields.io/badge/View Project-7C3AED?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
+
+`Python 3.11` `PyTorch` `QLoRA` `PEFT` `Unsloth` `bitsandbytes` `TRL` `Hugging Face Transformers` `Qwen3-14B` `vLLM` `FastAPI` `Uvicorn` `Modal` `Weights & Biases` `Langfuse` `Google Cloud` `BigQuery` `Terraform` `Docker` `GitHub Actions` `pytest`
+
+**Production-grade LLMOps platform** - ingests 20,477 real SWE-bench GitHub issues into a 17,456-example training corpus, fine-tunes 3 QLoRA variants of Qwen3-14B on Modal A100-80GB GPUs, and measures each model the only way that matters - executing its generated patches against FAIL_TO_PASS / PASS_TO_PASS tests inside real SWE-bench Docker images. Promotion to champion is a statistical decision (Wilson CIs, McNemar, paired bootstrap), never a merge; the winner is served through an OpenAI-compatible, scale-to-zero inference API with per-request LoRA adapters - all orchestrated by Terraform on Google Cloud, tracked end-to-end in Weights & Biases, and gated by 4 GitHub Actions workflows.
+
+- **Data engineering pipeline**: 20,477 raw instances → pydantic-validated (7 rejected) → 17,456 cleaned through 6 counted quality gates + exact/semantic dedup (726) → repo-stratified 80/10/10 splits (15,011 / 1,556 / 889, zero cross-repo leakage) → 2,313-instance golden set carved before tokenization → 14,833 training examples. Every stage hash-pinned in a manifest, versioned in W&B and mirrored to GCS.
+- **QLoRA fine-tuning**: 3 variants (r16/α32, r32/α64, lr 5e-5) of Qwen3-14B in 4-bit NF4 via Unsloth + FlashAttention on Modal A100-80GB - image-as-code, no Dockerfile, ~1.76% of parameters trained; adapters + tokenizer + chat template shipped to W&B.
+- **Execution-based evaluation**: materializes `repo@base_sha` in official SWE-bench Docker images, applies model patches via a 3-strategy fallback (`git apply` → `gnu patch --fuzz` → `unidiff`), and runs real FAIL_TO_PASS + PASS_TO_PASS with flaky retries. Promoted champion: **17.20% F2P vs 2.46% baseline (7.0×, 95% CI 11.1–25.8%)**, 90.10% P2P.
+- **Statistical promotion**: 4-condition gate - F2P ≥ 15% & P2P ≥ 90% floors, paired-bootstrap CI lower bound strictly > 0, no P2P regression > 2pt, silent promotions rejected. Full decision record in the W&B `eval-champion` registry; the model can't approve its own regression (PRs read / main writes).
+- **OpenAI-compatible serving**: FastAPI + vLLM (AWQ int4, `enable_lora`) with per-request LoRA adapters pulled from W&B on demand, SSE streaming, faithful 401/422/404/500 envelopes, scale-to-zero - $0.00 when idle.
+- **Observability & infra**: W&B artifacts/runs, Langfuse (10% trace sampling), GCP Logging, dashboards-as-code; 1,456 tests + ruff + mypy strict; Terraform IaC with GCP Workload Identity Federation - zero static cloud keys.
+
+---
 
 ### ATM Log Aggregation, Analysis & Diagnostics Platform
 
@@ -124,6 +141,53 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 ## Tech Stack
 
+**AI Engineering**
+
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&labelColor=000000&logo=scikit-learn)
+![XGBoost](https://img.shields.io/badge/XGBoost-AA0000?style=for-the-badge&labelColor=000000)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&labelColor=000000)
+![LangGraph](https://img.shields.io/badge/LangGraph-7C3AED?style=for-the-badge&labelColor=000000)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&labelColor=000000)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&labelColor=000000&logo=mlflow)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&labelColor=000000&logo=pytorch)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&labelColor=000000&logo=huggingface)
+![QLoRA](https://img.shields.io/badge/QLoRA-8B5CF6?style=for-the-badge&labelColor=000000)
+![PEFT](https://img.shields.io/badge/PEFT_LoRA-2D9CDB?style=for-the-badge&labelColor=000000)
+![Unsloth](https://img.shields.io/badge/Unsloth-FF6B6B?style=for-the-badge&labelColor=000000)
+![bitsandbytes](https://img.shields.io/badge/bitsandbytes-DC143C?style=for-the-badge&labelColor=000000)
+![TRL SFT](https://img.shields.io/badge/TRL_SFT_Trainer-FF6F61?style=for-the-badge&labelColor=000000)
+![vLLM](https://img.shields.io/badge/vLLM-5A67D8?style=for-the-badge&labelColor=000000)
+![Weights & Biases](https://img.shields.io/badge/Weights_%26_Biases-FFBE00?style=for-the-badge&labelColor=000000&logo=weightsandbiases)
+![Langfuse](https://img.shields.io/badge/Langfuse-BB8FF7?style=for-the-badge&labelColor=000000)
+![Optuna](https://img.shields.io/badge/Optuna-F97316?style=for-the-badge&labelColor=000000)
+![Evidently AI](https://img.shields.io/badge/Evidently_AI-00A3E0?style=for-the-badge&labelColor=000000)
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&labelColor=000000&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&labelColor=000000&logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&labelColor=000000&logo=matplotlib)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&labelColor=000000)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&labelColor=000000&logo=jupyter)
+
+**Data Engineering**
+
+![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&labelColor=000000&logo=apache-airflow)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&labelColor=000000&logo=apachekafka)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&labelColor=000000&logo=apachespark)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&labelColor=000000&logo=apachespark)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&labelColor=000000&logo=databricks)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&labelColor=000000&logo=dbt)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-4AB197?style=for-the-badge&labelColor=000000&logo=delta)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&labelColor=000000&logo=postgresql)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&labelColor=000000&logo=mongodb)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&labelColor=000000&logo=mysql)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&labelColor=000000&logo=microsoftsqlserver)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&labelColor=000000&logo=sqlite)
+![ElastiCache](https://img.shields.io/badge/ElastiCache-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
+![Google BigQuery](https://img.shields.io/badge/Google_BigQuery-669DF6?style=for-the-badge&labelColor=000000&logo=googlebigquery)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&labelColor=000000&logo=powerbi)
+![Power Automate](https://img.shields.io/badge/Power_Automate-0078D4?style=for-the-badge&labelColor=000000&logo=powerautomate)
+
 **Software Engineering**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&labelColor=000000&logo=python)
@@ -151,55 +215,22 @@ I treat reliability and observability as non-negotiable from the start, not retr
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&labelColor=000000&logo=graphql)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&labelColor=000000&logo=socket.io)
 ![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&labelColor=000000)
+![Uvicorn](https://img.shields.io/badge/Uvicorn-4A4A55?style=for-the-badge&labelColor=000000)
+![Typer](https://img.shields.io/badge/Typer-FFA629?style=for-the-badge&labelColor=000000)
+![Jinja2](https://img.shields.io/badge/Jinja2-B41717?style=for-the-badge&labelColor=000000&logo=jinja)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
 ![slowapi](https://img.shields.io/badge/slowapi-000000?style=for-the-badge&labelColor=000000)
-
-**ML & AI Engineering**
-
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&labelColor=000000&logo=scikit-learn)
-![XGBoost](https://img.shields.io/badge/XGBoost-AA0000?style=for-the-badge&labelColor=000000)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&labelColor=000000)
-![LangGraph](https://img.shields.io/badge/LangGraph-7C3AED?style=for-the-badge&labelColor=000000)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&labelColor=000000)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&labelColor=000000&logo=mlflow)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&labelColor=000000&logo=pytorch)
-![Optuna](https://img.shields.io/badge/Optuna-F97316?style=for-the-badge&labelColor=000000)
-![Evidently AI](https://img.shields.io/badge/Evidently_AI-00A3E0?style=for-the-badge&labelColor=000000)
-
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&labelColor=000000&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&labelColor=000000&logo=numpy)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&labelColor=000000&logo=matplotlib)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&labelColor=000000)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&labelColor=000000&logo=jupyter)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&labelColor=000000&logo=powerbi)
-
-**Data Engineering**
-
-![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&labelColor=000000&logo=apache-airflow)
-![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&labelColor=000000&logo=apachekafka)
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&labelColor=000000&logo=apachespark)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&labelColor=000000&logo=apachespark)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&labelColor=000000&logo=databricks)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&labelColor=000000&logo=dbt)
-![Delta Lake](https://img.shields.io/badge/Delta_Lake-4AB197?style=for-the-badge&labelColor=000000&logo=delta)
 ![PyO3](https://img.shields.io/badge/PyO3-DEA584?style=for-the-badge&labelColor=000000&logo=rust)
 ![Maturin](https://img.shields.io/badge/Maturin-E5701F?style=for-the-badge&labelColor=000000)
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&labelColor=000000&logo=postgresql)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&labelColor=000000&logo=mongodb)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&labelColor=000000&logo=mysql)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&labelColor=000000&logo=microsoftsqlserver)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&labelColor=000000&logo=sqlite)
-![ElastiCache](https://img.shields.io/badge/ElastiCache-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
-
-![Power Automate](https://img.shields.io/badge/Power_Automate-0078D4?style=for-the-badge&labelColor=000000&logo=powerautomate)
 
 **Cloud & DevOps**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&labelColor=000000&logo=amazonaws)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&labelColor=000000&logo=microsoftazure)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&labelColor=000000&logo=googlecloud)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&labelColor=000000&logo=terraform)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker)
+![Modal](https://img.shields.io/badge/Modal-007FFF?style=for-the-badge&labelColor=000000)
 ![nginx](https://img.shields.io/badge/nginx-009639?style=for-the-badge&labelColor=000000&logo=nginx)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&labelColor=000000&logo=githubactions)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&labelColor=000000&logo=linux)
@@ -218,6 +249,7 @@ I treat reliability and observability as non-negotiable from the start, not retr
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&labelColor=000000&logo=playwright)
 ![checkov](https://img.shields.io/badge/checkov-0A9EDC?style=for-the-badge&labelColor=000000)
 ![Ruff](https://img.shields.io/badge/Ruff-000000?style=for-the-badge&labelColor=000000&logo=ruff)
+![Mypy](https://img.shields.io/badge/Mypy-2A6DB2?style=for-the-badge&labelColor=000000&logo=mypy)
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&labelColor=000000&logo=eslint)
 ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&labelColor=000000&logo=prettier)
 ![Checkov](https://img.shields.io/badge/Checkov-5C2D91?style=for-the-badge&labelColor=000000&logo=checkov)
