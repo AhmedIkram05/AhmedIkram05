@@ -1,11 +1,11 @@
-## Ahmed Ikram
+# Ahmed Ikram
 
 <p align="center">
   <a href="https://git.io/typing-svg">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=FFFFFF&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering">
-      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=500&color=000000&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering" alt="Typing SVG" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=700&color=FFFFFF&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering">
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=700&color=000000&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=700&color=000000&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering" alt="Typing SVG" />
     </picture>
   </a>
 </p>
@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&labelColor=000000&logo=LinkedIn&logoColor=white"></a>
   <a href="mailto:ahmedikram30@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/Online Portfolio-0E8A90?style=for-the-badge&labelColor=000000"></a>
+  <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/Online Portfolio-yellow?style=for-the-badge&labelColor=000000"></a>
 </p>
 
 <p align="center">
