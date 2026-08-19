@@ -5,15 +5,15 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&labelColor=000000&logo=LinkedIn&logoColor=white"></a>
+  <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg==&logoColor=white"></a>
   <a href="mailto:ahmedikram30@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/Online Portfolio-CCCCCC?style=for-the-badge&labelColor=000000"></a>
+  <a href="https://ahmedikram05.github.io/Online-Portfolio/index.html"><img src="https://img.shields.io/badge/%3C%2FAI%3E-Online%20Portfolio-C2410C?style=for-the-badge&labelColor=000000"></a>
 </p>
 
 <p align="center">
-  <a href="./docs/Ahmed-Ikram-CV-2026-DE.pdf"><img src="https://img.shields.io/badge/CV - Data Engineering-8c1aff?style=for-the-badge&labelColor=000000"></a>
+  <a href="./docs/Ahmed-Ikram-CV-2026-DE.pdf"><img src="https://img.shields.io/badge/CV - Data Engineering-4F46E5?style=for-the-badge&labelColor=000000"></a>
   <a href="./docs/Ahmed-Ikram-CV-2026-AI.pdf"><img src="https://img.shields.io/badge/CV - AI Engineering-0E8A90?style=for-the-badge&labelColor=000000"></a>
-  <a href="./docs/Ahmed-Ikram-CV-2026-SWE.pdf"><img src="https://img.shields.io/badge/CV - Software Engineering-D14836?style=for-the-badge&labelColor=000000"></a>
+  <a href="./docs/Ahmed-Ikram-CV-2026-SWE.pdf"><img src="https://img.shields.io/badge/CV - Software Engineering-0EA5E9?style=for-the-badge&labelColor=000000"></a>
 </p>
 
 <p align="center">
@@ -61,11 +61,11 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 
 ### ATM Log Aggregation, Anomaly Detection & Diagnostics Platform
 
-<a href="https://github.com/AhmedIkram05/laad"><img src="https://img.shields.io/badge/View Project-8c1aff?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
+<a href="https://github.com/AhmedIkram05/laad"><img src="https://img.shields.io/badge/View Project-A855F7?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
 `Python` `FastAPI` `PostgreSQL` `Apache Kafka` `Redis` `XGBoost` `Scikit-learn` `Pandas` `LangChain` `LangGraph` `ChromaDB` `Ollama` `MCP` `RAGAS` `W&B Serverless` `MLflow` `SageMaker` `React` `Vite` `Tailwind CSS` `Chart.js` `Nginx` `Docker` `Terraform` `GitHub Actions` `Playwright` `AWS`
 
-**Industry project for NCR Atleos** - ATM log ingestion pipeline with 3-layer anomaly detection (XGBoost + Isolation Forest at 99.8% CV accuracy, Z-score, heuristic rules across 49 features) and an **Agentic Hybrid RAG** diagnostic assistant — a LangGraph agent over 12 MCP tools routing between vector search, structured metric/anomaly queries, and the knowledge base, with cross-encoder reranking, self-consistency, reflexion, citation grounding, and 4-signal confidence fusion, all served by a single W&B Serverless Inference LLM (`google/gemma-4-31B-it`) and gated by RAGAS evaluation against committed baselines (agentic: 0.708 context_recall, 0.874 context precision, 0.801 answer relevancy). Ingests 2.5M events from 7 log sources through Kafka KRaft with hybrid Redis/in-memory dedup and dead-letter routing. Deployed via Terraform (10 modules, 118 resources) to ECS Fargate behind OIDC-authenticated CI/CD pipelines. 1,438 tests (959 pytest + 394 vitest + 10 Playwright E2E + 75 Terraform IaC) gate every PR; patched 5 pre-release defects including a JWT privilege escalation vulnerability.
+**Industry project for NCR Atleos** - ATM log ingestion pipeline with 3-layer anomaly detection (XGBoost + Isolation Forest at 99.8% CV accuracy, Z-score, heuristic rules across 49 features) and an **Agentic Hybrid RAG** diagnostic assistant, a LangGraph agent over 12 MCP tools routing between vector search, structured metric/anomaly queries, and the knowledge base, with cross-encoder reranking, self-consistency, reflexion, citation grounding, and 4-signal confidence fusion, all served by a single W&B Serverless Inference LLM (`google/gemma-4-31B-it`) and gated by RAGAS evaluation against committed baselines (agentic: 0.708 context_recall, 0.874 context precision, 0.801 answer relevancy). Ingests 2.5M events from 7 log sources through Kafka KRaft with hybrid Redis/in-memory dedup and dead-letter routing. Deployed via Terraform (10 modules, 118 resources) to ECS Fargate behind OIDC-authenticated CI/CD pipelines. 1,438 tests (959 pytest + 394 vitest + 10 Playwright E2E + 75 Terraform IaC) gate every PR; patched 5 pre-release defects including a JWT privilege escalation vulnerability.
 
 - **Kafka event streaming**: KRaft mode, 2 topics × 3 partitions, at-least-once delivery with manual offset commits. Hybrid deduplication: Redis SET with 1h TTL + 10K-entry in-memory LRU fallback.
 - **3-layer detection engine**: ML_ENSEMBLE (XGBoost + Isolation Forest, **99.8% CV accuracy**) + ZSCORE (rolling 20-window sigma) + HEURISTIC (7 deterministic multi-source correlators) across 49 features; 600s configurable sliding window.
@@ -76,7 +76,7 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 
 ### SWE-Qwen - LLMOps Platform: SWE-bench → QLoRA Fine-Tuning → Execution-Based Evaluation
 
-<a href="https://github.com/AhmedIkram05/SWE-Qwen"><img src="https://img.shields.io/badge/View Project-7C3AED?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
+<a href="https://github.com/AhmedIkram05/SWE-Qwen"><img src="https://img.shields.io/badge/View Project-2563EB?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
 `Python 3.11` `PyTorch` `QLoRA` `PEFT` `Unsloth` `bitsandbytes` `TRL` `Hugging Face Transformers` `Qwen3-14B` `vLLM` `FastAPI` `Uvicorn` `Modal` `Weights & Biases` `Langfuse` `Google Cloud` `BigQuery` `Terraform` `Docker` `GitHub Actions` `pytest`
 
@@ -91,11 +91,11 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 
 ### W3C Web Logs ETL Pipeline
 
-<a href="https://github.com/AhmedIkram05/w3c-etl-pipeline"><img src="https://img.shields.io/badge/View Project-017CEE?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
+<a href="https://github.com/AhmedIkram05/w3c-etl-pipeline"><img src="https://img.shields.io/badge/View Project-059669?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
 `Databricks DLT` `dbt` `Apache Airflow` `Azure SQL` `Terraform` `Power BI` `Apache Spark` `PySpark` `Python` `Grafana` `Prometheus` `Delta Lake` `Docker` `GitHub Actions` `pytest`
 
-**Serverless medallion architecture ETL** processing 93 real W3C IIS log files (2009–2011) through Bronze → Silver in Databricks DLT, with pymssql JDBC export to Azure SQL and dbt-driven transformation (dual-dialect T-SQL/PostgreSQL) into a 16-model star schema. Orchestrated by Apache Airflow with Terraform-managed infrastructure, OIDC-secured CI/CD, and 3 Grafana dashboards.
+**Serverless medallion architecture ETL** processing 93 real W3C IIS log files (2009-2011) through Bronze → Silver in Databricks DLT, with pymssql JDBC export to Azure SQL and dbt-driven transformation (dual-dialect T-SQL/PostgreSQL) into a 16-model star schema. Orchestrated by Apache Airflow with Terraform-managed infrastructure, OIDC-secured CI/CD, and 3 Grafana dashboards.
 
 - **Serverless Databricks DLT**: Bronze ingests **153,380 rows** via Auto Loader with 7 `@dlt.expect_or_drop` quality checks (0 dropped); Silver enriches with 7 MaxMind GeoIP fields via consolidated struct UDF (**3.5× faster** than 7 separate UDFs), 31 columns across 153,377 rows, 30+ countries.
 - **45-second JDBC export**: pymssql batch executemany (BATCH_SIZE=5000) with 4-attempt exponential backoff - **8-9× faster** than the initial 413s implementation. Key optimisations: `tuple(row)` over `row.asDict()` (eliminates 4.7M dict allocations), Spark-side pre-filter before `collect()`.
@@ -106,11 +106,11 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 
 ### StockLens - FinTech Spending & Investment App
 
-<a href="https://github.com/AhmedIkram05/stocklens"><img src="https://img.shields.io/badge/View Project-3776AB?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
+<a href="https://github.com/AhmedIkram05/stocklens"><img src="https://img.shields.io/badge/View Project-E65100?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
 `Python` `FastAPI` `TypeScript` `React Native` `Expo` `Rust` `PyO3` `PyTorch` `LangGraph` `AWS Bedrock` `PostgreSQL` `Redis` `Apache Airflow` `MLflow` `Optuna` `Evidently AI` `Terraform` `Docker` `GitHub Actions` `AWS` `SageMaker` `Jest` `Pytest`
 
-**Production-grade FinTech platform** - Scan receipts via a confidence-gated OCR cascade (Tesseract → AWS Bedrock Vision LLM fallback), trade real stocks with the extracted amounts, track portfolios with cash-flow-aware time-weighted returns, get 5-day LSTM directional forecasts, benchmark against SPY (tracking error + information ratio), and query holdings via a 16-tool LangGraph ReAct agent streaming over SSE — all deployed on AWS ECS Fargate ARM64 via Terraform IaC with OIDC CI/CD.
+**Production-grade FinTech platform** - Scan receipts via a confidence-gated OCR cascade (Tesseract → AWS Bedrock Vision LLM fallback), trade real stocks with the extracted amounts, track portfolios with cash-flow-aware time-weighted returns, get 5-day LSTM directional forecasts, benchmark against SPY (tracking error + information ratio), and query holdings via a 16-tool LangGraph ReAct agent streaming over SSE, all deployed on AWS ECS Fargate ARM64 via Terraform IaC with OIDC CI/CD.
 
 - **Rust acceleration layer**: PyO3/Maturin native extension replacing pandas for **17 technical indicators** (log returns, SMA, RSI, MACD, rolling vol, Bollinger %B, ATR, OBV, Williams %R, ROC...) - O(n) zero-Python-overhead batch computation, built for ARM64 in CI.
 - **Global LSTM forecasting**: PyTorch with 16-dim entity embeddings across **475+ S&P 500 tickers** - **51.63% directional accuracy** (vs 33% random baseline), simulated Sharpe 0.97, Optuna 50-trial HPO, chronological 70/15/15 splits.
@@ -121,7 +121,7 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 
 ### DevSync - Real-Time Project Tracker with GitHub Integration
 
-<a href="https://github.com/AhmedIkram05/DevSync"><img src="https://img.shields.io/badge/View Project-2496ED?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
+<a href="https://github.com/AhmedIkram05/DevSync"><img src="https://img.shields.io/badge/View Project-DB2777?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
 `React` `Tailwind CSS` `Flask` `Socket.IO` `PostgreSQL` `Docker` `AWS` `GitHub Actions` `Pytest` `Jest` `Cypress`
 
@@ -205,6 +205,6 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 
 <div align="center">
   <strong>Open to 2027 graduate roles in Data, AI &amp; Software Engineering</strong><br>
-  <a href="mailto:ahmedikram30@gmail.com"><img src="https://img.shields.io/badge/Email-ahmedikram30@gmail.com-D14836?style=for-the-badge&labelColor=000000&logo=gmail&logoColor=white"></a>
-  <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&labelColor=000000&logo=LinkedIn&logoColor=white"></a>
+  <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg==&logoColor=white"></a>
+  <a href="mailto:ahmedikram30@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </div>
