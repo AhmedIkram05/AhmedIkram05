@@ -34,7 +34,7 @@ I'm a final year BSc Computer Science (Data Science & AI) student at the Univers
 
 I'm currently seeking a **post-graduate role** starting in 2027, in Data, AI or Software Engineering.
 
-- 🎓 BSc (Hons) Computer Science *(Data Science & AI)* - expected graduation *June 2028*
+- 🎓 BSc (Hons) Computer Science *(Data Science & AI)* - expected graduation *June 2027*
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
 - 🏅 Microsoft Learn - [Foundations of Azure AI: Concepts, Capabilities, and Implementation](https://www.linkedin.com/learning/certificates/e3dc3610a320ee93d032317f3906e12d09f41da322c5fc1c94d272cef7f224c9)
 - 🏆 AWS Academy - [Cloud Foundations](https://www.credly.com/badges/c4f6bb59-3638-48fe-8c0b-af5c3976731d/print)
