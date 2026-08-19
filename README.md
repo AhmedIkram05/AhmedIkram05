@@ -1,13 +1,7 @@
 # Ahmed Ikram
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=700&color=FFFFFF&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering">
-      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=700&color=000000&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=700&color=000000&center=true&vCenter=true&width=700&lines=AI+Engineer+%C2%B7+Data+Engineer+%C2%B7+Software+Engineer;PyTorch+%C2%B7+Kafka+%C2%B7+Airflow+%C2%B7+FastAPI+%C2%B7+React;LLMOps+%C2%B7+Execution+Eval+%C2%B7+CI%2FCD+%C2%B7+Data+Pipelines;Open+to+AI%2C+Data+%26+Software+Engineering" alt="Typing SVG" />
-    </picture>
-  </a>
+  <strong>Final-year CS (Data Science &amp; AI) @ Dundee · Building production-grade AI &amp; data systems: real-time streaming, LLMOps, agentic RAG · Seeking 2027 graduate roles in Data/AI/SWE</strong>
 </p>
 
 <p align="center">
@@ -30,9 +24,9 @@
 
 ## About Me
 
-I'm a final year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree. I build production-grade data systems end-to-end: real-time streaming platforms (SSE ingestion → ClickHouse → Grafana → BigQuery), event-driven pipelines (Kafka, Airflow, AWS/GCP, Star Schema), batch medallion architectures (Databricks DLT, dbt, Azure SQL, Power BI), end-to-end ML and LLM systems (XGBoost, MLflow, QLoRA fine-tuning, RAG, LangChain, execution-based LLM evaluation, statistical model promotion), and full-stack cloud applications (React, Flask/FastAPI, AWS/GCP, CI/CD) - backed by 7,460 automated tests across six featured projects (143 WikiStream + 1,452 DevSync + 1,438 LAAD + 734 W3C ETL + 2,237 StockLens + 1,456 SWE-Qwen). I care about engineering rigour: dead-letter routing before data hits a database, schema-on-write validation before a row hits the store, SUMS-based parity before a warehouse export is trusted, leakage prevention before any CV fold runs, execution-based evaluation before a model earns champion status, and deployment pipelines that abort on failure rather than hoping nothing breaks.
+I'm a final-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree, seeking a **post-graduate role in Data, AI or Software Engineering starting 2027**.
 
-I'm currently seeking a **post-graduate role** starting in 2027, in Data, AI or Software Engineering.
+I build production-grade data systems end-to-end: real-time streaming platforms (SSE ingestion → ClickHouse → Grafana → BigQuery), event-driven pipelines (Kafka, Airflow, AWS/GCP), batch medallion architectures (Databricks DLT, dbt, Azure SQL, Power BI), end-to-end ML and LLM systems (PyTorch, MLflow, QLoRA fine-tuning, RAG, LangChain, execution-based LLM evaluation, statistical model promotion), and full-stack cloud applications (React, Flask/FastAPI, AWS/GCP, CI/CD) - backed by **7,460 automated tests** across six featured projects (143 WikiStream + 1,452 DevSync + 1,438 LAAD + 734 W3C ETL + 2,237 StockLens + 1,456 SWE-Qwen). I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact: dead-letter routing before data hits a database, schema-on-write validation, parity checks, and deployment pipelines that abort on failure rather than hoping nothing breaks.
 
 - 🎓 BSc (Hons) Computer Science *(Data Science & AI)* - expected graduation *June 2027*
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
@@ -42,15 +36,15 @@ I'm currently seeking a **post-graduate role** starting in 2027, in Data, AI or 
 
 ---
 
-## How I Build
+## Currently Working On
 
-I love building robust, efficient code and optimising for speed wherever it counts - profiling before guessing, cutting hot-loop waste, choosing the right data structure over the clever one, and measuring every change so "fast" is a number, not a feeling. I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact. That means dead-letter routing before data reaches a database, schema-on-write validation so every row is typed before it hits the store, materialized views so dashboards never scan raw JSON, leakage prevention baked into sklearn Pipelines before any cross-validation fold runs, and CI/CD gates that abort deployment on any test failure rather than hoping nothing breaks in production. I'm drawn to problems where silent failures are the hardest kind to debug - concurrent write contention, merge-state drift, foreign key mismatches, retrieval quality in RAG systems - and I build systems that make those failures impossible to miss: heartbeats, parity verdicts, and alert rules that are proven by chaos injection, not assumed. I work from requirements before writing code - functional, non-functional, and acceptance criteria first - and treat API documentation, schema contracts, and test plans as deliverables in their own right, not afterthoughts. When it comes to LLMs, the only score I trust is execution: applying the model's patch to the real repository and running the real tests - and no champion is promoted unless the gain clears a paired-bootstrap confidence interval.
+- 🔧 **Adding k6 load testing to DevSync** - load/performance testing the real-time project tracker (React + Flask + Socket.IO) so "fast" is a measured number, not a feeling.
 
 ---
 
 ## Featured Projects
 
-### WikiStream - Real-Time Wikipedia Edit Streaming Analytics Platform
+### WikiStream - Real-Time Wikipedia Streaming Analytics Platform
 
 <a href="https://github.com/AhmedIkram05/WikiStream"><img src="https://img.shields.io/badge/View Project-FFCC01?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
@@ -58,31 +52,10 @@ I love building robust, efficient code and optimising for speed wherever it coun
 
 **Production-grade real-time streaming analytics platform** - ingests **every public Wikipedia edit as it happens** (58.9M+ raw events and growing) via an async SSE consumer into a self-hosted ClickHouse cluster, serves live Grafana dashboards off pre-aggregated materialized views (15.0x faster queries, ~200x fewer rows scanned), exports hourly to a partitioned BigQuery warehouse with SUMS-based parity verification, and runs a fully automated data-quality and ops layer - all on a ~$41.65/month GCP footprint with a build → run → teardown → rebuild lifecycle, 11 documented ADRs, and zero static cloud credentials.
 
-- **Streaming ingestion**: async `httpx2` + hand-rolled WHATWG-compliant SSE parser with `Last-Event-ID` resume; Pydantic v2 schema-on-write validated before persistence; 1,000-row/5s batching with `async_insert` - ~1,000x fewer insert round-trips.
-- **Sustained throughput**: **zero data loss** at 5,655 events/sec sustained (2.08× the real observed peak of 2,719 ev/s; 577,738 events through the burst harness, 0 drops at every multiple); 12,210 events/min average over 3 days.
-- **Query layer**: 3 SummingMergeTree materialized views without `POPULATE` - dashboard queries skip JSON parsing entirely: **15.0x faster p50** (13.2x p99), **0.23M vs 46.8M rows scanned (~200x fewer)**, MV equivalence verified against raw on live data.
-- **Warehouse tier**: hourly ClickHouse → GCS → BigQuery export with **SUMS-based parity checks** (merge-state-safe, not row counts) and a freshness panel; queryable partitioned history past the 30-day raw TTL; restore verified **4,514,837 / 4,514,837 rows exact** from a GCS backup.
-- **Data quality**: two deliberate layers - Pydantic inline validation at the edge (failures route to a dead-letter table, never the store) + Great Expectations batch suite (**11/11 expectations**, hourly on a 5% sample) - both tuned to measured production bounds, not guessed ones.
-- **Resilience**: durable JSON-array SSE cursor with atomic `os.replace` - SIGKILL mid-insert resumes **zero-loss, zero-dup** (proven empirically); 50K-entry dedup ring absorbs native redeliveries; DLQ written at-least-once, TTL 90 days.
-- **Observability & ops**: 5 Grafana alert rules → Slack + 2 Cloud Monitoring policies → email, **every rule fired and cleared in 8/8 chaos injections**; 4 systemd timers (backup :20, GX :30, export :00, parity :05) with `Persistent=true`; 15s consumer heartbeat feeds a single `pipeline_health` table every alert queries.
-- **Infra & CI/CD**: Terraform with GCS state + Workload Identity Federation (**zero static keys**), firewall-locked single-IP network, gated apply via the `production` GitHub Environment; **143 tests, 99.38% coverage** on the consumer core (100% on 6 business-critical modules), per-module `--cov-fail-under=100` gates CI; cost run-rate **$41.65/mo**, **$1.79/mo** residual post-teardown.
-
----
-
-### W3C Web Logs ETL Pipeline
-
-<a href="https://github.com/AhmedIkram05/w3c-etl-pipeline"><img src="https://img.shields.io/badge/View Project-017CEE?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
-
-`Databricks DLT` `dbt` `Apache Airflow` `Azure SQL` `Terraform` `Power BI` `Apache Spark` `PySpark` `Python` `Grafana` `Prometheus` `Delta Lake` `Docker` `GitHub Actions` `pytest`
-
-**Serverless medallion architecture ETL** processing 93 real W3C IIS log files (2009–2011) through Bronze → Silver in Databricks DLT, with pymssql JDBC export to Azure SQL and dbt-driven transformation (dual-dialect T-SQL/PostgreSQL) into a 16-model star schema. Orchestrated by Apache Airflow with Terraform-managed infrastructure, OIDC-secured CI/CD, and 3 Grafana dashboards.
-
-- **Serverless Databricks DLT**: Bronze ingests 153,380 rows via Auto Loader with 7 `@dlt.expect_or_drop` quality checks (0 dropped). Silver enriches with 7 MaxMind GeoIP fields via consolidated struct UDF (3.5× faster than 7 separate UDFs), pairing City DB and ASN DB lookups from pure Python maxminddb — no compiled C extensions needed on serverless executors. 5 computed fields (page_category, traffic_type, is_crawler, size_band, referrer_domain) bring the total to 31 columns across 153,377 rows, spanning 30+ countries.
-- **45-second JDBC export**: pymssql batch executemany (BATCH_SIZE=5000) with 4-attempt exponential backoff — 8–9× faster than the initial 413s implementation. Key optimisations: `tuple(row)` over `row.asDict()` (eliminates 4.7M dict allocations), Spark-side pre-filter before `collect()`, and removed redundant `.count()` scan.
-- **Dual-dialect dbt (T-SQL/PostgreSQL)**: 16 models (10 staging + 6 marts) compile against both Azure SQL (production) and PostgreSQL (dev/CI) via inline `{% if target.type == 'sqlserver' %}` branches — no separate `_azure.sql` files. 18 T-SQL compatibility macros + 2 dispatch overrides. 121 data tests: 48 not_null · 18 unique · 21 accepted_values · 10 relationships · 24 expression_is_true.
-- **Airflow Dataset-driven orchestration**: 4 DAGs across 2 pipelines (Azure + Docker dev). Dataset outlet `mssql://...` decouples ingestion from transformation — no polling overhead, no hard-coded DAG IDs. 4 operator types: DatabricksRunNow, DatabricksSubmitRun, PythonOperator, SparkSubmitOperator.
-- **Full Terraform IaC + OIDC**: 4 modules (networking, datalake, databricks, warehouse) + 24 Databricks resources managed as code. OIDC Workload Identity Federation eliminates all static Azure credentials — the CI/CD runner assumes an Azure AD identity via token exchange at runtime.
-- **3 Grafana dashboards + 734 tests**: 23 panels across ETL, containers, and pipeline health with 8 Prometheus alert rules. Custom data freshness probe exposes 4 gauges (Bronze/Silver/SQL row counts + composite status). Python test suite (613 pytest: 468 unit + 92 Terraform + 23 DAG integrity + 18 integration + 12 dbt-compile) plus 121 dbt data tests (46 not_null + 24 expression + 21 accepted + 16 unique + 10 relationships + 4 singular).
+- **Streaming ingestion**: async `httpx2` + hand-rolled WHATWG-compliant SSE parser with `Last-Event-ID` resume; Pydantic v2 schema-on-write validation before persistence; 1,000-row/5s batching with `async_insert` - **~1,000x fewer insert round-trips**.
+- **Sustained throughput**: **zero data loss at 5,655 events/sec sustained** (2.08× the real observed peak of 2,719 ev/s; 577,738 events through the burst harness, 0 drops); 12,210 events/min average over 3 days.
+- **Query layer**: 3 SummingMergeTree materialized views without `POPULATE` - dashboard queries skip JSON parsing entirely: **15.0x faster p50** (13.2x p99), **~200x fewer rows scanned** (0.23M vs 46.8M), MV equivalence verified against raw on live data.
+- **Warehouse tier**: hourly ClickHouse → GCS → BigQuery export with **SUMS-based parity checks** (merge-state-safe, not row counts); restore verified **4,514,837 / 4,514,837 rows exact** from a GCS backup; 5 Grafana alert rules + 2 Cloud Monitoring policies, **every rule fired and cleared in 8/8 chaos injections**.
 
 ---
 
@@ -95,33 +68,9 @@ I love building robust, efficient code and optimising for speed wherever it coun
 **Industry project for NCR Atleos** - ATM log ingestion pipeline with 3-layer anomaly detection (XGBoost + Isolation Forest at 99.8% CV accuracy, Z-score, heuristic rules across 49 features) and an **Agentic Hybrid RAG** diagnostic assistant — a LangGraph agent over 12 MCP tools routing between vector search, structured metric/anomaly queries, and the knowledge base, with cross-encoder reranking, self-consistency, reflexion, citation grounding, and 4-signal confidence fusion, all served by a single W&B Serverless Inference LLM (`google/gemma-4-31B-it`) and gated by RAGAS evaluation against committed baselines (agentic: 0.708 context_recall, 0.874 context precision, 0.801 answer relevancy). Ingests 2.5M events from 7 log sources through Kafka KRaft with hybrid Redis/in-memory dedup and dead-letter routing. Deployed via Terraform (10 modules, 118 resources) to ECS Fargate behind OIDC-authenticated CI/CD pipelines. 1,438 tests (959 pytest + 394 vitest + 10 Playwright E2E + 75 Terraform IaC) gate every PR; patched 5 pre-release defects including a JWT privilege escalation vulnerability.
 
 - **Kafka event streaming**: KRaft mode, 2 topics × 3 partitions, at-least-once delivery with manual offset commits. Hybrid deduplication: Redis SET with 1h TTL + 10K-entry in-memory LRU fallback.
-- **3-layer detection engine**: ML_ENSEMBLE (XGBoost + Isolation Forest, 99.8% CV accuracy) + ZSCORE (rolling 20-window sigma) + HEURISTIC (7 deterministic multi-source correlators). 600s configurable sliding window, 10-min cross-layer dedup.
-- **Agentic Hybrid RAG**: LangGraph agent over 12 MCP tools (vector `search_knowledge` + 9 structured query tools + 2 knowledge tools) with two modes — `hybrid` (deterministic tool selection) and `agentic` (free-form routing with grounding-gated re-retrieval, 2-round cap with truncation backstop). 4-stage reasoning: cross-encoder reranking (ms-marco-MiniLM), 3-sample self-consistency (3-gram Jaccard), Reflexion (critique → regenerate), citation grounding with regex entity verification. 4-signal confidence fusion: retrieval (30%) + consistency (25%) + verbalized (25%) + grounding (20%), Platt-calibrated on user feedback. Single W&B Serverless Inference provider (`google/gemma-4-31B-it`) for agent, generator, and judge — OpenRouter/Ollama Cloud removed; degrades to structured log extraction on LLM outage.
-- **RAGAS evaluation & CI gate**: 50-query golden set (5 categories, 82% human-reviewed) scored across `baseline` / `hybrid` / `agentic` on context_recall, faithfulness, context precision, answer_relevancy — one shared LLM makes the deltas retrieval-only. Agentic roughly doubles context_recall over hybrid (0.708 vs 0.350) at 0.874 context precision / 0.801 answer relevancy; the `eval-gate.yml` CI job fails on faithfulness < 0.5, context_recall < 0.3, or any drop > 0.05 vs the committed baseline.
-- **Redis 8 patterns**: Rate limiting (sorted set), deduplication (set + TTL), JWT blacklist (string + TTL), distributed locks (SET NX EX), Pub/Sub streaming, response caching, dead-letter queue (streams with exponential backoff), analytics counters (INCR + HLL + ZINCRBY).
-- **MLOps via MLflow**: Experiment tracking, model registry with "champion" aliases. 7 artifacts per training run: xgb_classifier, isolation_forest, scaler, label_encoder, feature names, IF feature indices, calibrated UNKNOWN threshold. XGBoost model deployed to SageMaker `laad-xgb-champion` endpoint on ml.t2.medium for inference.
-- **IaC & documentation**: 10-module Terraform (118 resources, 9 modules with 75 test assertions). checkov compliance baseline with inline skips. 1,386-line W3C-pattern documentation with 10 mermaid diagrams covering architecture, Kafka error flow, DB ERD, detection engine, ML training, RAG pipeline, Redis data flow, frontend hierarchy, AWS VPC topology, and CI/CD pipeline.
-- **1,438 automated tests** (959 pytest across 10 tiers + 394 vitest + 10 Playwright E2E + 75 Terraform IaC) with checkov compliance scanning. 10-tier backend pytest suites: unit, integration, stress, security, ML, RAG, Redis, Kafka, generators, parsers. Terraform test covers 75 assertions across 9 modules.
-
----
-
-### StockLens - FinTech Spending & Investment App
-
-<a href="https://github.com/AhmedIkram05/stocklens"><img src="https://img.shields.io/badge/View Project-3776AB?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
-
-`Python` `FastAPI` `TypeScript` `React Native` `Expo` `Rust` `PyO3` `PyTorch` `LangGraph` `AWS Bedrock` `PostgreSQL` `Redis` `Apache Airflow` `MLflow` `Optuna` `Evidently AI` `Terraform` `Docker` `GitHub Actions` `AWS` `SageMaker` `Jest` `Pytest`
-
-**Production-grade FinTech platform** - Scan receipts via a confidence-gated OCR cascade (Tesseract → AWS Bedrock Vision LLM fallback), trade real stocks with the extracted amounts, track portfolios with cash-flow-aware time-weighted returns, get 5-day LSTM directional forecasts, benchmark against SPY (tracking error + information ratio), and query holdings via a 16-tool LangGraph ReAct agent streaming over SSE — all deployed on AWS ECS Fargate ARM64 via Terraform IaC with OIDC CI/CD.
-
-- **Multi-service backend**: FastAPI (Python 3.13, asyncpg, SQLAlchemy 2.0, Pydantic v2, structlog) serving 59 REST endpoints across 14 routers. Separate LangGraph agent service (2-node `StateGraph`, 16 tools, 7 categories, `ChatBedrockConverse` via Nova Lite) with two-tier Redis (7-day TTL) + PostgreSQL conversation persistence. 1,415 pytest functions across 76 test files, 90% line coverage gate.
-- **Rust acceleration layer**: PyO3/Maturin native extension replacing pandas for 17 technical indicators (log returns, SMA, RSI, MACD, rolling vol, Bollinger %B, ATR, OBV, Williams %R, ROC, cross-sectional excess returns vs SPY). 13 source modules, 12 exported functions, O(n) zero-Python-overhead batch computation. Built for ARM64 in CI via `maturin build --release`.
-- **Global LSTM forecasting**: PyTorch model with 16-dim entity embeddings across 475+ S&P 500 tickers, 2-layer LSTM (hidden=80, dropout=0.535), Focal Loss (γ=1.49), Optuna 50-trial HPO. 51.63% directional accuracy (vs 33% random baseline), simulated Sharpe 0.97. Chronological 70/15/15 splits, 6-year OHLCV lookback.
-- **NLP cascade OCR pipeline**: 4-stage escalation — Tesseract regex (base) → Bedrock Vision LLM (Nova Lite) → Text-only LLM → Degraded fallback. Confidence gating (overall ≥0.7, OCR ≥0.6, merchant verified via rapidfuzz ≥80). Discrepancy detection with float tolerance + string normalization. Redis 24h cache avoids redundant Bedrock calls.
-- **Portfolio analytics engine**: Time-weighted return with explicit cash-flow handling (dedicated `cash_flows` table, not generic ledger). Hybrid cache: PostgreSQL for bulk OHLCV (indexed range queries), Redis for quotes (5-min TTL) and history (60-min TTL). Benchmark comparison yields Tracking Error and Information Ratio vs SPY. yfinance wrapped in `ThreadPoolExecutor` (8 workers) + `tenacity` retries.
-- **MLOps retraining pipeline**: Apache Airflow 2.11 on ECS Fargate ARM64, weekly cron (Mon 06:00 UTC). Feature computation via Rust engine → Optuna HPO → MLflow tracking → Champion/Challenger evaluation (DA improvement >2pp promotes). Evidently AI drift detection (PSI>0.25, KS>0.3, JSD>0.3) on features + predictions. Champion model served via EFS mount (zero-copy) + S3 + `model_registry` table. Optional SageMaker endpoint (`ml.m5.xlarge`).
-- **Frontend**: React Native + Expo 54 + TypeScript 5.9, file-based routing (Expo Router), Zustand state, biometric auth, dark mode, auto-lock on background. 85 test files, 822 Jest assertions (branches≥75%, functions≥80%, lines≥90%).
-- **Infrastructure**: Terraform ≥1.9 (14 modules, 193 resources). VPC (2 AZs, public/private), ALB + WAF (rate-based + OWASP), ECS Fargate ARM64/Graviton, Multi-AZ RDS PostgreSQL 18, ElastiCache Redis 8.8 (TLS + AUTH), EFS for champion model, CloudWatch alarms. 3-tier security groups (Internet→ALB→ECS→RDS/Redis).
-- **CI/CD**: GitHub Actions OIDC (no static AWS creds). 9 parallel CI jobs (Lint/TS/Tests/Security/Rust/Backend/Docker/IaC/Secrets) — path-aware, each runs only on relevant changes. 7-stage CD: Build (Rust wheel ARM64, 4 Docker images) → Trivy critical scan → Terraform plan → Manual approval → Apply → ECS rolling update with health-check gating. CodeQL weekly, Dependabot weekly.
+- **3-layer detection engine**: ML_ENSEMBLE (XGBoost + Isolation Forest, **99.8% CV accuracy**) + ZSCORE (rolling 20-window sigma) + HEURISTIC (7 deterministic multi-source correlators) across 49 features; 600s configurable sliding window.
+- **Agentic Hybrid RAG**: LangGraph agent over 12 MCP tools with cross-encoder reranking, 3-sample self-consistency, Reflexion (critique → regenerate), citation grounding, and 4-signal confidence fusion - RAGAS-evaluated (**0.708 context_recall, 0.874 context precision, 0.801 answer relevancy**) and CI-gated against committed baselines.
+- **MLOps & QA**: MLflow champion registry + SageMaker `laad-xgb-champion` endpoint; **1,438 tests** (959 pytest across 10 tiers + 394 vitest + 10 Playwright E2E + 75 Terraform IaC) gate every PR - including a patched JWT privilege escalation vulnerability.
 
 ---
 
@@ -133,12 +82,40 @@ I love building robust, efficient code and optimising for speed wherever it coun
 
 **Production-grade LLMOps platform** - ingests 20,477 real SWE-bench GitHub issues into a 17,456-example training corpus, fine-tunes 3 QLoRA variants of Qwen3-14B on Modal A100-80GB GPUs, and measures each model the only way that matters - executing its generated patches against FAIL_TO_PASS / PASS_TO_PASS tests inside real SWE-bench Docker images. Promotion to champion is a statistical decision (Wilson CIs, McNemar, paired bootstrap), never a merge; the winner is served through an OpenAI-compatible, scale-to-zero inference API with per-request LoRA adapters - all orchestrated by Terraform on Google Cloud, tracked end-to-end in Weights & Biases, and gated by 4 GitHub Actions workflows.
 
-- **Data engineering pipeline**: 20,477 raw instances → pydantic-validated (7 rejected) → 17,456 cleaned through 6 counted quality gates + exact/semantic dedup (726) → repo-stratified 80/10/10 splits (15,011 / 1,556 / 889, zero cross-repo leakage) → 2,313-instance golden set carved before tokenization → 14,833 training examples. Every stage hash-pinned in a manifest, versioned in W&B and mirrored to GCS.
-- **QLoRA fine-tuning**: 3 variants (r16/α32, r32/α64, lr 5e-5) of Qwen3-14B in 4-bit NF4 via Unsloth + FlashAttention on Modal A100-80GB - image-as-code, no Dockerfile, ~1.76% of parameters trained; adapters + tokenizer + chat template shipped to W&B.
-- **Execution-based evaluation**: materializes `repo@base_sha` in official SWE-bench Docker images, applies model patches via a 3-strategy fallback (`git apply` → `gnu patch --fuzz` → `unidiff`), and runs real FAIL_TO_PASS + PASS_TO_PASS with flaky retries. Promoted champion: **17.20% F2P vs 2.46% baseline (7.0×, 95% CI 11.1–25.8%)**, 90.10% P2P.
-- **Statistical promotion**: 4-condition gate - F2P ≥ 15% & P2P ≥ 90% floors, paired-bootstrap CI lower bound strictly > 0, no P2P regression > 2pt, silent promotions rejected. Full decision record in the W&B `eval-champion` registry; the model can't approve its own regression (PRs read / main writes).
-- **OpenAI-compatible serving**: FastAPI + vLLM (AWQ int4, `enable_lora`) with per-request LoRA adapters pulled from W&B on demand, SSE streaming, faithful 401/422/404/500 envelopes, scale-to-zero - $0.00 when idle.
-- **Observability & infra**: W&B artifacts/runs, Langfuse (10% trace sampling), GCP Logging, dashboards-as-code; 1,456 tests + ruff + mypy strict; Terraform IaC with GCP Workload Identity Federation - zero static cloud keys.
+- **Data engineering pipeline**: 20,477 raw SWE-bench instances → pydantic-validated → **17,456 cleaned examples** through 6 counted quality gates + exact/semantic dedup (726) → repo-stratified 80/10/10 splits (zero cross-repo leakage) → 2,313-instance golden set carved before tokenization.
+- **QLoRA fine-tuning**: 3 variants (r16/α32, r32/α64, lr 5e-5) of **Qwen3-14B in 4-bit NF4** via Unsloth + FlashAttention on Modal A100-80GB GPUs - ~1.76% of parameters trained; adapters + tokenizer + chat template shipped to W&B.
+- **Execution-based evaluation**: patches applied to real SWE-bench Docker images via a 3-strategy fallback and scored on actual FAIL_TO_PASS + PASS_TO_PASS tests - promoted champion: **17.20% F2P vs 2.46% baseline (7.0×, 95% CI 11.1-25.8%)**, 90.10% P2P.
+- **Statistical promotion**: 4-condition gate (F2P ≥ 15% & P2P ≥ 90% floors, paired-bootstrap CI lower bound strictly > 0, no P2P regression > 2pt, silent promotions rejected) - the model can't approve its own regression (PRs read / main writes).
+
+---
+
+### W3C Web Logs ETL Pipeline
+
+<a href="https://github.com/AhmedIkram05/w3c-etl-pipeline"><img src="https://img.shields.io/badge/View Project-017CEE?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
+
+`Databricks DLT` `dbt` `Apache Airflow` `Azure SQL` `Terraform` `Power BI` `Apache Spark` `PySpark` `Python` `Grafana` `Prometheus` `Delta Lake` `Docker` `GitHub Actions` `pytest`
+
+**Serverless medallion architecture ETL** processing 93 real W3C IIS log files (2009–2011) through Bronze → Silver in Databricks DLT, with pymssql JDBC export to Azure SQL and dbt-driven transformation (dual-dialect T-SQL/PostgreSQL) into a 16-model star schema. Orchestrated by Apache Airflow with Terraform-managed infrastructure, OIDC-secured CI/CD, and 3 Grafana dashboards.
+
+- **Serverless Databricks DLT**: Bronze ingests **153,380 rows** via Auto Loader with 7 `@dlt.expect_or_drop` quality checks (0 dropped); Silver enriches with 7 MaxMind GeoIP fields via consolidated struct UDF (**3.5× faster** than 7 separate UDFs), 31 columns across 153,377 rows, 30+ countries.
+- **45-second JDBC export**: pymssql batch executemany (BATCH_SIZE=5000) with 4-attempt exponential backoff - **8-9× faster** than the initial 413s implementation. Key optimisations: `tuple(row)` over `row.asDict()` (eliminates 4.7M dict allocations), Spark-side pre-filter before `collect()`.
+- **Dual-dialect dbt (T-SQL/PostgreSQL)**: 16 models (10 staging + 6 marts) compile against both Azure SQL (production) and PostgreSQL (dev/CI) via inline `{% if target.type == 'sqlserver' %}` branches - 18 T-SQL compatibility macros + 2 dispatch overrides, **121 data tests**.
+- **3 Grafana dashboards + 734 tests**: 23 panels across ETL, containers, and pipeline health with 8 Prometheus alert rules; 613 pytest (unit + Terraform + DAG integrity + integration + dbt-compile) + 121 dbt data tests gate every change.
+
+---
+
+### StockLens - FinTech Spending & Investment App
+
+<a href="https://github.com/AhmedIkram05/stocklens"><img src="https://img.shields.io/badge/View Project-3776AB?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
+
+`Python` `FastAPI` `TypeScript` `React Native` `Expo` `Rust` `PyO3` `PyTorch` `LangGraph` `AWS Bedrock` `PostgreSQL` `Redis` `Apache Airflow` `MLflow` `Optuna` `Evidently AI` `Terraform` `Docker` `GitHub Actions` `AWS` `SageMaker` `Jest` `Pytest`
+
+**Production-grade FinTech platform** - Scan receipts via a confidence-gated OCR cascade (Tesseract → AWS Bedrock Vision LLM fallback), trade real stocks with the extracted amounts, track portfolios with cash-flow-aware time-weighted returns, get 5-day LSTM directional forecasts, benchmark against SPY (tracking error + information ratio), and query holdings via a 16-tool LangGraph ReAct agent streaming over SSE — all deployed on AWS ECS Fargate ARM64 via Terraform IaC with OIDC CI/CD.
+
+- **Rust acceleration layer**: PyO3/Maturin native extension replacing pandas for **17 technical indicators** (log returns, SMA, RSI, MACD, rolling vol, Bollinger %B, ATR, OBV, Williams %R, ROC...) - O(n) zero-Python-overhead batch computation, built for ARM64 in CI.
+- **Global LSTM forecasting**: PyTorch with 16-dim entity embeddings across **475+ S&P 500 tickers** - **51.63% directional accuracy** (vs 33% random baseline), simulated Sharpe 0.97, Optuna 50-trial HPO, chronological 70/15/15 splits.
+- **NLP cascade OCR pipeline**: 4-stage escalation (Tesseract regex → Bedrock Vision LLM → text-only LLM → degraded fallback) with confidence gating (overall ≥0.7, OCR ≥0.6, merchant verified via rapidfuzz ≥80) and Redis 24h cache.
+- **MLOps retraining pipeline**: Airflow weekly cron → Rust feature engine → Optuna HPO → MLflow Champion/Challenger (**DA improvement >2pp promotes**) + Evidently AI drift detection (PSI>0.25, KS>0.3, JSD>0.3) on features and predictions.
 
 ---
 
@@ -150,137 +127,59 @@ I love building robust, efficient code and optimising for speed wherever it coun
 
 **Multi-service full-stack application** - Flask API with Socket.IO real-time sync, React SPA served through nginx, and PostgreSQL on AWS RDS. Designed for team collaboration: task management, GitHub issue/PR linking, and role-based access control with OIDC-authenticated CI/CD.
 
-- **Multi-stage Docker**: Backend compressed to 330MB (python:3.11-slim runtime, build deps stripped in stage 1). Frontend built on node:20-alpine, served by nginx:1.27-alpine with envsubst template for API_UPSTREAM. Docker resolver (127.0.0.11) for runtime DNS. Two-compose-file pattern cleanly separates PostgreSQL from the app stack. Docker layer caching (`type=gha`) cuts rebuilds by 70%+ across CI runs.
-- **Real-time collaboration**: Flask-SocketIO with JWT-authenticated WebSocket handshake, project-scoped rooms preventing cross-project data leaks. Socket.IO-client on React side broadcasts task updates, comments, and notifications to all room members - zero polling.
-- **Full CI/CD with OIDC**: GitHub Actions with OIDC federation (no static credentials). 7 path-aware CI jobs: `lint` (ruff + ESLint), `security` (pip-audit + npm audit), `backend-tests` (518 Pytest — unit + Postgres 15 container), `frontend-tests` (929 Jest), `e2e-tests` (5 Cypress), `backend-image-build` (ECR, layer caching). CD deploys on main merge: ECS Fargate rolling update (200s health check), S3/CloudFront distribution. Any CI failure aborts the pipeline. Dependabot + CodeQL on a weekly cadence.
-- **JWT dual auth**: Access + refresh token flow with both cookie and Bearer header transport. 3-tier RBAC (Developer / Team Lead / Admin) enforced at endpoint level via decorators - middleware validates the numerical hierarchy so higher roles inherit all lower permissions.
-- **Database design**: 12 PostgreSQL tables with SQLAlchemy ORM, composite indexes on (project_id, status) and (user_id, notification_type) for common query patterns. Full-text search on task titles. Audit logging with automatic timestamping across all entity mutations.
-- **1,452 automated tests** (518 Pytest + 929 Jest + 5 Cypress) gate every PR. Backend unit tests use in-memory SQLite (fast, zero-db); integration tests target a real Postgres 15 container spun up in CI. Coverage thresholds at 85% for both backend and frontend. Ruff-configured Python linting (pyproject.toml, E/F/I/N/W/UP/B/SIM) and ESLint for JavaScript enforce consistent code quality.
+- **Multi-stage Docker**: backend compressed to **330MB** (python:3.11-slim runtime, build deps stripped in stage 1); frontend on node:20-alpine served by nginx with envsubst API_UPSTREAM templating; layer caching (`type=gha`) cuts rebuilds **70%+** across CI runs.
+- **Real-time collaboration**: Flask-SocketIO with JWT-authenticated WebSocket handshake and project-scoped rooms preventing cross-project data leaks - Socket.IO client broadcasts task updates and notifications to all room members, zero polling.
+- **JWT dual auth + RBAC**: access + refresh token flow with both cookie and Bearer transport; 3-tier role hierarchy (Developer / Team Lead / Admin) enforced at endpoint level via decorators.
+- **1,452 automated tests** (518 Pytest + 929 Jest + 5 Cypress) gate every PR, with coverage thresholds at 85% for backend and frontend; 12 PostgreSQL tables with composite indexes for common query patterns.
 
 ---
 
-## Tech Stack
+## Core Tech Stack
 
 **Data Engineering**
 
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&labelColor=000000&logo=clickhouse)
-![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&labelColor=000000&logo=apache-airflow)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&labelColor=000000&logo=apachekafka)
+![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&labelColor=000000&logo=apache-airflow)
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&labelColor=000000&logo=apachespark)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&labelColor=000000&logo=apachespark)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&labelColor=000000&logo=databricks)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&labelColor=000000&logo=dbt)
-![Delta Lake](https://img.shields.io/badge/Delta_Lake-4AB197?style=for-the-badge&labelColor=000000&logo=delta)
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&labelColor=000000&logo=postgresql)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&labelColor=000000&logo=mongodb)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&labelColor=000000&logo=mysql)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&labelColor=000000&logo=microsoftsqlserver)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&labelColor=000000&logo=sqlite)
-![ElastiCache](https://img.shields.io/badge/ElastiCache-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
 ![Google BigQuery](https://img.shields.io/badge/Google_BigQuery-669DF6?style=for-the-badge&labelColor=000000&logo=googlebigquery)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&labelColor=000000&logo=postgresql)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&labelColor=000000&logo=pandas)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&labelColor=000000&logo=powerbi)
-![Power Automate](https://img.shields.io/badge/Power_Automate-0078D4?style=for-the-badge&labelColor=000000&logo=powerautomate)
 
 **AI Engineering**
 
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&labelColor=000000&logo=scikit-learn)
-![XGBoost](https://img.shields.io/badge/XGBoost-AA0000?style=for-the-badge&labelColor=000000)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&labelColor=000000)
-![LangGraph](https://img.shields.io/badge/LangGraph-7C3AED?style=for-the-badge&labelColor=000000)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&labelColor=000000)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&labelColor=000000&logo=mlflow)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&labelColor=000000&logo=pytorch)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&labelColor=000000&logo=huggingface)
-![QLoRA](https://img.shields.io/badge/QLoRA-8B5CF6?style=for-the-badge&labelColor=000000)
-![PEFT](https://img.shields.io/badge/PEFT_LoRA-2D9CDB?style=for-the-badge&labelColor=000000)
-![Unsloth](https://img.shields.io/badge/Unsloth-FF6B6B?style=for-the-badge&labelColor=000000)
-![bitsandbytes](https://img.shields.io/badge/bitsandbytes-DC143C?style=for-the-badge&labelColor=000000)
-![TRL SFT](https://img.shields.io/badge/TRL_SFT_Trainer-FF6F61?style=for-the-badge&labelColor=000000)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&labelColor=000000)
+![LangGraph](https://img.shields.io/badge/LangGraph-7C3AED?style=for-the-badge&labelColor=000000)
 ![vLLM](https://img.shields.io/badge/vLLM-5A67D8?style=for-the-badge&labelColor=000000)
-![Weights & Biases](https://img.shields.io/badge/Weights_%26_Biases-FFBE00?style=for-the-badge&labelColor=000000&logo=weightsandbiases)
-![Langfuse](https://img.shields.io/badge/Langfuse-BB8FF7?style=for-the-badge&labelColor=000000)
 ![RAGAS](https://img.shields.io/badge/RAGAS-0078D4?style=for-the-badge&labelColor=000000)
-![Optuna](https://img.shields.io/badge/Optuna-F97316?style=for-the-badge&labelColor=000000)
-![Evidently AI](https://img.shields.io/badge/Evidently_AI-00A3E0?style=for-the-badge&labelColor=000000)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&labelColor=000000&logo=mlflow)
+![Weights & Biases](https://img.shields.io/badge/Weights_%26_Biases-FFBE00?style=for-the-badge&labelColor=000000&logo=weightsandbiases)
+![XGBoost](https://img.shields.io/badge/XGBoost-AA0000?style=for-the-badge&labelColor=000000)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&labelColor=000000&logo=scikit-learn)
 
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&labelColor=000000&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&labelColor=000000&logo=numpy)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&labelColor=000000&logo=matplotlib)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&labelColor=000000)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&labelColor=000000&logo=jupyter)
-
-**Software Engineering**
+**Software Engineering & Cloud**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&labelColor=000000&logo=python)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&labelColor=000000&logo=typescript)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&labelColor=000000&logo=javascript)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&labelColor=000000&logo=postgresql)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&labelColor=000000&logo=gnu-bash)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&labelColor=000000&logo=rust)
-
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&labelColor=000000&logo=typescript)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&labelColor=000000&logo=fastapi)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&labelColor=000000&logo=react)
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&labelColor=000000&logo=react)
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&labelColor=000000&logo=expo)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&labelColor=000000&logo=tailwindcss)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&labelColor=000000&logo=vite)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&labelColor=000000&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&labelColor=000000&logo=css3)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&labelColor=000000&logo=bootstrap)
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6B35?style=for-the-badge&labelColor=000000&logo=chart.js)
-
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&labelColor=000000&logo=flask)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&labelColor=000000&logo=fastapi)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&labelColor=000000&logo=sqlalchemy)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&labelColor=000000&logo=pydantic)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&labelColor=000000&logo=node.js)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&labelColor=000000&logo=graphql)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&labelColor=000000&logo=socket.io)
-![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&labelColor=000000)
-![Uvicorn](https://img.shields.io/badge/Uvicorn-4A4A55?style=for-the-badge&labelColor=000000)
-![Typer](https://img.shields.io/badge/Typer-FFA629?style=for-the-badge&labelColor=000000)
-![Jinja2](https://img.shields.io/badge/Jinja2-B41717?style=for-the-badge&labelColor=000000&logo=jinja)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
-![slowapi](https://img.shields.io/badge/slowapi-000000?style=for-the-badge&labelColor=000000)
-![PyO3](https://img.shields.io/badge/PyO3-DEA584?style=for-the-badge&labelColor=000000&logo=rust)
-![Maturin](https://img.shields.io/badge/Maturin-E5701F?style=for-the-badge&labelColor=000000)
-
-**Cloud & DevOps**
-
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&labelColor=000000&logo=terraform)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&labelColor=000000&logo=amazonaws)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&labelColor=000000&logo=microsoftazure)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&labelColor=000000&logo=googlecloud)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&labelColor=000000&logo=terraform)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker)
-![Modal](https://img.shields.io/badge/Modal-007FFF?style=for-the-badge&labelColor=000000)
-![nginx](https://img.shields.io/badge/nginx-009639?style=for-the-badge&labelColor=000000&logo=nginx)
-![systemd](https://img.shields.io/badge/systemd-FFB000?style=for-the-badge&labelColor=000000)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&labelColor=000000&logo=githubactions)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&labelColor=000000&logo=linux)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&labelColor=000000&logo=prometheus)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&labelColor=000000&logo=grafana)
-![Trivy](https://img.shields.io/badge/Trivy-19A974?style=for-the-badge&labelColor=000000&logo=aqua)
-![CodeQL](https://img.shields.io/badge/CodeQL-6E5494?style=for-the-badge&labelColor=000000&logo=github)
-![Dependabot](https://img.shields.io/badge/Dependabot-000000?style=for-the-badge&labelColor=000000&logo=github)
-
-**Testing & Quality**
-
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&labelColor=000000&logo=prometheus)
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&labelColor=000000&logo=pytest)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&labelColor=000000&logo=jest)
-![React_Testing_Library](https://img.shields.io/badge/React_Testing_Library-E33332?style=for-the-badge&labelColor=000000&logo=testing-library&logoColor=white)
-![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&labelColor=000000&logo=cypress)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&labelColor=000000&logo=playwright)
-![Great Expectations](https://img.shields.io/badge/Great_Expectations-28C8FF?style=for-the-badge&labelColor=000000)
-![checkov](https://img.shields.io/badge/checkov-0A9EDC?style=for-the-badge&labelColor=000000)
-![Ruff](https://img.shields.io/badge/Ruff-000000?style=for-the-badge&labelColor=000000&logo=ruff)
-![Mypy](https://img.shields.io/badge/Mypy-2A6DB2?style=for-the-badge&labelColor=000000&logo=mypy)
-![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&labelColor=000000&logo=eslint)
-![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&labelColor=000000&logo=prettier)
-![Checkov](https://img.shields.io/badge/Checkov-5C2D91?style=for-the-badge&labelColor=000000&logo=checkov)
-![tfsec](https://img.shields.io/badge/tfsec-000000?style=for-the-badge&labelColor=000000)
-![Gitleaks](https://img.shields.io/badge/Gitleaks-000000?style=for-the-badge&labelColor=000000)
-![Codecov](https://img.shields.io/badge/Codecov-F01F7E?style=for-the-badge&labelColor=000000&logo=codecov)
-![hadolint](https://img.shields.io/badge/hadolint-000000?style=for-the-badge&labelColor=000000)
 
 ---
 
@@ -300,4 +199,12 @@ I love building robust, efficient code and optimising for speed wherever it coun
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AhmedIkram05/AhmedIkram05/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AhmedIkram05/AhmedIkram05/output/github-contribution-grid-snake.svg">
   </picture>
+</div>
+
+<br>
+
+<div align="center">
+  <strong>Open to 2027 graduate roles in Data, AI &amp; Software Engineering</strong><br>
+  <a href="mailto:ahmedikram30@gmail.com"><img src="https://img.shields.io/badge/Email-ahmedikram30@gmail.com-D14836?style=for-the-badge&labelColor=000000&logo=gmail&logoColor=white"></a>
+  <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&labelColor=000000&logo=LinkedIn&logoColor=white"></a>
 </div>
