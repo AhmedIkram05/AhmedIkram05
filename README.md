@@ -26,7 +26,7 @@
 
 I'm a final-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree, seeking a **post-graduate role in Data, AI or Software Engineering starting 2027**.
 
-I build production-grade data systems end-to-end: real-time streaming platforms (SSE ingestion → ClickHouse → Grafana → BigQuery), event-driven pipelines (Kafka, Airflow, AWS/GCP), batch medallion architectures (Databricks DLT, dbt, Azure SQL, Power BI), end-to-end ML and LLM systems (PyTorch, MLflow, QLoRA fine-tuning, RAG, LangChain, execution-based LLM evaluation, statistical model promotion), and full-stack cloud applications (React, Flask/FastAPI, AWS/GCP, CI/CD) - backed by **7,460 automated tests** across six featured projects (143 WikiStream + 1,452 DevSync + 1,438 LAAD + 734 W3C ETL + 2,237 StockLens + 1,456 SWE-Qwen). I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact: dead-letter routing before data hits a database, schema-on-write validation, parity checks, and deployment pipelines that abort on failure rather than hoping nothing breaks.
+I build production-grade data systems end-to-end: real-time streaming platforms (SSE ingestion → ClickHouse → Grafana → BigQuery), event-driven pipelines (Kafka, Airflow, AWS/GCP), batch medallion architectures (Databricks DLT, dbt, Azure SQL, Power BI), end-to-end ML and LLM systems (PyTorch, MLflow, QLoRA fine-tuning, RAG, LangChain, execution-based LLM evaluation, statistical model promotion), and full-stack cloud applications (React, Flask/FastAPI, AWS/GCP, CI/CD) - backed by **7,474 automated tests** across six featured projects (143 WikiStream + 1,452 DevSync + 1,438 LAAD + 748 W3C ETL + 2,237 StockLens + 1,456 SWE-Qwen). I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact: dead-letter routing before data hits a database, schema-on-write validation, parity checks, and deployment pipelines that abort on failure rather than hoping nothing breaks.
 
 - 🎓 BSc (Hons) Computer Science *(Data Science & AI)* - expected graduation *June 2027*
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
@@ -95,12 +95,12 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 
 `Databricks DLT` `dbt` `Apache Airflow` `Azure SQL` `Terraform` `Power BI` `Apache Spark` `PySpark` `Python` `Grafana` `Prometheus` `Delta Lake` `Docker` `GitHub Actions` `pytest`
 
-**Serverless medallion architecture ETL** processing 93 real W3C IIS log files (2009-2011) through Bronze → Silver in Databricks DLT, with pymssql JDBC export to Azure SQL and dbt-driven transformation (dual-dialect T-SQL/PostgreSQL) into a 16-model star schema. Orchestrated by Apache Airflow with Terraform-managed infrastructure, OIDC-secured CI/CD, and 3 Grafana dashboards.
+**Serverless medallion architecture ETL** processing 93 real W3C IIS log files (2009-2011) through Bronze → Silver in Databricks DLT, with pymssql JDBC export to Azure SQL and dbt-driven transformation (dual-dialect T-SQL/PostgreSQL) into a 16-model star schema with SCD Type 2 geolocation history. Orchestrated by Apache Airflow with Terraform-managed infrastructure, OIDC-secured CI/CD, and 3 Grafana dashboards.
 
 - **Serverless Databricks DLT**: Bronze ingests **153,380 rows** via Auto Loader with 7 `@dlt.expect_or_drop` quality checks (0 dropped); Silver enriches with 7 MaxMind GeoIP fields via consolidated struct UDF (**3.5× faster** than 7 separate UDFs), 31 columns across 153,377 rows, 30+ countries.
 - **45-second JDBC export**: pymssql batch executemany (BATCH_SIZE=5000) with 4-attempt exponential backoff - **8-9× faster** than the initial 413s implementation. Key optimisations: `tuple(row)` over `row.asDict()` (eliminates 4.7M dict allocations), Spark-side pre-filter before `collect()`.
 - **Dual-dialect dbt (T-SQL/PostgreSQL)**: 16 models (10 staging + 6 marts) compile against both Azure SQL (production) and PostgreSQL (dev/CI) via inline `{% if target.type == 'sqlserver' %}` branches - 18 T-SQL compatibility macros + 2 dispatch overrides, **121 data tests**.
-- **3 Grafana dashboards + 734 tests**: 23 panels across ETL, containers, and pipeline health with 8 Prometheus alert rules; 613 pytest (unit + Terraform + DAG integrity + integration + dbt-compile) + 121 dbt data tests gate every change.
+- **3 Grafana dashboards + 748 tests**: 23 panels across ETL, containers, and pipeline health with 8 Prometheus alert rules; 627 pytest (unit + Terraform + DAG integrity + integration + dbt-compile) + 121 dbt data tests gate every change.
 
 ---
 
