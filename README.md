@@ -188,7 +188,7 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 <div align="center">
   <img src="https://github-readme-stats.shion.dev/api?username=AhmedIkram05&show_icons=true&theme=react&hide_border=true" height="150" alt="stats graph" />
   <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=AhmedIkram05&layout=compact&theme=react&hide_border=true" height="150" alt="languages graph" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhmedIkram05&theme=react&hide_border=true" height="150" alt="streak graph" />
+  <img src="https://streak-stats.demolab.com/?user=AhmedIkram05&theme=react&hide_border=true&v=2" height="150" alt="streak graph" />
 </div>
 
 <br>
