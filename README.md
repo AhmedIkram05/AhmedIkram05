@@ -165,7 +165,7 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 ![XGBoost](https://img.shields.io/badge/XGBoost-AA0000?style=for-the-badge&labelColor=000000)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&labelColor=000000&logo=scikit-learn)
 
-**Software Engineering & Cloud**
+### Software Engineering & Cloud
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&labelColor=000000&logo=python)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&labelColor=000000&logo=rust)
