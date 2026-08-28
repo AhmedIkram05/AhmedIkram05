@@ -151,7 +151,7 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&labelColor=000000&logo=pandas)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&labelColor=000000&logo=powerbi)
 
-**AI Engineering**
+### AI Engineering
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&labelColor=000000&logo=pytorch)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&labelColor=000000&logo=huggingface)
