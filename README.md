@@ -24,7 +24,7 @@
 
 ## About Me
 
-I'm a final-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree, seeking a **post-graduate role in Data, AI or Software Engineering starting 2027**.
+I'm a final-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First, seeking a **post-graduate role in Data, AI or Software Engineering starting 2027**.
 
 I build production-grade data systems end-to-end: real-time streaming platforms (SSE ingestion → ClickHouse → Grafana → BigQuery), event-driven pipelines (Kafka, Airflow, AWS/GCP), batch medallion architectures (Databricks DLT, dbt, Azure SQL, Power BI), end-to-end ML and LLM systems (PyTorch, MLflow, QLoRA fine-tuning, RAG, LangChain, execution-based LLM evaluation, statistical model promotion), and full-stack cloud applications (React, Flask/FastAPI, AWS/GCP, CI/CD) - backed by **7,541 automated tests** across six featured projects (143 WikiStream + 1,452 DevSync + 1,438 LAAD + 748 W3C ETL + 2,304 StockLens + 1,456 SWE-Qwen). I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact: dead-letter routing before data hits a database, schema-on-write validation, parity checks, and deployment pipelines that abort on failure rather than hoping nothing breaks.
 
@@ -206,7 +206,7 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 <br>
 
 <div align="center">
-  <strong>Open to 2027 graduate roles in Data, AI &amp; Software Engineering</strong><br>
+  <strong>Open to roles starting June 20207 in Data, AI &amp; Software Engineering</strong><br><br>
   <a href="https://linkedin.com/in/ahmed-ikram-student"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg==&logoColor=white"></a>
   <a href="mailto:ahmedikram30@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </div>
