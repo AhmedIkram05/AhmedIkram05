@@ -137,7 +137,7 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 
 ## Core Tech Stack
 
-**Data Engineering**
+### Data Engineering
 
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&labelColor=000000&logo=clickhouse)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&labelColor=000000&logo=apachekafka)
