@@ -26,7 +26,7 @@
 
 I'm a final-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First-Class degree, seeking a **post-graduate role in Data, AI or Software Engineering starting 2027**.
 
-I build production-grade data systems end-to-end: real-time streaming platforms (SSE ingestion → ClickHouse → Grafana → BigQuery), event-driven pipelines (Kafka, Airflow, AWS/GCP), batch medallion architectures (Databricks DLT, dbt, Azure SQL, Power BI), end-to-end ML and LLM systems (PyTorch, MLflow, QLoRA fine-tuning, RAG, LangChain, execution-based LLM evaluation, statistical model promotion), and full-stack cloud applications (React, Flask/FastAPI, AWS/GCP, CI/CD) - backed by **7,474 automated tests** across six featured projects (143 WikiStream + 1,452 DevSync + 1,438 LAAD + 748 W3C ETL + 2,237 StockLens + 1,456 SWE-Qwen). I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact: dead-letter routing before data hits a database, schema-on-write validation, parity checks, and deployment pipelines that abort on failure rather than hoping nothing breaks.
+I build production-grade data systems end-to-end: real-time streaming platforms (SSE ingestion → ClickHouse → Grafana → BigQuery), event-driven pipelines (Kafka, Airflow, AWS/GCP), batch medallion architectures (Databricks DLT, dbt, Azure SQL, Power BI), end-to-end ML and LLM systems (PyTorch, MLflow, QLoRA fine-tuning, RAG, LangChain, execution-based LLM evaluation, statistical model promotion), and full-stack cloud applications (React, Flask/FastAPI, AWS/GCP, CI/CD) - backed by **7,541 automated tests** across six featured projects (143 WikiStream + 1,452 DevSync + 1,438 LAAD + 748 W3C ETL + 2,304 StockLens + 1,456 SWE-Qwen). I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact: dead-letter routing before data hits a database, schema-on-write validation, parity checks, and deployment pipelines that abort on failure rather than hoping nothing breaks.
 
 - 🎓 BSc (Hons) Computer Science *(Data Science & AI)* - expected graduation *June 2027*
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
@@ -108,14 +108,15 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 
 <a href="https://github.com/AhmedIkram05/stocklens"><img src="https://img.shields.io/badge/View Project-E65100?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`Python` `FastAPI` `TypeScript` `React Native` `Expo` `Rust` `PyO3` `PyTorch` `LangGraph` `AWS Bedrock` `PostgreSQL` `Redis` `Apache Airflow` `MLflow` `Optuna` `Evidently AI` `Terraform` `Docker` `GitHub Actions` `AWS` `SageMaker` `Jest` `Pytest`
+`Python` `FastAPI` `TypeScript` `React Native` `Expo` `Rust` `PyO3` `PyTorch` `LangGraph` `MCP` `OAuth 2.1` `AWS Bedrock` `PostgreSQL` `Redis` `Apache Airflow` `MLflow` `Optuna` `Evidently AI` `Terraform` `Docker` `GitHub Actions` `AWS` `SageMaker` `Jest` `Pytest`
 
-**Production-grade FinTech platform** - Scan receipts via a confidence-gated OCR cascade (Tesseract → AWS Bedrock Vision LLM fallback), trade real stocks with the extracted amounts, track portfolios with cash-flow-aware time-weighted returns, get 5-day LSTM directional forecasts, benchmark against SPY (tracking error + information ratio), and query holdings via a 16-tool LangGraph ReAct agent streaming over SSE, all deployed on AWS ECS Fargate ARM64 via Terraform IaC with OIDC CI/CD.
+**Production-grade FinTech platform** - Scan receipts via a confidence-gated OCR cascade (Tesseract → AWS Bedrock Vision LLM fallback), trade real stocks with the extracted amounts, track portfolios with cash-flow-aware time-weighted returns, get 5-day LSTM directional forecasts, benchmark against SPY (tracking error + information ratio), query holdings via a 16-tool LangGraph ReAct agent streaming over SSE, and expose all 16 tools + 2 resources + 1 prompt via a self-built MCP server (Streamable HTTP, OAuth 2.1 PKCE S256 RS256/JWKS) mounted on the same FastAPI as single source of truth — zero duplication — all deployed on AWS ECS Fargate ARM64 via Terraform IaC with OIDC CI/CD.
 
 - **Rust acceleration layer**: PyO3/Maturin native extension replacing pandas for **17 technical indicators** (log returns, SMA, RSI, MACD, rolling vol, Bollinger %B, ATR, OBV, Williams %R, ROC...) - O(n) zero-Python-overhead batch computation, built for ARM64 in CI.
 - **Global LSTM forecasting**: PyTorch with 16-dim entity embeddings across **475+ S&P 500 tickers** - **51.63% directional accuracy** (vs 33% random baseline), simulated Sharpe 0.97, Optuna 50-trial HPO, chronological 70/15/15 splits.
 - **NLP cascade OCR pipeline**: 4-stage escalation (Tesseract regex → Bedrock Vision LLM → text-only LLM → degraded fallback) with confidence gating (overall ≥0.7, OCR ≥0.6, merchant verified via rapidfuzz ≥80) and Redis 24h cache.
 - **MLOps retraining pipeline**: Airflow weekly cron → Rust feature engine → Optuna HPO → MLflow Champion/Challenger (**DA improvement >2pp promotes**) + Evidently AI drift detection (PSI>0.25, KS>0.3, JSD>0.3) on features and predictions.
+- **MCP Enterprise Server**: Self-built MCP (Python SDK 1.12, Streamable HTTP, OAuth 2.1 PKCE S256 RS256/JWKS, RFC 8414/9728/7517) mounted on FastAPI — 16 tools + 2 resources + 1 prompt via single-source adapter (`src/agent/tools.py` → `src/mcp/tools_adapter.py`, injected `user_id`/`portfolio_id` stripped server-side), `WWW-Authenticate` with `resource_metadata`, 67 tests, verified Inspector + Claude Desktop.
 
 ---
 
@@ -156,6 +157,7 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&labelColor=000000&logo=huggingface)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&labelColor=000000)
 ![LangGraph](https://img.shields.io/badge/LangGraph-7C3AED?style=for-the-badge&labelColor=000000)
+![MCP](https://img.shields.io/badge/MCP-7C3AED?style=for-the-badge&labelColor=000000&logo=modelcontextprotocol)
 ![vLLM](https://img.shields.io/badge/vLLM-5A67D8?style=for-the-badge&labelColor=000000)
 ![RAGAS](https://img.shields.io/badge/RAGAS-0078D4?style=for-the-badge&labelColor=000000)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&labelColor=000000&logo=mlflow)
