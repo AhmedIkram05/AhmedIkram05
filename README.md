@@ -48,7 +48,7 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 
 <a href="https://github.com/AhmedIkram05/WikiStream"><img src="https://img.shields.io/badge/View Project-FFCC01?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`Python 3.13` `httpx2` `ClickHouse 26.3 LTS` `SummingMergeTree` `Materialized Views` `Grafana 13.1` `Great Expectations` `Pydantic v2` `BigQuery` `Terraform` `Docker Compose` `systemd` `Google Cloud` `GitHub Actions` `pytest`
+`Python` `httpx2` `ClickHouse LTS` `SummingMergeTree` `Materialized Views` `Grafana` `Great Expectations` `Pydantic v2` `BigQuery` `Terraform` `Docker Compose` `systemd` `Google Cloud` `GitHub Actions` `pytest`
 
 **Production-grade real-time streaming analytics platform** - ingests **every public Wikipedia edit as it happens** (58.9M+ raw events and growing) via an async SSE consumer into a self-hosted ClickHouse cluster, serves live Grafana dashboards off pre-aggregated materialized views (15.0x faster queries, ~200x fewer rows scanned), exports hourly to a partitioned BigQuery warehouse with SUMS-based parity verification, and runs a fully automated data-quality and ops layer - all on a ~$41.65/month GCP footprint with a build → run → teardown → rebuild lifecycle, 11 documented ADRs, and zero static cloud credentials.
 
@@ -78,7 +78,7 @@ I build production-grade data systems end-to-end: real-time streaming platforms 
 
 <a href="https://github.com/AhmedIkram05/SWE-Qwen"><img src="https://img.shields.io/badge/View Project-2563EB?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`Python 3.11` `PyTorch` `QLoRA` `PEFT` `Unsloth` `bitsandbytes` `TRL` `Hugging Face Transformers` `Qwen3-14B` `vLLM` `FastAPI` `Uvicorn` `Modal` `Weights & Biases` `Langfuse` `Google Cloud` `BigQuery` `Terraform` `Docker` `GitHub Actions` `pytest`
+`Python` `PyTorch` `QLoRA` `PEFT` `Unsloth` `bitsandbytes` `TRL` `Hugging Face Transformers` `Qwen3-14B` `vLLM` `FastAPI` `Uvicorn` `Modal` `Weights & Biases` `Langfuse` `Google Cloud` `BigQuery` `Terraform` `Docker` `GitHub Actions` `pytest`
 
 **Production-grade LLMOps platform** - ingests 20,477 real SWE-bench GitHub issues into a 17,456-example training corpus, fine-tunes 3 QLoRA variants of Qwen3-14B on Modal A100-80GB GPUs, and measures each model the only way that matters - executing its generated patches against FAIL_TO_PASS / PASS_TO_PASS tests inside real SWE-bench Docker images. Promotion to champion is a statistical decision (Wilson CIs, McNemar, paired bootstrap), never a merge; the winner is served through an OpenAI-compatible, scale-to-zero inference API with per-request LoRA adapters - all orchestrated by Terraform on Google Cloud, tracked end-to-end in Weights & Biases, and gated by 4 GitHub Actions workflows.
 
