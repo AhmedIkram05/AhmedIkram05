@@ -26,7 +26,7 @@
 
 I'm a final-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First, seeking a **post-graduate role in Data, AI or Software Engineering starting 2027**.
 
-I've built high-grade data systems end-to-end: real-time streaming platforms (SSE ingestion → ClickHouse → Grafana → BigQuery), event-driven pipelines (Kafka, Airflow, AWS/GCP), batch medallion architectures (Databricks DLT, dbt, Azure SQL, Power BI), end-to-end ML and LLM systems (PyTorch, MLflow, QLoRA fine-tuning, RAG, LangChain, production MCP servers — OAuth 2.1 PKCE, CIMD, stateless 2026-07-28 dual-version, execution-based LLM evaluation, statistical model promotion), and full-stack cloud applications (React, Flask/FastAPI, AWS/GCP, CI/CD) - backed by **7,568 automated tests** across six featured projects (143 WikiStream + 1,452 DevSync + 1,438 LAAD + 748 W3C ETL + 2,331 StockLens + 1,456 SWE-Qwen). I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact: dead-letter routing before data hits a database, schema-on-write validation, parity checks, and deployment pipelines that abort on failure rather than hoping nothing breaks.
+I've built high-grade data systems end-to-end: real-time streaming platforms (SSE ingestion → ClickHouse → Grafana → BigQuery), event-driven pipelines (Kafka, Airflow, AWS/GCP), batch medallion architectures (Databricks DLT, dbt, Azure SQL, Power BI), end-to-end ML and LLM systems (PyTorch, MLflow, QLoRA fine-tuning, RAG, LangChain, production MCP servers — OAuth 2.1 PKCE, CIMD, stateless 2026-07-28 dual-version, execution-based LLM evaluation, statistical model promotion), and full-stack cloud applications (React, Flask/FastAPI, AWS/GCP, CI/CD) - backed by **7,571 automated tests** across six featured projects (143 WikiStream + 1,455 DevSync + 1,438 LAAD + 748 W3C ETL + 2,331 StockLens + 1,456 SWE-Qwen). I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact: dead-letter routing before data hits a database, schema-on-write validation, parity checks, k6 load gates that fail on P95 regressions, and deployment pipelines that abort on failure rather than hoping nothing breaks.
 
 - 🎓 BSc (Hons) Computer Science *(Data Science & AI)* - expected graduation *June 2027*
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
@@ -37,9 +37,6 @@ I've built high-grade data systems end-to-end: real-time streaming platforms (SS
 ---
 
 ## Currently Working On
-
-- ✅ **Just shipped — StockLens MCP 2026-07-28 stateless migration**: dual-version `server/discover` (stateless core + legacy 2025-06-18 `initialize` kept alive), per-request `_meta` version negotiation with −32022 errors, CIMD dynamic client registration (SSRF-guarded, TTL-cached), RFC 9207 issuer validation, `scope`-guided 401s — all 93 MCP tests green.
-- 🔧 **Adding k6 load testing to DevSync** - load/performance testing the real-time project tracker (React + Flask + Socket.IO) so "fast" is a measured number, not a feeling.
 
 ---
 
@@ -125,14 +122,14 @@ I've built high-grade data systems end-to-end: real-time streaming platforms (SS
 
 <a href="https://github.com/AhmedIkram05/DevSync"><img src="https://img.shields.io/badge/View Project-DB2777?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`React` `Tailwind CSS` `Flask` `Socket.IO` `PostgreSQL` `Docker` `AWS` `GitHub Actions` `Pytest` `Jest` `Cypress`
+`React` `Tailwind CSS` `Flask` `Socket.IO` `PostgreSQL` `Docker` `AWS` `GitHub Actions` `Pytest` `Jest` `Cypress` `K6`
 
 **Multi-service full-stack application** - Flask API with Socket.IO real-time sync, React SPA served through nginx, and PostgreSQL on AWS RDS. Designed for team collaboration: task management, GitHub issue/PR linking, and role-based access control with OIDC-authenticated CI/CD.
 
 - **Multi-stage Docker**: backend compressed to **330MB** (python:3.11-slim runtime, build deps stripped in stage 1); frontend on node:20-alpine served by nginx with envsubst API_UPSTREAM templating; layer caching (`type=gha`) cuts rebuilds **70%+** across CI runs.
 - **Real-time collaboration**: Flask-SocketIO with JWT-authenticated WebSocket handshake and project-scoped rooms preventing cross-project data leaks - Socket.IO client broadcasts task updates and notifications to all room members, zero polling.
 - **JWT dual auth + RBAC**: access + refresh token flow with both cookie and Bearer transport; 3-tier role hierarchy (Developer / Team Lead / Admin) enforced at endpoint level via decorators.
-- **1,452 automated tests** (518 Pytest + 929 Jest + 5 Cypress) gate every PR, with coverage thresholds at 85% for backend and frontend; 12 PostgreSQL tables with composite indexes for common query patterns.
+- **k6 load-test gate**: 8th path-gated CI job - 10 VUs × 30s of JWT-authenticated traffic against the API on a fresh PostgreSQL 16 stack; ~1,300 requests, 0 errors, **P95 ≈ 74ms on a 500ms ceiling, ~42 sustained req/s** on a single gevent worker - thresholds in-script, committed-baseline regression detection (3× p95 / 4× p99 / +5pp errors / 70% rps), results reported as the `load-test-results` artifact.
 
 ---
 
