@@ -1,7 +1,7 @@
 # Ahmed Ikram
 
 <p align="center">
-  <strong>Final-year CS (Data Science &amp; AI) @ Dundee · Building production-grade AI &amp; data systems: real-time streaming, LLMOps, agentic RAG · Seeking 2027 graduate roles in Data/AI/SWE</strong>
+  <strong>Final-year CS (Data Science &amp; AI) @ Dundee · Real-time streaming, LLMOps, agentic RAG, cloud infrastructure · Seeking 2027 graduate roles in Data/AI/SWE</strong>
 </p>
 
 <p align="center">
@@ -26,7 +26,13 @@
 
 I'm a final-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First, seeking a **post-graduate role in Data, AI or Software Engineering starting 2027**.
 
-I've built high-grade data systems end-to-end: real-time streaming platforms (SSE ingestion → ClickHouse → Grafana → BigQuery), event-driven pipelines (Kafka, Airflow, AWS/GCP), batch medallion architectures (Databricks DLT, dbt, Azure SQL, Power BI), end-to-end ML and LLM systems (PyTorch, MLflow, QLoRA fine-tuning, RAG, LangChain, production MCP servers — OAuth 2.1 PKCE, CIMD, stateless 2026-07-28 dual-version, execution-based LLM evaluation, statistical model promotion), and full-stack cloud applications (React, Flask/FastAPI, AWS/GCP, CI/CD) - backed by **7,571 automated tests** across six featured projects (143 WikiStream + 1,455 DevSync + 1,438 LAAD + 748 W3C ETL + 2,331 StockLens + 1,456 SWE-Qwen). I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact: dead-letter routing before data hits a database, schema-on-write validation, parity checks, k6 load gates that fail on P95 regressions, and deployment pipelines that abort on failure rather than hoping nothing breaks.
+- **Data Engineering** - real-time streaming (SSE → ClickHouse → Grafana → BigQuery, 58.9M+ live events, zero loss at 5,655 ev/s) · event-driven pipelines (Kafka, Airflow, AWS/GCP) · batch medallion (Databricks DLT → dbt → Azure SQL → Power BI, 45s export)
+- **AI Engineering** - 3-layer anomaly detection at 99.8% CV · agentic RAG gated by RAGAS · 3 QLoRA variants of Qwen3-14B promoted by a statistical champion/challenger gate (7.0× F2P)
+- **Software Engineering** - full-stack cloud apps (React, Flask/FastAPI, AWS/GCP, CI/CD) · self-built MCP server with OAuth 2.1 PKCE · **7,578 automated tests** across six projects under CI quality gates - including the DevSync k6 regression gate and OIDC zero-static-secret pipelines
+
+I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact: dead-letter routing before data hits a database, schema-on-write validation, parity checks, k6 load gates that fail on P95 regressions, and deployment pipelines that abort on failure rather than hoping nothing breaks.
+
+<p align="center"><strong>In numbers</strong> - 58.9M+ live events · 7,578 automated tests · 7.0× F2P improvement · 99.8% anomaly CV · 45s ETL export · ~$42/month cloud footprint</p>
 
 - 🎓 BSc (Hons) Computer Science *(Data Science & AI)* - expected graduation *June 2027*
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
@@ -38,6 +44,9 @@ I've built high-grade data systems end-to-end: real-time streaming platforms (SS
 
 ## Currently Working On
 
+- **Restructuring every project's deep-dive docs** to lead with the DE / AI / SWE evidence recruiters read first.
+- **Refreshed all three CVs** (Data Engineering · AI Engineering · Software Engineering) - grab them above.
+
 ---
 
 ## Featured Projects
@@ -48,7 +57,7 @@ I've built high-grade data systems end-to-end: real-time streaming platforms (SS
 
 `Python` `httpx2` `ClickHouse LTS` `SummingMergeTree` `Materialized Views` `Grafana` `Great Expectations` `Pydantic v2` `BigQuery` `Terraform` `Docker Compose` `systemd` `Google Cloud` `GitHub Actions` `pytest`
 
-**High throughput real-time streaming analytics platform** - ingests **every public Wikipedia edit as it happens** (58.9M+ raw events and growing) via an async SSE consumer into a self-hosted ClickHouse cluster, serves live Grafana dashboards off pre-aggregated materialized views (15.0x faster queries, ~200x fewer rows scanned), exports hourly to a partitioned BigQuery warehouse with SUMS-based parity verification, and runs a fully automated data-quality and ops layer - all on a ~$41.65/month GCP footprint with a build → run → teardown → rebuild lifecycle, 11 documented ADRs, and zero static cloud credentials.
+**Ingests every public Wikipedia edit as it happens** - 58.9M+ raw events and growing, from a live SSE stream into self-hosted ClickHouse, served through Grafana dashboards backed by materialized views (**15.0x faster queries, ~200x fewer rows scanned**). Every hour the data lands in a partitioned BigQuery warehouse with SUMS-based parity verification - and the whole thing runs on a ~$41.65/month GCP footprint with a build → run → teardown → rebuild lifecycle, 11 documented ADRs, and zero static cloud credentials.
 
 - **Streaming ingestion**: async `httpx2` + hand-rolled WHATWG-compliant SSE parser with `Last-Event-ID` resume; Pydantic v2 schema-on-write validation before persistence; 1,000-row/5s batching with `async_insert` - **~1,000x fewer insert round-trips**.
 - **Sustained throughput**: **zero data loss at 5,655 events/sec sustained** (2.08× the real observed peak of 2,719 ev/s; 577,738 events through the burst harness, 0 drops); 12,210 events/min average over 3 days.
@@ -63,12 +72,12 @@ I've built high-grade data systems end-to-end: real-time streaming platforms (SS
 
 `Python` `FastAPI` `PostgreSQL` `Apache Kafka` `Redis` `XGBoost` `Scikit-learn` `Pandas` `LangChain` `LangGraph` `ChromaDB` `Ollama` `MCP` `RAGAS` `W&B Serverless` `MLflow` `SageMaker` `React` `Vite` `Tailwind CSS` `Chart.js` `Nginx` `Docker` `Terraform` `GitHub Actions` `Playwright` `AWS`
 
-**Industry project for NCR Atleos** - ATM log ingestion pipeline with 3-layer anomaly detection (XGBoost + Isolation Forest at 99.8% CV accuracy, Z-score, heuristic rules across 49 features) and an **Agentic Hybrid RAG** diagnostic assistant, a LangGraph agent over 12 MCP tools routing between vector search, structured metric/anomaly queries, and the knowledge base, with cross-encoder reranking, self-consistency, reflexion, citation grounding, and 4-signal confidence fusion, all served by a single W&B Serverless Inference LLM (`google/gemma-4-31B-it`) and gated by RAGAS evaluation against committed baselines (agentic: 0.708 context_recall, 0.874 context precision, 0.801 answer relevancy). Ingests 2.5M events from 7 log sources through Kafka KRaft with hybrid Redis/in-memory dedup and dead-letter routing. Deployed via Terraform (10 modules, 118 resources) to ECS Fargate behind OIDC-authenticated CI/CD pipelines. 1,438 tests (959 pytest + 394 vitest + 10 Playwright E2E + 75 Terraform IaC) gate every PR; patched 5 pre-release defects including a JWT privilege escalation vulnerability.
+**Industry project for NCR Atleos** - ATM log analysis at scale: a 3-layer engine (XGBoost + Isolation Forest at **99.8% CV accuracy**, Z-score, heuristics) detects anomalies across 49 features, and an **Agentic Hybrid RAG assistant** explains them - LangGraph agent, 12 MCP tools, cross-encoder reranking, self-consistency, reflexion, citation grounding, 4-signal confidence fusion, one W&B Serverless LLM (`google/gemma-4-31B-it`), RAGAS-gated (0.708 context_recall, 0.874 context precision, 0.801 answer relevancy). It ingests 2.5M events from 7 log sources through Kafka KRaft with hybrid Redis/in-memory dedup and dead-letter routing, deploys via Terraform (10 modules, 118 resources) to ECS Fargate, and gates on 1,438 tests (959 pytest + 394 vitest + 10 Playwright E2E + 75 Terraform IaC).
 
 - **Kafka event streaming**: KRaft mode, 2 topics × 3 partitions, at-least-once delivery with manual offset commits. Hybrid deduplication: Redis SET with 1h TTL + 10K-entry in-memory LRU fallback.
 - **3-layer detection engine**: ML_ENSEMBLE (XGBoost + Isolation Forest, **99.8% CV accuracy**) + ZSCORE (rolling 20-window sigma) + HEURISTIC (7 deterministic multi-source correlators) across 49 features; 600s configurable sliding window.
-- **Agentic Hybrid RAG**: LangGraph agent over 12 MCP tools with cross-encoder reranking, 3-sample self-consistency, Reflexion (critique → regenerate), citation grounding, and 4-signal confidence fusion - RAGAS-evaluated (**0.708 context_recall, 0.874 context precision, 0.801 answer relevancy**) and CI-gated against committed baselines.
-- **MLOps & QA**: MLflow champion registry + SageMaker `laad-xgb-champion` endpoint; **1,438 tests** (959 pytest across 10 tiers + 394 vitest + 10 Playwright E2E + 75 Terraform IaC) gate every PR - including a patched JWT privilege escalation vulnerability.
+- **Agentic Hybrid RAG**: 12 MCP tools routed across three groups - vector search, structured metric/anomaly queries, and the knowledge base; 3-sample self-consistency, Reflexion (critique → regenerate), CI-gated against committed baselines.
+- **MLOps & QA**: MLflow champion registry + SageMaker `laad-xgb-champion` endpoint; **1,438 tests** (959 pytest across 10 tiers + 394 vitest + 10 Playwright E2E + 75 Terraform IaC) gate every PR - alongside 26 documented security checks.
 
 ---
 
@@ -98,7 +107,7 @@ I've built high-grade data systems end-to-end: real-time streaming platforms (SS
 - **Serverless Databricks DLT**: Bronze ingests **153,380 rows** via Auto Loader with 7 `@dlt.expect_or_drop` quality checks (0 dropped); Silver enriches with 7 MaxMind GeoIP fields via consolidated struct UDF (**3.5× faster** than 7 separate UDFs), 31 columns across 153,377 rows, 30+ countries.
 - **45-second JDBC export**: pymssql batch executemany (BATCH_SIZE=5000) with 4-attempt exponential backoff - **8-9× faster** than the initial 413s implementation. Key optimisations: `tuple(row)` over `row.asDict()` (eliminates 4.7M dict allocations), Spark-side pre-filter before `collect()`.
 - **Dual-dialect dbt (T-SQL/PostgreSQL)**: 16 models (10 staging + 6 marts) compile against both Azure SQL (production) and PostgreSQL (dev/CI) via inline `{% if target.type == 'sqlserver' %}` branches - 18 T-SQL compatibility macros + 2 dispatch overrides, **121 data tests**.
-- **3 Grafana dashboards + 748 tests**: 23 panels across ETL, containers, and pipeline health with 8 Prometheus alert rules; 627 pytest (unit + Terraform + DAG integrity + integration + dbt-compile) + 121 dbt data tests gate every change.
+- **Quality gates**: 3 Grafana dashboards (23 panels: ETL, containers, pipeline health) with 8 Prometheus alert rules; 748 tests - 627 pytest (unit + Terraform + DAG integrity + integration + dbt-compile) + 121 dbt data tests gate every change.
 
 ---
 
@@ -108,13 +117,13 @@ I've built high-grade data systems end-to-end: real-time streaming platforms (SS
 
 `Python` `FastAPI` `TypeScript` `React Native` `Expo` `Rust` `PyO3` `PyTorch` `LangGraph` `MCP` `OAuth 2.1` `AWS Bedrock` `PostgreSQL` `Redis` `Apache Airflow` `MLflow` `Optuna` `Evidently AI` `Terraform` `Docker` `GitHub Actions` `AWS` `SageMaker` `Jest` `Pytest`
 
-**Production-grade FinTech platform** - Scan receipts via a confidence-gated OCR cascade (Tesseract → AWS Bedrock Vision LLM fallback), trade real stocks with the extracted amounts, track portfolios with cash-flow-aware time-weighted returns, get 5-day LSTM directional forecasts, benchmark against SPY (tracking error + information ratio), query holdings via a 16-tool LangGraph ReAct agent streaming over SSE, and expose all 16 tools + 2 resources + 1 prompt via a self-built dual-version MCP server (Streamable HTTP, OAuth 2.1 PKCE S256 RS256/JWKS — stateless 2026-07-28 + legacy 2025-06-18) mounted on the same FastAPI as single source of truth — zero duplication — all deployed on AWS ECS Fargate ARM64 via Terraform IaC with OIDC CI/CD.
+**FinTech app that turns receipts into trades** - scan a receipt, then buy or sell real stocks at live market prices with the extracted amount; track portfolios with cash-flow-aware time-weighted returns, 5-day LSTM directional forecasts, and SPY benchmarking (tracking error + information ratio). Under the hood it is a stack showcase: a confidence-gated OCR cascade (Tesseract → AWS Bedrock Vision fallback), a Rust feature engine, a 16-tool LangGraph ReAct agent streaming over SSE, and a self-built dual-version MCP server (OAuth 2.1 PKCE, 93 tests) mounted on the same FastAPI as single source of truth - zero duplication - all on AWS ECS Fargate ARM64 via Terraform IaC with OIDC CI/CD.
 
 - **Rust acceleration layer**: PyO3/Maturin native extension replacing pandas for **17 technical indicators** (log returns, SMA, RSI, MACD, rolling vol, Bollinger %B, ATR, OBV, Williams %R, ROC...) - O(n) zero-Python-overhead batch computation, built for ARM64 in CI.
-- **Global LSTM forecasting**: PyTorch with 16-dim entity embeddings across **475+ S&P 500 tickers** - **51.63% directional accuracy** (vs 33% random baseline), simulated Sharpe 0.97, Optuna 50-trial HPO, chronological 70/15/15 splits.
+- **Global LSTM forecasting**: PyTorch with 16-dim entity embeddings across **475+ S&P 500 tickers** - **51.63% directional accuracy** (vs 33% majority-class baseline), simulated Sharpe 0.97, Optuna 50-trial HPO, chronological 70/15/15 splits.
 - **NLP cascade OCR pipeline**: 4-stage escalation (Tesseract regex → Bedrock Vision LLM → text-only LLM → degraded fallback) with confidence gating (overall ≥0.7, OCR ≥0.6, merchant verified via rapidfuzz ≥80) and Redis 24h cache.
 - **MLOps retraining pipeline**: Airflow weekly cron → Rust feature engine → Optuna HPO → MLflow Champion/Challenger (**DA improvement >2pp promotes**) + Evidently AI drift detection (PSI>0.25, KS>0.3, JSD>0.3) on features and predictions.
-- **MCP Enterprise Server**: Self-built MCP (Python SDK 1.12, Streamable HTTP, OAuth 2.1 PKCE S256 RS256/JWKS, RFC 8414/9728/7517/9207) mounted on FastAPI — 16 tools + 2 resources + 1 prompt via single-source adapter (`src/agent/tools.py` → `src/mcp/tools_adapter.py`, injected `user_id`/`portfolio_id` stripped server-side), **dual-version protocol** (stateless 2026-07-28 `server/discover` over per-request `_meta` + legacy 2025-06-18 `initialize`, −32022 unsupported-version errors), **CIMD dynamic client registration** (SSRF-guarded metadata fetch, 300s TTL cache, redirect_uri enforcement), RFC 9207 `iss` in authorize responses, `WWW-Authenticate` with `resource_metadata` + `scope`, **93 MCP tests**, verified Inspector + Claude Desktop.
+- **MCP Enterprise Server**: Self-built MCP on FastAPI (SDK 1.12 · Streamable HTTP · OAuth 2.1 PKCE S256 RS256/JWKS · RFC 8414/9728/7517/9207) - 16 tools + 2 resources + 1 prompt via a single-source adapter; dual-version protocol (stateless 2026-07-28 + legacy 2025-06-18), SSRF-guarded dynamic client registration, RFC 9207 `iss`, `resource_metadata` scoping, **93 MCP tests**, verified with Inspector + Claude Desktop.
 
 ---
 
@@ -124,7 +133,7 @@ I've built high-grade data systems end-to-end: real-time streaming platforms (SS
 
 `React` `Tailwind CSS` `Flask` `Socket.IO` `PostgreSQL` `Docker` `AWS` `GitHub Actions` `Pytest` `Jest` `Cypress` `K6`
 
-**Multi-service full-stack application** - Flask API with Socket.IO real-time sync, React SPA served through nginx, and PostgreSQL on AWS RDS. Designed for team collaboration: task management, GitHub issue/PR linking, and role-based access control with OIDC-authenticated CI/CD.
+**Real-time project tracker where performance regressions can't ship** - Flask + Socket.IO project-scoped rooms, React SPA on nginx, PostgreSQL on AWS RDS: task management, GitHub issue/PR linking, and role-based access control. Guarded by 1,462 automated tests (Pytest, Jest, Cypress) at 85% coverage gates and a path-aware k6 load gate that measures P95 against a committed baseline before deployment.
 
 - **Multi-stage Docker**: backend compressed to **330MB** (python:3.11-slim runtime, build deps stripped in stage 1); frontend on node:20-alpine served by nginx with envsubst API_UPSTREAM templating; layer caching (`type=gha`) cuts rebuilds **70%+** across CI runs.
 - **Real-time collaboration**: Flask-SocketIO with JWT-authenticated WebSocket handshake and project-scoped rooms preventing cross-project data leaks - Socket.IO client broadcasts task updates and notifications to all room members, zero polling.
@@ -189,16 +198,6 @@ I've built high-grade data systems end-to-end: real-time streaming platforms (SS
   <img src="https://github-readme-stats.shion.dev/api?username=AhmedIkram05&show_icons=true&theme=react&hide_border=true" height="150" alt="stats graph" />
   <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=AhmedIkram05&layout=compact&theme=react&hide_border=true" height="150" alt="languages graph" />
   <img src="https://streak-stats.demolab.com/?user=AhmedIkram05&theme=react&hide_border=true&v=2" height="150" alt="streak graph" />
-</div>
-
-<br>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AhmedIkram05/AhmedIkram05/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AhmedIkram05/AhmedIkram05/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AhmedIkram05/AhmedIkram05/output/github-contribution-grid-snake.svg">
-  </picture>
 </div>
 
 <br>
