@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Seeking--Post_Graduate_Role_2027-forestgreen?style=for-the-badge&labelColor=000000&logo=briefcase&logoColor=white">
+  <img src="https://img.shields.io/badge/Status-Seeking_Post--Graduate_Role_2027-forestgreen?style=for-the-badge&labelColor=000000&logo=briefcase&logoColor=white">
 </p>
 
 ---
