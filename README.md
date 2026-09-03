@@ -26,13 +26,13 @@
 
 I'm a final-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First, seeking a **post-graduate role in Data, AI or Software Engineering starting 2027**.
 
-- **Data Engineering** - real-time streaming (SSE → ClickHouse → Grafana → BigQuery, 58.9M+ live events, zero loss at 5,655 ev/s) · event-driven pipelines (Kafka, Airflow, AWS/GCP) · batch medallion (Databricks DLT → dbt → Azure SQL → Power BI, 45s export)
+- **Data Engineering** - real-time streaming (SSE → ClickHouse → Grafana → BigQuery, 58.9M+ live events, zero loss at 5,655 ev/s) · event-driven pipelines (Kafka, Airflow, AWS/GCP) · batch medallion (Databricks DLT → dbt → Azure SQL → Power BI)
 - **AI Engineering** - 3-layer anomaly detection at 99.8% CV · agentic RAG gated by RAGAS · 3 QLoRA variants of Qwen3-14B promoted by a statistical champion/challenger gate (7.0× F2P)
 - **Software Engineering** - full-stack cloud apps (React, Flask/FastAPI, AWS/GCP, CI/CD) · self-built MCP server with OAuth 2.1 PKCE · **7,578 automated tests** across six projects under CI quality gates - including the DevSync k6 regression gate and OIDC zero-static-secret pipelines
 
 I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact: dead-letter routing before data hits a database, schema-on-write validation, parity checks, k6 load gates that fail on P95 regressions, and deployment pipelines that abort on failure rather than hoping nothing breaks.
 
-<p align="center"><strong>In numbers</strong> - 58.9M+ live events · 7,578 automated tests · 7.0× F2P improvement · 99.8% anomaly CV · 45s ETL export · ~$42/month cloud footprint</p>
+<p align="center"><strong>In numbers</strong> - 58.9M+ live events · 7,578 automated tests · 7.0× F2P improvement · 99.8% anomaly CV · ~$42/month cloud footprint</p>
 
 - 🎓 BSc (Hons) Computer Science *(Data Science & AI)* - expected graduation *June 2027*
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
@@ -44,7 +44,6 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 ## Currently Working On
 
-- **Restructuring every project's deep-dive docs** to lead with the DE / AI / SWE evidence recruiters read first.
 - **Refreshed all three CVs** (Data Engineering · AI Engineering · Software Engineering) - grab them above.
 
 ---
@@ -105,7 +104,7 @@ I treat reliability and observability as non-negotiable from the start, not retr
 **Serverless medallion architecture ETL** processing 93 real W3C IIS log files (2009-2011) through Bronze → Silver in Databricks DLT, with pymssql JDBC export to Azure SQL and dbt-driven transformation (dual-dialect T-SQL/PostgreSQL) into a 16-model star schema with SCD Type 2 geolocation history. Orchestrated by Apache Airflow with Terraform-managed infrastructure, OIDC-secured CI/CD, and 3 Grafana dashboards.
 
 - **Serverless Databricks DLT**: Bronze ingests **153,380 rows** via Auto Loader with 7 `@dlt.expect_or_drop` quality checks (0 dropped); Silver enriches with 7 MaxMind GeoIP fields via consolidated struct UDF (**3.5× faster** than 7 separate UDFs), 31 columns across 153,377 rows, 30+ countries.
-- **45-second JDBC export**: pymssql batch executemany (BATCH_SIZE=5000) with 4-attempt exponential backoff - **8-9× faster** than the initial 413s implementation. Key optimisations: `tuple(row)` over `row.asDict()` (eliminates 4.7M dict allocations), Spark-side pre-filter before `collect()`.
+- **JDBC export**: pymssql batch executemany (BATCH_SIZE=5000) with 4-attempt exponential backoff and tracking-table idempotency.
 - **Dual-dialect dbt (T-SQL/PostgreSQL)**: 16 models (10 staging + 6 marts) compile against both Azure SQL (production) and PostgreSQL (dev/CI) via inline `{% if target.type == 'sqlserver' %}` branches - 18 T-SQL compatibility macros + 2 dispatch overrides, **121 data tests**.
 - **Quality gates**: 3 Grafana dashboards (23 panels: ETL, containers, pipeline health) with 8 Prometheus alert rules; 748 tests - 627 pytest (unit + Terraform + DAG integrity + integration + dbt-compile) + 121 dbt data tests gate every change.
 
@@ -146,49 +145,49 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 ### Data Engineering
 
-![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&labelColor=000000&logo=clickhouse)
-![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&labelColor=000000&logo=apachekafka)
-![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&labelColor=000000&logo=apache-airflow)
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&labelColor=000000&logo=apachespark)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&labelColor=000000&logo=databricks)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&labelColor=000000&logo=dbt)
-![Google BigQuery](https://img.shields.io/badge/Google_BigQuery-669DF6?style=for-the-badge&labelColor=000000&logo=googlebigquery)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&labelColor=000000&logo=postgresql)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&labelColor=000000&logo=redis)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&labelColor=000000&logo=pandas)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&labelColor=000000&logo=powerbi)
+<a href="https://clickhouse.com/"><img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&labelColor=000000&logo=clickhouse"></a>
+<a href="https://kafka.apache.org/"><img src="https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&labelColor=000000&logo=apachekafka"></a>
+<a href="https://airflow.apache.org/"><img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&labelColor=000000&logo=apache-airflow"></a>
+<a href="https://spark.apache.org/"><img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&labelColor=000000&logo=apachespark"></a>
+<a href="https://www.databricks.com/"><img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&labelColor=000000&logo=databricks"></a>
+<a href="https://www.getdbt.com/"><img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&labelColor=000000&logo=dbt"></a>
+<a href="https://cloud.google.com/bigquery"><img src="https://img.shields.io/badge/Google_BigQuery-669DF6?style=for-the-badge&labelColor=000000&logo=googlebigquery"></a>
+<a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&labelColor=000000&logo=postgresql"></a>
+<a href="https://redis.io/"><img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&labelColor=000000&logo=redis"></a>
+<a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&labelColor=000000&logo=pandas"></a>
+<a href="https://powerbi.microsoft.com/"><img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&labelColor=000000&logo=powerbi"></a>
 
 ### AI Engineering
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&labelColor=000000&logo=pytorch)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&labelColor=000000&logo=huggingface)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&labelColor=000000)
-![LangGraph](https://img.shields.io/badge/LangGraph-7C3AED?style=for-the-badge&labelColor=000000)
-![MCP](https://img.shields.io/badge/MCP-7C3AED?style=for-the-badge&labelColor=000000&logo=modelcontextprotocol)
-![vLLM](https://img.shields.io/badge/vLLM-5A67D8?style=for-the-badge&labelColor=000000)
-![RAGAS](https://img.shields.io/badge/RAGAS-0078D4?style=for-the-badge&labelColor=000000)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&labelColor=000000&logo=mlflow)
-![Weights & Biases](https://img.shields.io/badge/Weights_%26_Biases-FFBE00?style=for-the-badge&labelColor=000000&logo=weightsandbiases)
-![XGBoost](https://img.shields.io/badge/XGBoost-AA0000?style=for-the-badge&labelColor=000000)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&labelColor=000000&logo=scikit-learn)
+<a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&labelColor=000000&logo=pytorch"></a>
+<a href="https://huggingface.co/"><img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&labelColor=000000&logo=huggingface"></a>
+<a href="https://www.langchain.com/"><img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&labelColor=000000"></a>
+<a href="https://www.langchain.com/langgraph"><img src="https://img.shields.io/badge/LangGraph-7C3AED?style=for-the-badge&labelColor=000000"></a>
+<a href="https://modelcontextprotocol.io/"><img src="https://img.shields.io/badge/MCP-7C3AED?style=for-the-badge&labelColor=000000&logo=modelcontextprotocol"></a>
+<a href="https://docs.vllm.ai/"><img src="https://img.shields.io/badge/vLLM-5A67D8?style=for-the-badge&labelColor=000000"></a>
+<a href="https://docs.ragas.io/"><img src="https://img.shields.io/badge/RAGAS-0078D4?style=for-the-badge&labelColor=000000"></a>
+<a href="https://mlflow.org/"><img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&labelColor=000000&logo=mlflow"></a>
+<a href="https://wandb.ai/"><img src="https://img.shields.io/badge/Weights_%26_Biases-FFBE00?style=for-the-badge&labelColor=000000&logo=weightsandbiases"></a>
+<a href="https://xgboost.readthedocs.io/"><img src="https://img.shields.io/badge/XGBoost-AA0000?style=for-the-badge&labelColor=000000"></a>
+<a href="https://scikit-learn.org/"><img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&labelColor=000000&logo=scikit-learn"></a>
 
 ### Software Engineering & Cloud
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&labelColor=000000&logo=python)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&labelColor=000000&logo=rust)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&labelColor=000000&logo=typescript)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&labelColor=000000&logo=fastapi)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&labelColor=000000&logo=react)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&labelColor=000000&logo=react)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&labelColor=000000&logo=terraform)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&labelColor=000000&logo=amazonaws)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&labelColor=000000&logo=microsoftazure)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&labelColor=000000&logo=googlecloud)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&labelColor=000000&logo=githubactions)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&labelColor=000000&logo=grafana)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&labelColor=000000&logo=prometheus)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&labelColor=000000&logo=pytest)
+<a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&labelColor=000000&logo=python"></a>
+<a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&labelColor=000000&logo=rust"></a>
+<a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&labelColor=000000&logo=typescript"></a>
+<a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&labelColor=000000&logo=fastapi"></a>
+<a href="https://react.dev/"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&labelColor=000000&logo=react"></a>
+<a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&labelColor=000000&logo=react"></a>
+<a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker"></a>
+<a href="https://www.terraform.io/"><img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&labelColor=000000&logo=terraform"></a>
+<a href="https://aws.amazon.com/"><img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&labelColor=000000&logo=amazonaws"></a>
+<a href="https://azure.microsoft.com/"><img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&labelColor=000000&logo=microsoftazure"></a>
+<a href="https://cloud.google.com/"><img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&labelColor=000000&logo=googlecloud"></a>
+<a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&labelColor=000000&logo=githubactions"></a>
+<a href="https://grafana.com/"><img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&labelColor=000000&logo=grafana"></a>
+<a href="https://prometheus.io/"><img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&labelColor=000000&logo=prometheus"></a>
+<a href="https://docs.pytest.org/"><img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&labelColor=000000&logo=pytest"></a>
 
 ---
 
