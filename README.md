@@ -33,7 +33,7 @@ I'm a final-year BSc Computer Science (Data Science & AI) student at the Univers
 - **AI Engineering** - 3-layer anomaly detection at 99.8% CV · agentic RAG gated by RAGAS · 3 QLoRA variants of Qwen3-14B promoted by a statistical champion/challenger gate (7.0× F2P)
 - **Software Engineering** - full-stack cloud apps (React, Flask/FastAPI, AWS/GCP, CI/CD) · self-built MCP server with OAuth 2.1 PKCE · **7,578 automated tests** across six projects under CI quality gates - including the DevSync k6 regression gate and OIDC zero-static-secret pipelines
 
-I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact: dead-letter routing before data hits a database, schema-on-write validation, parity checks, k6 load gates that fail on P95 regressions, and deployment pipelines that abort on failure rather than hoping nothing breaks.
+I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact. Dead-letter routing, schema-on-write validation, parity checks, k6 gates that fail on P95 regressions, and pipelines that retry transient blips and abort on real failure.
 
 <p align="center"><strong>In numbers</strong> - 58.9M+ live events · 7,578 automated tests · 7.0× F2P improvement · 99.8% anomaly CV</p>
 
