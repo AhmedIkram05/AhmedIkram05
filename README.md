@@ -45,12 +45,6 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 ---
 
-## Currently Working On
-
-- **Refreshed all three CVs** (Data Engineering · AI Engineering · Software Engineering) - grab them above.
-
----
-
 ## Core Tech Stack
 
 ### Data Engineering
