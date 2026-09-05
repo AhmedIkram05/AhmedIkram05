@@ -43,6 +43,8 @@ I treat reliability and observability as non-negotiable from the start, not retr
 - 🏆 AWS Academy - [Cloud Foundations](https://www.credly.com/badges/c4f6bb59-3638-48fe-8c0b-af5c3976731d/print)
 - 📍 Based in Dundee, Scotland - open to relocation
 
+<p align="center"><strong>See pinned repos below - each with full architecture, metrics, and test gates.</strong></p>
+
 ---
 
 ## Core Tech Stack
