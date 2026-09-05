@@ -84,7 +84,7 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 <a href="https://github.com/AhmedIkram05/SWE-Qwen"><img src="https://img.shields.io/badge/View Project-2563EB?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`Python` `asyncio` `PyTorch` `QLoRA` `Unsloth` `FastAPI` `Modal` `vLLM` `Qwen3` `Terraform` `Google Cloud` `Docker` `Weights & Biases` `Hugging Face` `Langfuse` `pytest` `GitHub Actions`
+`Python` `asyncio` `PyTorch` `QLoRA` `Unsloth` `FastAPI` `Jinja2` `Modal` `vLLM` `Qwen3` `Terraform` `Google Cloud` `Docker` `Weights & Biases` `Hugging Face` `Langfuse` `pytest` `GitHub Actions`
 
 **Model agnostic LLMOps platform** - ingests 20,477 real SWE-bench GitHub issues into a 17,456-example training corpus, fine-tunes 3 QLoRA variants of Qwen3-14B on Modal A100-80GB GPUs, and measures each model the only way that matters - executing its generated patches against FAIL_TO_PASS / PASS_TO_PASS tests inside real SWE-bench Docker images. Promotion to champion is a statistical decision (Wilson CIs, McNemar, paired bootstrap), never a merge; the winner is served through an OpenAI-compatible, scale-to-zero inference API with per-request LoRA adapters - all orchestrated by Terraform on Google Cloud, tracked end-to-end in Weights & Biases, and gated by 4 GitHub Actions workflows.
 
