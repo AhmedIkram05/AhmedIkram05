@@ -32,7 +32,7 @@ I'm a final-year BSc Computer Science (Data Science & AI) student at the Univers
 
 I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact: dead-letter routing before data hits a database, schema-on-write validation, parity checks, k6 load gates that fail on P95 regressions, and deployment pipelines that abort on failure rather than hoping nothing breaks.
 
-<p align="center"><strong>In numbers</strong> - 58.9M+ live events · 7,578 automated tests · 7.0× F2P improvement · 99.8% anomaly CV · ~$42/month cloud footprint</p>
+<p align="center"><strong>In numbers</strong> - 58.9M+ live events · 7,578 automated tests · 7.0× F2P improvement · 99.8% anomaly CV</p>
 
 - 🎓 BSc (Hons) Computer Science *(Data Science & AI)* - expected graduation *June 2027*
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
@@ -54,7 +54,7 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 <a href="https://github.com/AhmedIkram05/WikiStream"><img src="https://img.shields.io/badge/View Project-FFCC01?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`Python` `httpx2` `ClickHouse LTS` `SummingMergeTree` `Materialized Views` `Grafana` `Great Expectations` `Pydantic v2` `BigQuery` `Terraform` `Docker Compose` `systemd` `Google Cloud` `GitHub Actions` `pytest`
+`Python` `asyncio` `ClickHouse` `Grafana` `BigQuery` `Terraform` `Google Cloud` `systemd` `Docker` `pytest` `Great Expectations` `Pydantic` `EventStreams` `Materialized Views` `Workload Identity` `GitHub Actions`
 
 **Ingests every public Wikipedia edit as it happens** - 58.9M+ raw events and growing, from a live SSE stream into self-hosted ClickHouse, served through Grafana dashboards backed by materialized views (**15.0x faster queries, ~200x fewer rows scanned**). Every hour the data lands in a partitioned BigQuery warehouse with SUMS-based parity verification - and the whole thing runs on a ~$41.65/month GCP footprint with a build → run → teardown → rebuild lifecycle, 11 documented ADRs, and zero static cloud credentials.
 
@@ -69,7 +69,7 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 <a href="https://github.com/AhmedIkram05/laad"><img src="https://img.shields.io/badge/View Project-A855F7?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`Python` `FastAPI` `PostgreSQL` `Apache Kafka` `Redis` `XGBoost` `Scikit-learn` `Pandas` `LangChain` `LangGraph` `ChromaDB` `Ollama` `MCP` `RAGAS` `W&B Serverless` `MLflow` `SageMaker` `React` `Vite` `Tailwind CSS` `Chart.js` `Nginx` `Docker` `Terraform` `GitHub Actions` `Playwright` `AWS`
+`Python` `asyncio` `FastAPI` `PostgreSQL` `Apache Kafka` `Redis` `XGBoost` `Scikit-learn` `Pandas` `LangChain` `LangGraph` `ChromaDB` `Ollama` `MCP` `RAGAS` `W&B Serverless` `MLflow` `SageMaker` `React` `Vite` `Tailwind CSS` `Chart.js` `Nginx` `Docker` `Terraform` `GitHub Actions` `Playwright` `AWS`
 
 **Industry project for NCR Atleos** - ATM log analysis at scale: a 3-layer engine (XGBoost + Isolation Forest at **99.8% CV accuracy**, Z-score, heuristics) detects anomalies across 49 features, and an **Agentic Hybrid RAG assistant** explains them - LangGraph agent, 12 MCP tools, cross-encoder reranking, self-consistency, reflexion, citation grounding, 4-signal confidence fusion, one W&B Serverless LLM (`google/gemma-4-31B-it`), RAGAS-gated (0.708 context_recall, 0.874 context precision, 0.801 answer relevancy). It ingests 2.5M events from 7 log sources through Kafka KRaft with hybrid Redis/in-memory dedup and dead-letter routing, deploys via Terraform (10 modules, 118 resources) to ECS Fargate, and gates on 1,438 tests (959 pytest + 394 vitest + 10 Playwright E2E + 75 Terraform IaC).
 
@@ -84,7 +84,7 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 <a href="https://github.com/AhmedIkram05/SWE-Qwen"><img src="https://img.shields.io/badge/View Project-2563EB?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`Python` `PyTorch` `QLoRA` `PEFT` `Unsloth` `bitsandbytes` `TRL` `Hugging Face Transformers` `Qwen3-14B` `vLLM` `FastAPI` `Uvicorn` `Modal` `Weights & Biases` `Langfuse` `Google Cloud` `BigQuery` `Terraform` `Docker` `GitHub Actions` `pytest`
+`Python` `asyncio` `PyTorch` `QLoRA` `Unsloth` `FastAPI` `Jinja2` `Modal` `vLLM` `Qwen3` `Terraform` `Google Cloud` `Docker` `Weights & Biases` `Hugging Face` `Langfuse` `pytest` `GitHub Actions`
 
 **Model agnostic LLMOps platform** - ingests 20,477 real SWE-bench GitHub issues into a 17,456-example training corpus, fine-tunes 3 QLoRA variants of Qwen3-14B on Modal A100-80GB GPUs, and measures each model the only way that matters - executing its generated patches against FAIL_TO_PASS / PASS_TO_PASS tests inside real SWE-bench Docker images. Promotion to champion is a statistical decision (Wilson CIs, McNemar, paired bootstrap), never a merge; the winner is served through an OpenAI-compatible, scale-to-zero inference API with per-request LoRA adapters - all orchestrated by Terraform on Google Cloud, tracked end-to-end in Weights & Biases, and gated by 4 GitHub Actions workflows.
 
@@ -99,7 +99,7 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 <a href="https://github.com/AhmedIkram05/w3c-etl-pipeline"><img src="https://img.shields.io/badge/View Project-059669?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`Databricks DLT` `dbt` `Apache Airflow` `Azure SQL` `Terraform` `Power BI` `Apache Spark` `PySpark` `Python` `Grafana` `Prometheus` `Delta Lake` `Docker` `GitHub Actions` `pytest`
+`Azure` `Databricks` `dbt` `Airflow` `Terraform` `Python` `Power BI` `Power Automate` `Apache Spark` `PySpark` `Delta Lake` `SQL Server` `PostgreSQL` `Redis` `Grafana` `Prometheus` `OpenLineage` `Marquez` `Docker` `GitHub Actions` `pytest`
 
 **Serverless medallion architecture ETL** processing 93 real W3C IIS log files (2009-2011) through Bronze → Silver in Databricks DLT, with pymssql JDBC export to Azure SQL and dbt-driven transformation (dual-dialect T-SQL/PostgreSQL) into a 16-model star schema with SCD Type 2 geolocation history. Orchestrated by Apache Airflow with Terraform-managed infrastructure, OIDC-secured CI/CD, and 3 Grafana dashboards.
 
@@ -114,7 +114,7 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 <a href="https://github.com/AhmedIkram05/stocklens"><img src="https://img.shields.io/badge/View Project-E65100?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`Python` `FastAPI` `TypeScript` `React Native` `Expo` `Rust` `PyO3` `PyTorch` `LangGraph` `MCP` `OAuth 2.1` `AWS Bedrock` `PostgreSQL` `Redis` `Apache Airflow` `MLflow` `Optuna` `Evidently AI` `Terraform` `Docker` `GitHub Actions` `AWS` `SageMaker` `Jest` `Pytest`
+`Python` `asyncio` `FastAPI` `TypeScript` `React Native` `Expo` `Rust` `PyO3` `PyTorch` `LangGraph` `MCP` `OAuth 2.1` `AWS Bedrock` `PostgreSQL` `Redis` `Apache Airflow` `MLflow` `Optuna` `Evidently AI` `Terraform` `Docker` `GitHub Actions` `AWS` `SageMaker` `Jest` `pytest`
 
 **FinTech app that turns receipts into trades** - scan a receipt, then buy or sell real stocks at live market prices with the extracted amount; track portfolios with cash-flow-aware time-weighted returns, 5-day LSTM directional forecasts, and SPY benchmarking (tracking error + information ratio). Under the hood it is a stack showcase: a confidence-gated OCR cascade (Tesseract → AWS Bedrock Vision fallback), a Rust feature engine, a 16-tool LangGraph ReAct agent streaming over SSE, and a self-built dual-version MCP server (OAuth 2.1 PKCE, 93 tests) mounted on the same FastAPI as single source of truth - zero duplication - all on AWS ECS Fargate ARM64 via Terraform IaC with OIDC CI/CD.
 
@@ -130,7 +130,7 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 <a href="https://github.com/AhmedIkram05/DevSync"><img src="https://img.shields.io/badge/View Project-DB2777?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"></a>
 
-`React` `Tailwind CSS` `Flask` `Socket.IO` `PostgreSQL` `Docker` `AWS` `GitHub Actions` `Pytest` `Jest` `Cypress` `K6`
+`React` `Tailwind CSS` `Python` `Flask` `SQLAlchemy` `Gunicorn` `Swagger` `PostgreSQL` `Docker` `nginx` `AWS` `GitHub Actions` `Socket.io` `k6` `pytest` `Cypress` `Jest`
 
 **Real-time project tracker where performance regressions can't ship** - Flask + Socket.IO project-scoped rooms, React SPA on nginx, PostgreSQL on AWS RDS: task management, GitHub issue/PR linking, and role-based access control. Guarded by 1,462 automated tests (Pytest, Jest, Cypress) at 85% coverage gates and a path-aware k6 load gate that measures P95 against a committed baseline before deployment.
 
