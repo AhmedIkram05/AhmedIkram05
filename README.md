@@ -1,7 +1,7 @@
 # Ahmed Ikram
 
 <p align="center">
-  <strong>Final-year CS (Data Science &amp; AI) @ Dundee · Real-time streaming, LLMOps, agentic RAG, cloud infrastructure · Seeking 2027 graduate roles in Data/AI/SWE</strong>
+  <strong>Final-year CS (Data Science &amp; AI) @ Dundee · Real-time streaming, LLMOps, agentic RAG, cloud infrastructure</strong>
 </p>
 
 <p align="center">
@@ -29,15 +29,15 @@
 
 I'm a final-year BSc Computer Science (Data Science & AI) student at the University of Dundee, on track for a First, seeking a **post-graduate role in Data, AI or Software Engineering starting 2027**.
 
-- **Data Engineering** - real-time streaming (SSE → ClickHouse → Grafana → BigQuery, 58.9M+ live events, zero loss at 5,655 ev/s) · event-driven pipelines (Kafka, Airflow, AWS/GCP) · batch medallion (Databricks DLT → dbt → Azure SQL → Power BI)
+- **Data Engineering** - real-time streaming (SSE → ClickHouse → Grafana → BigQuery, 58.9M+ live events, zero drops in a 10× synthetic burst stress test(5,655 ev/s)) · event-driven pipelines (Kafka, Airflow, AWS/GCP) · batch medallion (Databricks DLT → dbt → Azure SQL → Power BI)
 - **AI Engineering** - 3-layer anomaly detection at 99.8% CV · agentic RAG gated by RAGAS · 3 QLoRA variants of Qwen3-14B promoted by a statistical champion/challenger gate (7.0× F2P)
-- **Software Engineering** - full-stack cloud apps (React, Flask/FastAPI, AWS/GCP, CI/CD) · self-built MCP server with OAuth 2.1 PKCE · **7,578 automated tests** across six projects under CI quality gates - including the DevSync k6 regression gate and OIDC zero-static-secret pipelines
+- **Software Engineering** - full-stack cloud apps (React, Flask/FastAPI, AWS/GCP, CI/CD) · self-built MCP server with OAuth 2.1 PKCE · **7,500+ automated tests & assertions** across six projects under CI quality gates - including the DevSync k6 regression gate and OIDC zero-static-secret pipelines
 
 I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact. Dead-letter routing, schema-on-write validation, parity checks, k6 gates that fail on P95 regressions, and pipelines that retry transient blips and abort on real failure.
 
-<p align="center"><strong>In numbers</strong> - 58.9M+ live events · 7,578 automated tests · 7.0× F2P improvement · 99.8% anomaly CV</p>
+<p align="center"><strong>In numbers</strong> - 58.9M+ live events · 7,500+ tests & assertions · 7.0× F2P improvement · 99.8% anomaly CV</p>
 
-- 🎓 BSc (Hons) Computer Science *(Data Science & AI)* - expected graduation *June 2027*
+- 🎓 BSc (Hons) Computer Science _(Data Science & AI)_ - expected graduation _June 2027_
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
 - 🏅 Microsoft Learn - [Foundations of Azure AI: Concepts, Capabilities, and Implementation](https://www.linkedin.com/learning/certificates/e3dc3610a320ee93d032317f3906e12d09f41da322c5fc1c94d272cef7f224c9)
 - 🏆 AWS Academy - [Cloud Foundations](https://www.credly.com/badges/c4f6bb59-3638-48fe-8c0b-af5c3976731d/print)
@@ -83,6 +83,7 @@ I treat reliability and observability as non-negotiable from the start, not retr
 <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&labelColor=000000&logo=rust"></a>
 <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&labelColor=000000&logo=typescript"></a>
 <a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&labelColor=000000&logo=fastapi"></a>
+<a href="https://graphql.org/"><img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&labelColor=000000&logo=graphql"></a>
 <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&labelColor=000000&logo=react"></a>
 <a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&labelColor=000000&logo=react"></a>
 <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=000000&logo=docker"></a>
