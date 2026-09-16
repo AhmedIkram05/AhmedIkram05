@@ -33,7 +33,7 @@ I'm a final-year BSc Computer Science (Data Science & AI) student at the Univers
 - **AI Engineering** - 3-layer anomaly detection at 99.8% CV · agentic RAG gated by RAGAS · 3 QLoRA variants of Qwen3-14B promoted by a statistical champion/challenger gate (7.0× F2P), wrapped in a CLI model registry onboarding any open-weight HF model
 - **Software Engineering** - full-stack cloud apps (React, Flask/FastAPI, AWS/GCP, CI/CD) · self-built MCP server with OAuth 2.1 PKCE · **7,500+ automated tests & assertions** across six projects under CI quality gates - including the DevSync k6 regression gate, its GKE/K8s deployment extension, and OIDC zero-static-secret pipelines
 
-I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact. Dead-letter routing, schema-on-write validation, parity checks, k6 gates that fail on P95 regressions, and pipelines that retry transient blips and abort on real failure.
+I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact. Dead-letter routing, schema-on-write validation, parity checks, k6 gates that fail on P95 regressions, OpenTelemetry traces (OTLP → Collector → Jaeger) across 4 services with W3C propagation through Kafka headers, and pipelines that retry transient blips and abort on real failure.
 
 <p align="center"><strong>In numbers</strong> - 58.9M+ live events · 7,500+ tests & assertions · 7.0× F2P improvement · 99.8% anomaly CV</p>
 
@@ -94,6 +94,8 @@ I treat reliability and observability as non-negotiable from the start, not retr
 <a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&labelColor=000000&logo=githubactions"></a>
 <a href="https://grafana.com/"><img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&labelColor=000000&logo=grafana"></a>
 <a href="https://prometheus.io/"><img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&labelColor=000000&logo=prometheus"></a>
+<a href="https://opentelemetry.io/"><img src="https://img.shields.io/badge/OpenTelemetry-FFFFFF?style=for-the-badge&labelColor=000000&logo=opentelemetry"></a>
+<a href="https://www.jaegertracing.io/"><img src="https://img.shields.io/badge/Jaeger-E8472B?style=for-the-badge&labelColor=000000&logo=jaeger"></a>
 <a href="https://docs.pytest.org/"><img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&labelColor=000000&logo=pytest"></a>
 
 ---
