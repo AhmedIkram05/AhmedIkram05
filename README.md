@@ -31,11 +31,11 @@ I'm a final-year BSc Computer Science (Data Science & AI) student at the Univers
 
 - **Data Engineering** - real-time streaming (SSE → ClickHouse → Grafana → BigQuery, 58.9M+ live events, zero drops in a 10× synthetic burst stress test(5,655 ev/s)) · event-driven pipelines (Kafka, Airflow, AWS/GCP) · batch medallion (Databricks DLT → dbt → Azure SQL → Power BI)
 - **AI Engineering** - 3-layer anomaly detection at 99.8% CV · agentic RAG gated by RAGAS · 3 QLoRA variants of Qwen3-14B promoted by a statistical champion/challenger gate (7.0× F2P), wrapped in a CLI model registry onboarding any open-weight HF model
-- **Software Engineering** - full-stack cloud apps (React, Flask/FastAPI, AWS/GCP, CI/CD) · self-built MCP server with OAuth 2.1 PKCE · **7,500+ automated tests & assertions** across six projects under CI quality gates - including the DevSync k6 regression gate, its GKE/K8s deployment extension, and OIDC zero-static-secret pipelines
+- **Software Engineering** - full-stack cloud apps (React, Flask/FastAPI, AWS/GCP, CI/CD) · self-built MCP server with OAuth 2.1 PKCE · **8,200+ automated tests & assertions** across six projects under CI quality gates - including the DevSync k6 regression gate, its GKE/K8s deployment extension, and OIDC zero-static-secret pipelines
 
 I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact. Dead-letter routing, schema-on-write validation, parity checks, k6 gates that fail on P95 regressions, OpenTelemetry traces (OTLP → Collector → Jaeger) across 4 services with W3C propagation through Kafka headers, and pipelines that retry transient blips and abort on real failure.
 
-<p align="center"><strong>In numbers</strong> - 58.9M+ live events · 7,500+ tests & assertions · 7.0× F2P improvement · 99.8% anomaly CV</p>
+<p align="center"><strong>In numbers</strong> - 58.9M+ live events · 8,200+ tests & assertions · 7.0× F2P improvement · 99.8% anomaly CV</p>
 
 - 🎓 BSc (Hons) Computer Science _(Data Science & AI)_ - expected graduation _June 2027_
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
