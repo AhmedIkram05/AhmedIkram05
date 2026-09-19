@@ -43,12 +43,12 @@ I treat reliability and observability as non-negotiable from the start, not retr
 - 🏆 AWS Academy - [Cloud Foundations](https://www.credly.com/badges/c4f6bb59-3638-48fe-8c0b-af5c3976731d/print)
 - 📍 Based in Dundee, Scotland - open to relocation
 
+</br></br>
+
 <p align="center"><strong>See pinned repos below - each with full architecture, metrics, and test gates.</strong></p>
 
-<p align="center"><strong><a href="https://github.com/AhmedIkram05/opencode-git-guard">opencode-git-guard</a></strong> - OpenCode plugin that hard-blocks destructive git commands (<code>push --force</code>, <code>reset --hard</code>, <code>clean -fd</code>…) before agents run them, now published as an official npm package - can't pin everything, but this one's worth a click<br>
+<p align="center"><strong><a href="https://github.com/AhmedIkram05/opencode-git-guard">opencode-git-guard</a></strong> - OpenCode plugin that hard-blocks destructive git commands before agents run them, now published as an official npm package - can't pin everything, but this one's worth a click<br>
   <a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/v/opencode-git-guard?style=flat-square"></a>
-  <a href="https://github.com/AhmedIkram05/opencode-git-guard/actions/workflows/ci.yml"><img src="https://github.com/AhmedIkram05/opencode-git-guard/actions/workflows/ci.yml/badge.svg"></a>
-  <br><code>plugin: ["opencode-git-guard"]</code>
 </p>
 
 ---
