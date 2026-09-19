@@ -45,7 +45,7 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 <p align="center"><strong>See pinned repos below - each with full architecture, metrics, and test gates.</strong></p><br>
 
-<p align="center"><strong><a href="https://github.com/AhmedIkram05/opencode-git-guard">opencode-git-guard</a></strong> - OpenCode plugin that hard-blocks destructive git commands before agents can run them, now published as an official npm package - can't pin everything, but this one's worth a click<br>
+<p align="center"><strong><a href="https://github.com/AhmedIkram05/opencode-git-guard">opencode-git-guard</a></strong> - OpenCode plugin that hard-blocks destructive git commands (<code>push --force</code>, <code>reset --hard</code>, <code>clean -fd</code>…) before agents run them, now published as an official npm package - can't pin everything, but this one's worth a click<br>
   <a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/v/opencode-git-guard?style=flat-square"></a>
 </p>
 
