@@ -49,7 +49,7 @@ I treat reliability, observability, and long-term maintainability as non-negotia
 
 ## Currently Shipping - [opencode-git-guard](https://github.com/AhmedIkram05/opencode-git-guard)
 
-**[OpenCode-git-guard](https://github.com/AhmedIkram05/opencode-git-guard)** — OpenCode V1 plugin, hard-blocks `git push --force`, `git reset --hard`, `git clean -fd`, and similar destructive git commands before agents can execute them. Available on [npm](https://www.npmjs.com/package/opencode-git-guard).
+**[OpenCode-git-guard](https://github.com/AhmedIkram05/opencode-git-guard)** - OpenCode V1 plugin, hard-blocks `git push --force`, `git reset --hard`, `git clean -fd`, and similar destructive git commands before agents can execute them. Available on [npm](https://www.npmjs.com/package/opencode-git-guard).
 
 <p align="center"><strong>🟢 Active</strong></p>
 
