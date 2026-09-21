@@ -115,6 +115,10 @@ I treat reliability and observability as non-negotiable from the start, not retr
   <img src="https://streak-stats.demolab.com/?user=AhmedIkram05&theme=react&hide_border=true&v=2" height="150" alt="streak graph" />
 </div>
 
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=AhmedIkram05&color=blue&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
+</div>
+
 <br>
 
 <div align="center">
