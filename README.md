@@ -51,8 +51,10 @@ I treat reliability, observability, and long-term maintainability as non-negotia
 
 **I am actively shipping an** OpenCode plugin that hard-blocks destructive git commands before agents run them, now published as an official [npm package](https://www.npmjs.com/package/opencode-git-guard).
 
-<a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/v/opencode-git-guard?style=flat-square"></a>
-<a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/dt/opencode-git-guard?style=flat-square"></a>
+<p align="center">
+  <a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/v/opencode-git-guard?style=flat-square"></a>
+  <a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/dt/opencode-git-guard?style=flat-square"></a>
+</p>
 
 ---
 
