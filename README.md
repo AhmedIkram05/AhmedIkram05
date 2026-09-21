@@ -49,6 +49,7 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 <p align="center"><strong><a href="https://github.com/AhmedIkram05/opencode-git-guard">opencode-git-guard</a></strong> - OpenCode plugin that hard-blocks destructive git commands before agents run them, now published as an official npm package - can't pin everything, but this one's worth a click<br>
   <a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/v/opencode-git-guard?style=flat-square"></a>
+  <a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/dm/opencode-git-guard?style=flat-square"></a>
 </p>
 
 ---
@@ -110,7 +111,7 @@ I treat reliability and observability as non-negotiable from the start, not retr
 
 <div align="center">
   <img src="https://github-readme-stats.shion.dev/api?username=AhmedIkram05&show_icons=true&theme=react&hide_border=true&hide=issues,stars&include_all_commits=true" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=AhmedIkram05&layout=compact&theme=react&hide_border=true" height="150" alt="languages graph" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=AhmedIkram05&layout=compact&theme=react&hide_border=true&card_width=400" height="150" alt="languages graph" />
   <img src="https://streak-stats.demolab.com/?user=AhmedIkram05&theme=react&hide_border=true&v=2" height="150" alt="streak graph" />
 </div>
 
