@@ -35,8 +35,6 @@ I'm a final-year BSc Computer Science (Data Science & AI) student at the Univers
 
 I treat reliability, observability, and long-term maintainability as non-negotiable from the start, not retrofitted after the fact. Dead-letter routing, schema-on-write validation, parity checks, k6 gates that fail on P95 regressions, OpenTelemetry traces (OTLP → Collector → Jaeger) across 4 services with W3C propagation through Kafka headers, pipelines that retry transient blips and abort on real failure, and code written to be read more often than it is written - to outlive the dependencies it sits on top of.
 
-<p align="center"><strong>In numbers</strong> - 58.9M+ live events · 8,200+ tests & assertions · 7.0× F2P improvement · 99.8% anomaly CV</p>
-
 - 🎓 BSc (Hons) Computer Science _(Data Science & AI)_ - expected graduation _June 2027_
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
 - 🏅 Microsoft Learn - [Foundations of Azure AI: Concepts, Capabilities, and Implementation](https://www.linkedin.com/learning/certificates/e3dc3610a320ee93d032317f3906e12d09f41da322c5fc1c94d272cef7f224c9)
