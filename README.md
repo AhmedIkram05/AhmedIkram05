@@ -33,9 +33,7 @@ I'm a final-year BSc Computer Science (Data Science & AI) student at the Univers
 - **AI Engineering** - 3-layer anomaly detection at 99.8% CV · agentic RAG gated by RAGAS · 3 QLoRA variants of Qwen3-14B promoted by a statistical champion/challenger gate (7.0× F2P), wrapped in a CLI model registry onboarding any open-weight HF model
 - **Software Engineering** - full-stack cloud apps (React, Flask/FastAPI, AWS/GCP, CI/CD) · self-built MCP server with OAuth 2.1 PKCE · **8,200+ automated tests & assertions** across six projects under CI quality gates - including the DevSync k6 regression gate, its GKE/K8s deployment extension, and OIDC zero-static-secret pipelines
 
-I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact. Dead-letter routing, schema-on-write validation, parity checks, k6 gates that fail on P95 regressions, OpenTelemetry traces (OTLP → Collector → Jaeger) across 4 services with W3C propagation through Kafka headers, and pipelines that retry transient blips and abort on real failure.
-
-<p align="center"><strong>In numbers</strong> - 58.9M+ live events · 8,200+ tests & assertions · 7.0× F2P improvement · 99.8% anomaly CV</p>
+I treat reliability, observability, and long-term maintainability as non-negotiable from the start, not retrofitted after the fact. Dead-letter routing, schema-on-write validation, parity checks, k6 gates that fail on P95 regressions, OpenTelemetry traces (OTLP → Collector → Jaeger) across 4 services with W3C propagation through Kafka headers, pipelines that retry transient blips and abort on real failure, and code written to be read more often than it is written - to outlive the dependencies it sits on top of.
 
 - 🎓 BSc (Hons) Computer Science _(Data Science & AI)_ - expected graduation _June 2027_
 - 🏆 AWS Academy - [Machine Learning Foundations](https://www.credly.com/badges/0c546295-6fe4-4055-b9eb-bed62233dce7/linked_in_profile)
@@ -43,13 +41,20 @@ I treat reliability and observability as non-negotiable from the start, not retr
 - 🏆 AWS Academy - [Cloud Foundations](https://www.credly.com/badges/c4f6bb59-3638-48fe-8c0b-af5c3976731d/print)
 - 📍 Based in Dundee, Scotland - open to relocation
 
-</br></br>
+</br>
 
-<p align="center"><strong>See pinned repos below!</strong></p>
+<p align="center"><strong>See pinned repos at the bottom!</strong></p>
 
-<p align="center"><strong><a href="https://github.com/AhmedIkram05/opencode-git-guard">opencode-git-guard</a></strong> - OpenCode plugin that hard-blocks destructive git commands before agents run them, now published as an official npm package - can't pin everything, but this one's worth a click<br>
+---
+
+## Live on npm - [opencode-git-guard](https://github.com/AhmedIkram05/opencode-git-guard)
+
+<p align="center">
   <a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/v/opencode-git-guard?style=flat-square"></a>
+  <a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/dt/opencode-git-guard?style=flat-square"></a>
 </p>
+
+**[OpenCode-git-guard](https://github.com/AhmedIkram05/opencode-git-guard)** - OpenCode V1 plugin, hard-blocks `git push --force`, `git reset --hard`, `git clean -fd`, and similar destructive git commands before agents can execute them. Available on [npm](https://www.npmjs.com/package/opencode-git-guard).
 
 ---
 
@@ -109,9 +114,13 @@ I treat reliability and observability as non-negotiable from the start, not retr
 ## GitHub Stats & Contributions
 
 <div align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=AhmedIkram05&show_icons=true&theme=react&hide_border=true" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=AhmedIkram05&layout=compact&theme=react&hide_border=true" height="150" alt="languages graph" />
+  <img src="https://github-readme-stats.shion.dev/api?username=AhmedIkram05&show_icons=true&theme=react&hide_border=true&hide=issues,stars&include_all_commits=true" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=AhmedIkram05&layout=compact&theme=react&hide_border=true&card_width=400" height="150" alt="languages graph" />
   <img src="https://streak-stats.demolab.com/?user=AhmedIkram05&theme=react&hide_border=true&v=2" height="150" alt="streak graph" />
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=AhmedIkram05&color=blue&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
 </div>
 
 <br>
