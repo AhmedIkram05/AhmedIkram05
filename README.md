@@ -41,14 +41,16 @@ I treat reliability, observability, and long-term maintainability as non-negotia
 - 🏆 AWS Academy - [Cloud Foundations](https://www.credly.com/badges/c4f6bb59-3638-48fe-8c0b-af5c3976731d/print)
 - 📍 Based in Dundee, Scotland - open to relocation
 
-<p align="center"><strong><a href="https://github.com/AhmedIkram05/opencode-git-guard">opencode-git-guard</a></strong> - OpenCode plugin that hard-blocks destructive git commands before agents run them, now published as an official npm package<br>
-  <a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/v/opencode-git-guard?style=flat-square"></a>
-  <a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/dt/opencode-git-guard?style=flat-square"></a>
-</p>
-
-</br></br>
-
 <p align="center"><strong>See pinned repos below!</strong></p>
+
+---
+
+## Currently Shipping - [opencode-git-guard](https://github.com/AhmedIkram05/opencode-git-guard)
+
+**I am actively shipping an** OpenCode plugin that hard-blocks destructive git commands before agents run them, published as an official npm package.
+
+<a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/v/opencode-git-guard?style=flat-square"></a>
+<a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/dt/opencode-git-guard?style=flat-square"></a>
 
 ---
 
