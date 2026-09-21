@@ -47,7 +47,7 @@ I treat reliability, observability, and long-term maintainability as non-negotia
 
 ---
 
-## Currently Shipping - [opencode-git-guard](https://github.com/AhmedIkram05/opencode-git-guard)
+## Live on npm - [opencode-git-guard](https://github.com/AhmedIkram05/opencode-git-guard)
 
 <p align="center">
   <a href="https://www.npmjs.com/package/opencode-git-guard"><img src="https://img.shields.io/npm/v/opencode-git-guard?style=flat-square"></a>
