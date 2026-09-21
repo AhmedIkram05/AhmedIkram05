@@ -33,7 +33,7 @@ I'm a final-year BSc Computer Science (Data Science & AI) student at the Univers
 - **AI Engineering** - 3-layer anomaly detection at 99.8% CV · agentic RAG gated by RAGAS · 3 QLoRA variants of Qwen3-14B promoted by a statistical champion/challenger gate (7.0× F2P), wrapped in a CLI model registry onboarding any open-weight HF model
 - **Software Engineering** - full-stack cloud apps (React, Flask/FastAPI, AWS/GCP, CI/CD) · self-built MCP server with OAuth 2.1 PKCE · **8,200+ automated tests & assertions** across six projects under CI quality gates - including the DevSync k6 regression gate, its GKE/K8s deployment extension, and OIDC zero-static-secret pipelines
 
-I treat reliability and observability as non-negotiable from the start, not retrofitted after the fact. Dead-letter routing, schema-on-write validation, parity checks, k6 gates that fail on P95 regressions, OpenTelemetry traces (OTLP → Collector → Jaeger) across 4 services with W3C propagation through Kafka headers, and pipelines that retry transient blips and abort on real failure.
+I treat reliability, observability, and long-term maintainability as non-negotiable from the start, not retrofitted after the fact. Dead-letter routing, schema-on-write validation, parity checks, k6 gates that fail on P95 regressions, OpenTelemetry traces (OTLP → Collector → Jaeger) across 4 services with W3C propagation through Kafka headers, pipelines that retry transient blips and abort on real failure, and code written to be read more often than it is written - to outlive the dependencies it sits on top of.
 
 <p align="center"><strong>In numbers</strong> - 58.9M+ live events · 8,200+ tests & assertions · 7.0× F2P improvement · 99.8% anomaly CV</p>
 
