@@ -1,7 +1,7 @@
 # Ahmed Ikram
 
 <p align="center">
-  <strong>Final-year CS (Data Science &amp; AI) @ Dundee · Real-time streaming, LLMOps, agentic RAG, cloud infrastructure</strong>
+  <strong>Final-year CS (Data Science &amp; AI) @ Dundee · Real-Time Streaming, LLMOps, Agentic RAG, IaC</strong>
 </p>
 
 <p align="center">
