@@ -1,0 +1,2 @@
+# CV PDFs are binary attachments, not source — keep them out of language stats.
+*.pdf linguist-vendored
